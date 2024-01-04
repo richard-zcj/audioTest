@@ -1,0 +1,56 @@
+21:18:33.175 [Error] - Post失败：响应数据为空
+21:18:41.067 [Error] - Post失败：响应数据为空
+21:20:33.962 [Error] - Post失败：响应数据为空
+21:21:14.392 [Error] - Post失败：响应数据为空
+21:25:48.172 [Error] - Post失败：响应数据为空
+21:46:12.354 [Error] - Post失败：响应数据为空
+21:48:48.123 [Error] - Post失败：响应数据为空
+21:48:57.991 [Error] - Post失败：响应数据为空
+21:49:52.530 [Error] - Post失败：响应数据为空
+21:50:57.178 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+21:50:57.178 [Debug] - MES Login Start...
+21:50:57.181 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+21:50:57.206 Post成功
+21:50:57.207 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"f2f436b5-39be-4158-a59e-bba1368a0c90","loginMark":"ATE_256_YPCS_L01_01"}}}
+21:50:57.208 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"f2f436b5-39be-4158-a59e-bba1368a0c90","loginMark":"ATE_256_YPCS_L01_01"}}})...
+21:50:57.209 [Debug] - code: 200, info: 响应成功
+21:50:57.210 [Debug] - data->userinfo->RealName: 伍先仪, token: f2f436b5-39be-4158-a59e-bba1368a0c90, loginMark: ATE_256_YPCS_L01_01
+21:50:57.210 解析登录响应数据成功
+21:50:57.211 MES登录接口执行成功
+21:50:57.212 [Debug] - MES Login End.
+21:53:29.234 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+21:53:29.236 [Debug] - MES Login Start...
+21:53:29.236 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+21:53:29.260 Post成功
+21:53:29.260 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"e65b37b2-93b8-4adf-a6f3-0c7097f44d60","loginMark":"ATE_256_YPCS_L01_01"}}}
+21:53:29.261 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"e65b37b2-93b8-4adf-a6f3-0c7097f44d60","loginMark":"ATE_256_YPCS_L01_01"}}})...
+21:53:29.262 [Debug] - code: 200, info: 响应成功
+21:53:29.262 [Debug] - data->userinfo->RealName: 伍先仪, token: e65b37b2-93b8-4adf-a6f3-0c7097f44d60, loginMark: ATE_256_YPCS_L01_01
+21:53:29.263 解析登录响应数据成功
+21:53:29.263 MES登录接口执行成功
+21:53:29.264 [Debug] - MES Login End.
+22:07:18.875 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+22:07:18.876 [Debug] - MES Login Start...
+22:07:18.876 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+22:07:23.886 [Error] - Post失败：响应数据为空
+22:07:23.886 [Debug] - MES Login End.
+22:08:38.091 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+22:08:38.092 [Debug] - MES Login Start...
+22:08:38.092 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+22:08:43.094 [Error] - Post失败：响应数据为空
+22:08:43.094 [Debug] - MES Login End.
+22:10:01.867 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+22:10:01.867 [Debug] - MES Login Start...
+22:10:01.868 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+22:10:06.880 [Error] - Post失败：响应数据为空
+22:10:06.880 [Debug] - MES Login End.
+22:19:31.268 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+22:19:31.269 [Debug] - MES Login Start...
+22:19:31.270 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+22:19:36.296 [Error] - Post失败：响应数据为空
+22:19:36.297 [Debug] - MES Login End.
+22:46:00.392 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+22:46:00.393 [Debug] - MES Login Start...
+22:46:00.393 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+22:46:05.396 [Error] - Post失败：响应数据为空
+22:46:05.397 [Debug] - MES Login End.

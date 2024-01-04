@@ -1,0 +1,508 @@
+09:54:08.884 Post成功
+09:54:08.885 解析登录响应数据成功
+09:54:08.885 MES登录接口执行成功
+09:56:18.838 Post成功
+09:56:18.839 解析登录响应数据成功
+09:56:18.839 MES登录接口执行成功
+09:56:51.708 Post成功
+09:56:51.709 解析登录响应数据成功
+09:56:51.709 MES登录接口执行成功
+09:57:32.156 Post成功
+09:57:32.157 解析登录响应数据成功
+09:57:32.157 MES登录接口执行成功
+09:59:22.018 Post成功
+09:59:22.018 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:01:11.994 Post成功
+10:01:11.994 解析登录响应数据成功
+10:01:11.995 MES登录接口执行成功
+10:03:02.328 Post成功
+10:03:02.328 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:03:04.347 Post成功
+10:03:04.347 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:03:04.682 Post成功
+10:03:04.682 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:03:04.936 Post成功
+10:03:04.936 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:04:05.667 Post成功
+10:04:05.668 解析登录响应数据成功
+10:04:05.668 MES登录接口执行成功
+10:42:14.864 Post成功
+10:42:14.865 解析登录响应数据成功
+10:42:14.865 MES登录接口执行成功
+10:44:52.604 Post成功
+10:44:52.604 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:44:54.966 Post成功
+10:44:54.967 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:44:55.365 Post成功
+10:44:55.365 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:44:55.699 Post成功
+10:44:55.699 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:46:15.116 Post成功
+10:46:15.116 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:46:52.757 Post成功
+10:46:52.758 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:46:53.508 Post成功
+10:46:53.509 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:46:54.093 Post成功
+10:46:54.094 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:48:29.938 Post成功
+10:48:29.938 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:49:23.619 Post成功
+10:49:23.619 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:50:14.459 Post成功
+10:50:14.459 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:50:47.324 Post成功
+10:50:47.325 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:51:56.075 Post成功
+10:51:56.076 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:53:39.999 Post成功
+10:53:39.999 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:54:07.371 Post成功
+10:54:07.372 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:57:49.982 Post成功
+10:57:49.983 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:58:36.322 Post成功
+10:58:36.323 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:59:35.983 Post成功
+10:59:35.984 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:01:32.890 Post成功
+11:01:32.890 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:02:44.489 Post成功
+11:02:44.489 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:36:40.567 Post成功
+11:36:40.567 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:39:46.156 Post成功
+11:39:46.158 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:39:46.548 Post成功
+11:39:46.548 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:39:46.885 Post成功
+11:39:46.886 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:40:49.178 Post成功
+11:40:49.178 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:41:06.722 Post成功
+11:41:06.723 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:41:07.245 Post成功
+11:41:07.245 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:41:07.608 Post成功
+11:41:07.609 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:49:35.988 Post成功
+11:49:35.989 解析登录响应数据成功
+11:49:35.989 MES登录接口执行成功
+11:50:53.059 Post成功
+11:50:53.061 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:50:54.741 Post成功
+11:50:54.742 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:50:55.202 Post成功
+11:50:55.203 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:50:55.643 Post成功
+11:50:55.644 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:52:43.935 Post成功
+11:52:43.935 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:52:46.230 Post成功
+11:52:46.231 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:52:46.389 Post成功
+11:52:46.389 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:52:46.560 Post成功
+11:52:46.561 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:54:08.949 Post成功
+11:54:08.950 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:54:10.628 Post成功
+11:54:10.628 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:54:11.076 Post成功
+11:54:11.076 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:54:11.445 Post成功
+11:54:11.445 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:55:49.631 Post成功
+11:55:49.632 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:55:52.598 Post成功
+11:55:52.599 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:55:53.061 Post成功
+11:55:53.061 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:55:53.462 Post成功
+11:55:53.462 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:57:02.142 Post成功
+11:57:02.143 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:57:03.557 Post成功
+11:57:03.558 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:57:03.765 Post成功
+11:57:03.766 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:57:04.182 Post成功
+11:57:04.183 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:03:13.338 Post成功
+12:03:13.338 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:03:14.701 Post成功
+12:03:14.702 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:03:14.909 Post成功
+12:03:14.909 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:03:15.099 Post成功
+12:03:15.100 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:04:39.754 Post成功
+12:04:39.755 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:04:41.320 Post成功
+12:04:41.321 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:04:41.477 Post成功
+12:04:41.477 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:04:41.750 Post成功
+12:04:41.751 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:17:23.097 Post成功
+13:17:23.097 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:18:29.614 Post成功
+13:18:29.614 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:19:13.029 Post成功
+13:19:13.030 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:20:01.669 Post成功
+13:20:01.669 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:21:00.002 Post成功
+13:21:00.002 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:22:14.933 Post成功
+13:22:14.933 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:22:52.318 Post成功
+13:22:52.319 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:24:07.849 Post成功
+13:24:07.850 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:32:10.481 Post成功
+13:32:10.481 解析登录响应数据成功
+13:32:10.482 MES登录接口执行成功
+13:33:38.913 Post成功
+13:33:38.913 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:34:20.226 Post成功
+13:34:20.226 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:35:05.382 Post成功
+13:35:05.382 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:35:44.082 Post成功
+13:35:44.082 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:36:58.995 Post成功
+13:36:58.995 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:37:39.454 Post成功
+13:37:39.455 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:38:23.615 Post成功
+13:38:23.615 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:39:19.193 Post成功
+13:39:19.193 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:40:00.927 Post成功
+13:40:00.928 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:40:41.325 Post成功
+13:40:41.326 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:45:21.478 Post成功
+13:45:21.478 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:47:09.133 Post成功
+13:47:09.133 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:47:46.054 Post成功
+13:47:46.055 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:48:41.153 Post成功
+13:48:41.153 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:49:18.455 Post成功
+13:49:18.456 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:50:24.348 Post成功
+13:50:24.348 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:51:32.316 Post成功
+13:51:32.316 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:52:15.068 Post成功
+13:52:15.068 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:53:02.679 Post成功
+13:53:02.680 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:53:37.189 Post成功
+13:53:37.190 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:55:02.922 Post成功
+13:55:02.922 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:55:58.087 Post成功
+13:55:58.087 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:56:31.989 Post成功
+13:56:31.989 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:57:13.452 Post成功
+13:57:13.452 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:57:45.437 Post成功
+13:57:45.437 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:58:14.370 Post成功
+13:58:14.371 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:59:20.296 Post成功
+13:59:20.298 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:59:59.287 Post成功
+13:59:59.287 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+14:00:58.721 Post成功
+14:00:58.721 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+14:01:37.540 Post成功
+14:01:37.540 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+14:02:25.487 Post成功
+14:02:25.487 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+14:03:02.127 Post成功
+14:03:02.127 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+14:03:41.070 Post成功
+14:03:41.071 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:11:42.858 Post成功
+15:11:42.859 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:11:44.240 Post成功
+15:11:44.241 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:11:44.686 Post成功
+15:11:44.688 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:11:45.104 Post成功
+15:11:45.104 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:12:47.452 Post成功
+15:12:47.452 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:12:55.280 Post成功
+15:12:55.281 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:12:55.583 Post成功
+15:12:55.584 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:12:55.904 Post成功
+15:12:55.904 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:13:56.291 Post成功
+15:13:56.291 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:13:57.633 Post成功
+15:13:57.634 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:13:58.015 Post成功
+15:13:58.016 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:13:58.417 Post成功
+15:13:58.418 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:14:59.500 Post成功
+15:14:59.500 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:15:18.520 Post成功
+15:15:18.521 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:15:19.431 Post成功
+15:15:19.432 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:15:20.047 Post成功
+15:15:20.048 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:16:55.384 Post成功
+15:16:55.384 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:16:57.457 Post成功
+15:16:57.457 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:16:57.855 Post成功
+15:16:57.855 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:16:58.240 Post成功
+15:16:58.240 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:18:13.020 Post成功
+15:18:13.020 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:18:14.433 Post成功
+15:18:14.434 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:18:14.786 Post成功
+15:18:14.786 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:18:15.168 Post成功
+15:18:15.169 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+16:01:42.533 Post成功
+16:01:42.533 解析登录响应数据成功
+16:01:42.533 MES登录接口执行成功
+16:38:23.956 Post成功
+16:38:23.958 解析登录响应数据成功
+16:38:23.959 MES登录接口执行成功
+16:46:29.497 Post成功
+16:46:29.497 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+16:46:38.347 Post成功
+16:46:38.348 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+16:46:38.825 Post成功
+16:46:38.826 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+16:46:39.027 Post成功
+16:46:39.029 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+16:48:53.161 Post成功
+16:48:53.161 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+16:49:08.051 Post成功
+16:49:08.052 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+16:49:08.350 Post成功
+16:49:08.350 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+16:49:08.732 Post成功
+16:49:08.733 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+16:55:35.732 Post成功
+16:55:35.733 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+16:55:37.434 Post成功
+16:55:37.434 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+16:55:37.771 Post成功
+16:55:37.771 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+16:55:38.123 Post成功
+16:55:38.124 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:01:26.190 Post成功
+17:01:26.190 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:01:27.866 Post成功
+17:01:27.866 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:01:28.266 Post成功
+17:01:28.268 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:01:28.600 Post成功
+17:01:28.601 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:03:16.021 Post成功
+17:03:16.021 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:03:20.523 Post成功
+17:03:20.524 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:03:20.713 Post成功
+17:03:20.714 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:03:21.067 Post成功
+17:03:21.068 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:25:27.202 Post成功
+17:25:27.203 解析登录响应数据成功
+17:25:27.203 MES登录接口执行成功
+17:28:27.351 Post成功
+17:28:27.351 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:28:30.099 Post成功
+17:28:30.099 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:28:30.553 Post成功
+17:28:30.554 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:28:31.000 Post成功
+17:28:31.002 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:37:52.318 Post成功
+17:37:52.319 解析登录响应数据成功
+17:37:52.319 MES登录接口执行成功
+17:40:46.843 Post成功
+17:40:46.844 解析登录响应数据成功
+17:40:46.844 MES登录接口执行成功
+17:44:00.011 Post成功
+17:44:00.012 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:44:01.236 Post成功
+17:44:01.237 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:44:01.930 Post成功
+17:44:01.931 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:44:02.291 Post成功
+17:44:02.292 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:48:27.687 Post成功
+17:48:27.687 解析登录响应数据成功
+17:48:27.688 MES登录接口执行成功
+17:52:49.100 Post成功
+17:52:49.100 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:52:51.122 Post成功
+17:52:51.123 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:52:51.505 Post成功
+17:52:51.505 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:52:51.952 Post成功
+17:52:51.953 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:56:13.031 Post成功
+17:56:13.032 解析登录响应数据成功
+17:56:13.032 MES登录接口执行成功
+18:01:00.029 Post成功
+18:01:00.030 解析登录响应数据成功
+18:01:00.030 MES登录接口执行成功
+18:01:55.177 Post成功
+18:01:55.178 解析登录响应数据成功
+18:01:55.178 MES登录接口执行成功
+18:04:55.610 Post成功
+18:04:55.611 解析登录响应数据成功
+18:04:55.611 MES登录接口执行成功
+18:07:44.666 Post成功
+18:07:44.667 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:07:47.674 Post成功
+18:07:47.675 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:07:47.959 Post成功
+18:07:47.959 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:07:48.248 Post成功
+18:07:48.249 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:11:57.294 Post成功
+18:11:57.295 解析登录响应数据成功
+18:11:57.295 MES登录接口执行成功
+18:13:52.315 Post成功
+18:13:52.315 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:13:57.018 Post成功
+18:13:57.019 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:13:57.321 Post成功
+18:13:57.322 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:13:57.770 Post成功
+18:13:57.771 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:27:07.388 Post成功
+18:27:07.388 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:27:10.745 Post成功
+18:27:10.746 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:27:11.081 Post成功
+18:27:11.083 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:27:11.410 Post成功
+18:27:11.411 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:42:38.234 Post成功
+18:42:38.235 解析登录响应数据成功
+18:42:38.235 MES登录接口执行成功
+18:44:32.887 Post成功
+18:44:32.887 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:44:35.151 Post成功
+18:44:35.152 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:44:35.347 Post成功
+18:44:35.348 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:44:35.555 Post成功
+18:44:35.555 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:46:23.975 Post成功
+18:46:23.975 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:46:26.116 Post成功
+18:46:26.117 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:46:27.025 Post成功
+18:46:27.025 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:46:27.625 Post成功
+18:46:27.625 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:26:45.231 Post成功
+19:26:45.232 解析登录响应数据成功
+19:26:45.232 MES登录接口执行成功
+19:32:32.723 Post成功
+19:32:32.724 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:32:37.614 Post成功
+19:32:37.615 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:32:37.980 Post成功
+19:32:37.981 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:32:38.190 Post成功
+19:32:38.191 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:45:35.035 Post成功
+19:45:35.036 解析登录响应数据成功
+19:45:35.036 MES登录接口执行成功
+19:47:35.374 Post成功
+19:47:35.375 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:47:38.229 Post成功
+19:47:38.230 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:47:38.500 Post成功
+19:47:38.502 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:47:38.749 Post成功
+19:47:38.750 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:49:39.131 Post成功
+19:49:39.131 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:49:43.277 Post成功
+19:49:43.278 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:49:43.555 Post成功
+19:49:43.555 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:49:43.860 Post成功
+19:49:43.861 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:51:18.923 Post成功
+19:51:18.923 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:51:23.008 Post成功
+19:51:23.008 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:51:23.805 Post成功
+19:51:23.805 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:51:24.413 Post成功
+19:51:24.414 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:52:34.311 Post成功
+19:52:34.311 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:53:53.381 Post成功
+19:53:53.382 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:53:53.574 Post成功
+19:53:53.575 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:53:53.810 Post成功
+19:53:53.811 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:55:04.719 Post成功
+19:55:04.720 解析登录响应数据成功
+19:55:04.720 MES登录接口执行成功
+19:56:19.283 Post成功
+19:56:19.284 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:56:22.549 Post成功
+19:56:22.549 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:56:23.101 Post成功
+19:56:23.101 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:56:23.484 Post成功
+19:56:23.485 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:57:47.692 Post成功
+19:57:47.693 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:57:48.451 Post成功
+19:57:48.452 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:57:48.860 Post成功
+19:57:48.861 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+20:00:28.518 Post成功
+20:00:28.518 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+20:00:29.252 Post成功
+20:00:29.253 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+20:00:29.614 Post成功
+20:00:29.615 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+20:02:03.389 Post成功
+20:02:03.389 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+20:02:06.042 Post成功
+20:02:06.043 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+20:02:06.454 Post成功
+20:02:06.454 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+20:02:06.892 Post成功
+20:02:06.893 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+20:03:58.222 Post成功
+20:03:58.223 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+20:03:59.069 Post成功
+20:03:59.070 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+20:03:59.845 Post成功
+20:03:59.846 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+20:06:58.446 Post成功
+20:06:58.447 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+20:06:58.828 Post成功
+20:06:58.828 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+20:06:59.054 Post成功
+20:06:59.055 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)

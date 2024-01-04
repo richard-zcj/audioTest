@@ -1,0 +1,9 @@
+12:05:12.557 Post成功
+12:05:12.558 解析登录响应数据成功
+12:05:12.558 MES登录接口执行成功
+12:07:41.311 Post成功
+12:07:41.312 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:07:44.879 Post成功
+12:07:44.880 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:07:45.141 Post成功
+12:07:45.142 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)

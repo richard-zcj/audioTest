@@ -1,0 +1,101 @@
+16:55:03.765 Start...
+16:55:03.765 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+16:55:03.765 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+16:55:03.781 [Debug] - Calc stimulus data and frequency points finish
+16:55:05.509 [Debug] - LSApp InitInstance start
+16:55:05.521 [Error] - ÊÚÈ¨Key²»´æÔÚ£¡
+16:55:06.641 Exit.
+
+16:57:41.036 Start...
+16:57:41.036 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+16:57:41.036 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+16:57:41.058 [Debug] - Calc stimulus data and frequency points finish
+16:57:43.308 [Debug] - LSApp InitInstance start
+16:57:45.070 [Debug] - LSAppView Create Start
+16:57:45.258 [Error] - ´ò¿ªSlot1¶Ë¿Ú(COM6, Baud=921600)Òì³£: The port not exists.
+16:57:45.258 [Error] - ´ò¿ªSlot2¶Ë¿Ú(COM4, Baud=921600)Òì³£: The port not exists.
+16:57:45.258 [Error] - ´ò¿ªSlot3¶Ë¿Ú(COM3, Baud=921600)Òì³£: The port not exists.
+16:57:45.258 [Error] - ´ò¿ªSlot4¶Ë¿Ú(COM7, Baud=921600)Òì³£: The port not exists.
+16:57:45.258 [Debug] - LSApp InitInstance finish
+16:57:52.857 Exit.
+
+17:15:04.482 Start...
+17:15:04.482 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+17:15:04.482 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+17:15:04.498 [Debug] - Calc stimulus data and frequency points finish
+17:15:06.029 [Debug] - LSApp InitInstance start
+17:15:07.835 [Debug] - LSAppView Create Start
+17:15:08.026 [Error] - ´ò¿ªSlot1¶Ë¿Ú(COM6, Baud=921600)Òì³£: The port not exists.
+17:15:08.026 [Error] - ´ò¿ªSlot2¶Ë¿Ú(COM4, Baud=921600)Òì³£: The port not exists.
+17:15:08.026 [Error] - ´ò¿ªSlot3¶Ë¿Ú(COM3, Baud=921600)Òì³£: The port not exists.
+17:15:08.026 [Error] - ´ò¿ªSlot4¶Ë¿Ú(COM7, Baud=921600)Òì³£: The port not exists.
+17:15:08.026 [Debug] - LSApp InitInstance finish
+17:15:17.506 ²âÊÔ¿ªÊ¼...
+17:15:17.509 [Debug] - ¿ªÊ¼¶Ï¿ªËùÓÐÀ¶ÑÀ...
+17:15:17.509 [Error] - Slot1À¶ÑÀÊÊÅäÆ÷¶Ë¿ÚÎ´´ò¿ª£¡
+17:15:17.509 [Error] - Slot2À¶ÑÀÊÊÅäÆ÷¶Ë¿ÚÎ´´ò¿ª£¡
+17:15:17.509 [Error] - Slot3À¶ÑÀÊÊÅäÆ÷¶Ë¿ÚÎ´´ò¿ª£¡
+17:15:17.509 [Error] - Slot4À¶ÑÀÊÊÅäÆ÷¶Ë¿ÚÎ´´ò¿ª£¡
+17:15:17.509 [Debug] - ËùÓÐÀ¶ÑÀ¶Ï¿ªÍê³É
+17:15:17.509 [Debug] - ¿ªÊ¼Á¬½ÓËùÓÐÀ¶ÑÀ...
+17:15:17.510 [Debug] - Slot1¿ªÊ¼Á¬½ÓÀ¶ÑÀ...
+17:15:17.510 DUT1À¶ÑÀID: 
+17:15:17.510 [Error] - Slot1À¶ÑÀÊÊÅäÆ÷¶Ë¿ÚÎ´´ò¿ª£¡
+17:15:17.510 [Debug] - Slot2¿ªÊ¼Á¬½ÓÀ¶ÑÀ...
+17:15:17.510 DUT2À¶ÑÀID: 
+17:15:17.510 [Error] - Slot2À¶ÑÀÊÊÅäÆ÷¶Ë¿ÚÎ´´ò¿ª£¡
+17:15:17.510 [Debug] - Slot3¿ªÊ¼Á¬½ÓÀ¶ÑÀ...
+17:15:17.510 DUT3À¶ÑÀID: 
+17:15:17.510 [Error] - Slot3À¶ÑÀÊÊÅäÆ÷¶Ë¿ÚÎ´´ò¿ª£¡
+17:15:17.510 [Debug] - Slot4¿ªÊ¼Á¬½ÓÀ¶ÑÀ...
+17:15:17.510 DUT4À¶ÑÀID: 
+17:15:17.510 [Error] - Slot4À¶ÑÀÊÊÅäÆ÷¶Ë¿ÚÎ´´ò¿ª£¡
+17:15:17.510 [Debug] - ËùÓÐÀ¶ÑÀÁ¬½ÓÍê³É
+17:15:25.273 Exit.
+
+17:16:02.429 Start...
+17:16:02.429 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+17:16:02.429 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+17:16:02.461 [Debug] - Calc stimulus data and frequency points finish
+17:16:03.892 [Debug] - LSApp InitInstance start
+17:16:05.699 [Debug] - LSAppView Create Start
+17:16:05.918 [Error] - ´ò¿ªSlot1¶Ë¿Ú(COM6, Baud=921600)Òì³£: The port not exists.
+17:16:05.918 [Error] - ´ò¿ªSlot2¶Ë¿Ú(COM4, Baud=921600)Òì³£: The port not exists.
+17:16:05.918 [Error] - ´ò¿ªSlot3¶Ë¿Ú(COM3, Baud=921600)Òì³£: The port not exists.
+17:16:05.918 [Error] - ´ò¿ªSlot4¶Ë¿Ú(COM7, Baud=921600)Òì³£: The port not exists.
+17:16:05.918 [Debug] - LSApp InitInstance finish
+17:18:17.149 Start...
+17:18:17.149 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+17:18:17.149 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+17:18:17.192 [Debug] - Calc stimulus data and frequency points finish
+17:18:18.521 [Debug] - LSApp InitInstance start
+17:18:20.325 [Debug] - LSAppView Create Start
+17:18:20.541 [Error] - ´ò¿ªSlot1¶Ë¿Ú(COM6, Baud=921600)Òì³£: The port not exists.
+17:18:20.552 [Error] - ´ò¿ªSlot2¶Ë¿Ú(COM4, Baud=921600)Òì³£: The port not exists.
+17:18:20.553 [Error] - ´ò¿ªSlot3¶Ë¿Ú(COM3, Baud=921600)Òì³£: The port not exists.
+17:18:20.554 [Error] - ´ò¿ªSlot4¶Ë¿Ú(COM7, Baud=921600)Òì³£: The port not exists.
+17:18:20.554 [Debug] - LSApp InitInstance finish
+17:18:56.293 Start...
+17:18:56.293 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+17:18:56.293 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+17:18:56.319 [Debug] - Calc stimulus data and frequency points finish
+17:18:57.936 [Debug] - LSApp InitInstance start
+17:18:59.787 [Debug] - LSAppView Create Start
+17:18:59.988 [Error] - ´ò¿ªSlot1¶Ë¿Ú(COM6, Baud=921600)Òì³£: The port not exists.
+17:18:59.988 [Error] - ´ò¿ªSlot2¶Ë¿Ú(COM4, Baud=921600)Òì³£: The port not exists.
+17:18:59.988 [Error] - ´ò¿ªSlot3¶Ë¿Ú(COM3, Baud=921600)Òì³£: The port not exists.
+17:18:59.988 [Error] - ´ò¿ªSlot4¶Ë¿Ú(COM7, Baud=921600)Òì³£: The port not exists.
+17:18:59.988 [Debug] - LSApp InitInstance finish
+17:21:16.706 Start...
+17:21:16.706 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+17:21:16.706 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+17:21:16.725 [Debug] - Calc stimulus data and frequency points finish
+17:21:18.123 [Debug] - LSApp InitInstance start
+17:21:20.007 [Debug] - LSAppView Create Start
+17:21:20.224 [Error] - ´ò¿ªSlot1¶Ë¿Ú(COM6, Baud=921600)Òì³£: The port not exists.
+17:21:20.224 [Error] - ´ò¿ªSlot2¶Ë¿Ú(COM4, Baud=921600)Òì³£: The port not exists.
+17:21:20.224 [Error] - ´ò¿ªSlot3¶Ë¿Ú(COM3, Baud=921600)Òì³£: The port not exists.
+17:21:20.224 [Error] - ´ò¿ªSlot4¶Ë¿Ú(COM7, Baud=921600)Òì³£: The port not exists.
+17:21:20.224 [Debug] - LSApp InitInstance finish
+17:22:16.192 Exit.
+

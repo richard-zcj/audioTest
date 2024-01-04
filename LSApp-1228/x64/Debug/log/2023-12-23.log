@@ -1,0 +1,1048 @@
+11:54:46.320 Start...
+11:54:46.321 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+11:54:46.321 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+11:54:46.345 [Debug] - Calc stimulus data and frequency points finish
+11:54:46.453 [Debug] - LSApp InitInstance start
+11:54:48.959 打开Slot1端口(COM6, Baud=921600)成功
+11:54:49.174 打开Slot2端口(COM4, Baud=921600)成功
+11:54:49.394 打开Slot3端口(COM3, Baud=921600)成功
+11:54:49.612 打开Slot4端口(COM7, Baud=921600)成功
+11:54:49.614 [Debug] - LSApp InitInstance finish
+11:54:50.273 [Debug] - LSAppView Create Start
+11:56:09.790 Start...
+11:56:09.791 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+11:56:09.791 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+11:56:09.813 [Debug] - Calc stimulus data and frequency points finish
+11:56:09.892 [Debug] - LSApp InitInstance start
+11:56:12.345 打开Slot1端口(COM6, Baud=921600)成功
+11:56:12.564 打开Slot2端口(COM4, Baud=921600)成功
+11:56:12.778 打开Slot3端口(COM3, Baud=921600)成功
+11:56:12.996 打开Slot4端口(COM7, Baud=921600)成功
+11:56:12.997 [Debug] - LSApp InitInstance finish
+11:56:13.474 [Debug] - LSAppView Create Start
+11:56:39.208 Start...
+11:56:39.209 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+11:56:39.209 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+11:56:39.232 [Debug] - Calc stimulus data and frequency points finish
+11:56:39.321 [Debug] - LSApp InitInstance start
+11:56:41.725 打开Slot1端口(COM6, Baud=921600)成功
+11:56:41.941 打开Slot2端口(COM4, Baud=921600)成功
+11:56:42.157 打开Slot3端口(COM3, Baud=921600)成功
+11:56:42.376 打开Slot4端口(COM7, Baud=921600)成功
+11:56:42.378 [Debug] - LSApp InitInstance finish
+11:56:43.187 [Debug] - LSAppView Create Start
+11:57:05.067 Start...
+11:57:05.068 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+11:57:05.068 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+11:57:05.092 [Debug] - Calc stimulus data and frequency points finish
+11:57:05.178 [Debug] - LSApp InitInstance start
+11:57:07.603 打开Slot1端口(COM6, Baud=921600)成功
+11:57:07.820 打开Slot2端口(COM4, Baud=921600)成功
+11:57:08.037 打开Slot3端口(COM3, Baud=921600)成功
+11:57:08.256 打开Slot4端口(COM7, Baud=921600)成功
+11:57:08.257 [Debug] - LSApp InitInstance finish
+11:57:08.731 [Debug] - LSAppView Create Start
+11:57:37.943 Start...
+11:57:37.944 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+11:57:37.944 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+11:57:37.967 [Debug] - Calc stimulus data and frequency points finish
+11:57:38.054 [Debug] - LSApp InitInstance start
+11:57:40.463 打开Slot1端口(COM6, Baud=921600)成功
+11:57:40.680 打开Slot2端口(COM4, Baud=921600)成功
+11:57:40.896 打开Slot3端口(COM3, Baud=921600)成功
+11:57:41.116 打开Slot4端口(COM7, Baud=921600)成功
+11:57:41.118 [Debug] - LSApp InitInstance finish
+11:57:41.650 [Debug] - LSAppView Create Start
+11:58:25.344 测试开始...
+11:58:25.345 [Debug] - 开始断开所有蓝牙...
+11:58:25.345 [Debug] - Slot1 Disconnect command:>DISC
+
+11:58:25.346 [Debug] - Slot2 Disconnect command:>DISC
+
+11:58:25.346 [Debug] - Slot3未启用
+11:58:25.346 [Debug] - Slot4 Disconnect command:>DISC
+
+11:58:25.346 [Debug] - 所有蓝牙断开完成
+11:58:25.347 [Debug] - 开始连接所有蓝牙...
+11:58:25.347 [Debug] - Slot1开始连接蓝牙...
+11:58:25.347 DUT1蓝牙ID: ACB1EEDF22B3
+11:58:25.347 [Debug] - Connect command:>RST
+11:58:25.348 [Debug] - Connect recv：OK
+SYS_START
+IDLE
+OK
+
+11:58:25.361 Slot1执行蓝牙适配器命令(>RST)成功
+11:58:26.376 [Debug] - Connect command:>PROFILE_SET=0&0
+11:58:26.377 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+
+11:58:26.408 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+DISABLE A2DP
+
+11:58:26.423 Slot1执行蓝牙适配器命令(>PROFILE_SET=0&0)成功
+11:58:26.424 [Debug] - Connect command:>CONN=ACB1EEDF22B3
+11:58:26.438 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+11:58:27.457 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+11:58:28.238 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+auth_status_success
+
+11:58:28.254 Slot1执行蓝牙适配器命令(>CONN=ACB1EEDF22B3)成功
+11:58:29.270 [Debug] - Connect command:>SCO_DISC
+11:58:29.272 [Debug] - Connect recv：DEVICE=acb1eedf22b3 NAME=Kunlun-22B3-701003483000139
+hfp_connect_success
+State:[Connected]
+Set Remote Speaker Vol successfully!
+Set Remote Mic Vol successfully!
+Mgs Role=[Master]
+AGHFP_CURRENT_CALLS_IND
+Set Remote Mic Vol successfully!
+PAIREDHFP
+
+11:58:29.285 Slot1执行蓝牙适配器命令(>SCO_DISC)成功
+11:58:29.287 [Debug] - Connect command:>SCO_CONN
+11:58:29.315 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+
+11:58:29.331 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+PAIREDHFP
+
+11:58:29.347 Slot1执行蓝牙适配器命令(>SCO_CONN)成功
+11:58:29.348 Slot1连接蓝牙成功
+11:58:29.349 [Debug] - Slot2开始连接蓝牙...
+11:58:29.350 DUT2蓝牙ID: ACB1EEDF21D3
+11:58:29.351 [Debug] - Connect command:>RST
+11:58:29.352 [Debug] - Connect recv：OK
+SYS_START
+IDLE
+OK
+SYS_START
+IDLE
+
+11:58:29.378 Slot2执行蓝牙适配器命令(>RST)成功
+11:58:30.395 [Debug] - Connect command:>PROFILE_SET=0&0
+11:58:30.395 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+
+11:58:30.427 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+DISABLE A2DP
+
+11:58:30.443 Slot2执行蓝牙适配器命令(>PROFILE_SET=0&0)成功
+11:58:30.443 [Debug] - Connect command:>CONN=ACB1EEDF21D3
+11:58:30.458 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+11:58:31.475 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+11:58:32.193 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+auth_status_success
+
+11:58:32.208 Slot2执行蓝牙适配器命令(>CONN=ACB1EEDF21D3)成功
+11:58:33.213 [Debug] - Connect command:>SCO_DISC
+11:58:33.214 [Debug] - Connect recv：DEVICE=acb1eedf21d3 NAME=Kunlun-21D3-701003483000356
+hfp_connect_success
+State:[Connected]
+Set Remote Speaker Vol successfully!
+Set Remote Mic Vol successfully!
+Mgs Role=[Master]
+AGHFP_CURRENT_CALLS_IND
+Set Remote Mic Vol successfully!
+PAIREDHFP
+
+11:58:33.228 Slot2执行蓝牙适配器命令(>SCO_DISC)成功
+11:58:33.229 [Debug] - Connect command:>SCO_CONN
+11:58:33.259 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+
+11:58:33.274 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+PAIREDHFP
+
+11:58:33.289 Slot2执行蓝牙适配器命令(>SCO_CONN)成功
+11:58:33.289 Slot2连接蓝牙成功
+11:58:33.290 [Debug] - Slot3未启用
+11:58:33.291 [Debug] - Slot4开始连接蓝牙...
+11:58:33.291 DUT4蓝牙ID: ACB1EEDF216B
+11:58:33.293 [Debug] - Connect command:>RST
+11:58:33.294 [Debug] - Connect recv：OK
+SYS_START
+IDLE
+OK
+SYS_START
+IDLE
+
+11:58:33.305 Slot4执行蓝牙适配器命令(>RST)成功
+11:58:34.307 [Debug] - Connect command:>PROFILE_SET=0&0
+11:58:34.309 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+
+11:58:34.338 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+DISABLE A2DP
+
+11:58:34.353 Slot4执行蓝牙适配器命令(>PROFILE_SET=0&0)成功
+11:58:34.355 [Debug] - Connect command:>CONN=ACB1EEDF216B
+11:58:34.369 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+11:58:35.386 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+11:58:36.088 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+auth_status_success
+
+11:58:36.104 Slot4执行蓝牙适配器命令(>CONN=ACB1EEDF216B)成功
+11:58:37.117 [Debug] - Connect command:>SCO_DISC
+11:58:37.118 [Debug] - Connect recv：DEVICE=acb1eedf216b NAME=Kunlun-216B-701003483000325
+hfp_connect_success
+State:[Connected]
+Set Remote Speaker Vol successfully!
+Set Remote Mic Vol successfully!
+Mgs Role=[Master]
+AGHFP_CURRENT_CALLS_IND
+Set Remote Mic Vol successfully!
+PAIREDHFP
+
+11:58:37.132 Slot4执行蓝牙适配器命令(>SCO_DISC)成功
+11:58:37.134 [Debug] - Connect command:>SCO_CONN
+11:58:37.163 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+
+11:58:37.179 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+PAIREDHFP
+
+11:58:37.195 Slot4执行蓝牙适配器命令(>SCO_CONN)成功
+11:58:37.195 Slot4连接蓝牙成功
+11:58:37.196 [Debug] - 所有蓝牙连接完成
+11:58:37.199 Spk模式测试开始...
+11:58:37.200 Spk Mode
+11:58:37.201 [Debug] - Slot1采集驱动：ASIO
+11:58:37.201 [Debug] - Slot1启动播放...
+11:58:37.284 [Debug] - Slot1启动播放成功
+11:58:37.286 [Debug] - Slot1启动录音...
+11:58:39.053 [Debug] - Slot1启动录音成功
+11:58:41.706 [Debug] - Slot1, ASIO采集完成
+11:58:41.707 [Debug] - Slot2采集驱动：ASIO
+11:58:41.707 [Debug] - Slot2启动播放...
+11:58:41.715 [Debug] - Slot2启动播放成功
+11:58:41.715 [Debug] - Slot2启动录音...
+11:58:43.400 [Debug] - Slot2启动录音成功
+11:58:46.050 [Debug] - Slot2, ASIO采集完成
+11:58:46.050 [Debug] - Slot3未启用
+11:58:46.051 [Debug] - Slot4采集驱动：ASIO
+11:58:46.051 [Debug] - Slot4启动播放...
+11:58:46.069 [Debug] - Slot4启动播放成功
+11:58:46.070 [Debug] - Slot4启动录音...
+11:58:47.756 [Debug] - Slot4启动录音成功
+11:58:50.402 [Debug] - Slot4, ASIO采集完成
+11:58:51.413 Spk模式测试完成
+11:58:51.418 Spk模式测试开始...
+11:58:51.418 Spk Mode
+11:58:51.419 [Debug] - Slot1采集驱动：ASIO
+11:58:51.419 [Debug] - Slot1启动播放...
+11:58:51.431 [Debug] - Slot1启动播放成功
+11:58:51.431 [Debug] - Slot1启动录音...
+11:58:53.194 [Debug] - Slot1启动录音成功
+11:58:55.856 [Debug] - Slot1, ASIO采集完成
+11:58:55.857 [Debug] - Slot2采集驱动：ASIO
+11:58:55.857 [Debug] - Slot2启动播放...
+11:58:55.863 [Debug] - Slot2启动播放成功
+11:58:55.863 [Debug] - Slot2启动录音...
+11:58:57.548 [Debug] - Slot2启动录音成功
+11:59:00.197 [Debug] - Slot2, ASIO采集完成
+11:59:00.198 [Debug] - Slot3未启用
+11:59:00.198 [Debug] - Slot4采集驱动：ASIO
+11:59:00.198 [Debug] - Slot4启动播放...
+11:59:00.209 [Debug] - Slot4启动播放成功
+11:59:00.210 [Debug] - Slot4启动录音...
+11:59:01.896 [Debug] - Slot4启动录音成功
+11:59:04.557 [Debug] - Slot4, ASIO采集完成
+11:59:05.562 Spk模式测试完成
+11:59:05.563 开始计算数据...
+11:59:05.564 [Debug] - 计算数据初始化...
+11:59:05.565 [Debug] - 算法初始化完成
+11:59:05.566 [Debug] - 获取分析数据完成
+11:59:05.574 [Debug][BlueEreTest.cpp:3111] - 1# SPK - FR
+11:59:05.574 [Debug] - FR窗口初始化完成
+11:59:05.574 [Debug][BlueEreTest.cpp:3141] - D:\TestRecord\spk_wdmRecord_DUT1.wav
+11:59:05.575 [Debug] - 读取音频文件数据完成
+11:59:05.575 [Debug] - 设置算法参数完成
+12:00:05.659 Start...
+12:00:05.660 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+12:00:05.660 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+12:00:05.683 [Debug] - Calc stimulus data and frequency points finish
+12:00:05.771 [Debug] - LSApp InitInstance start
+12:00:08.221 打开Slot1端口(COM6, Baud=921600)成功
+12:00:08.438 打开Slot2端口(COM4, Baud=921600)成功
+12:00:08.656 打开Slot3端口(COM3, Baud=921600)成功
+12:00:08.875 打开Slot4端口(COM7, Baud=921600)成功
+12:00:08.877 [Debug] - LSApp InitInstance finish
+12:00:09.938 [Debug] - LSAppView Create Start
+12:00:38.370 [Debug] - LSAppView Create Start
+12:01:09.007 测试开始...
+12:01:09.008 [Debug] - 开始断开所有蓝牙...
+12:01:09.008 [Debug] - Slot1 Disconnect command:>DISC
+
+12:01:09.009 [Debug] - Slot2未启用
+12:01:09.009 [Debug] - Slot3 Disconnect command:>DISC
+
+12:01:09.009 [Debug] - Slot4 Disconnect command:>DISC
+
+12:01:09.009 [Debug] - 所有蓝牙断开完成
+12:01:09.010 [Debug] - 开始连接所有蓝牙...
+12:01:09.010 [Debug] - Slot1开始连接蓝牙...
+12:01:09.010 DUT1蓝牙ID: ACB1EEDF22B3
+12:01:09.011 [Debug] - Connect command:>RST
+12:01:09.011 [Debug] - Connect recv：OK
+SYS_START
+IDLE
+OK
+
+12:01:09.027 Slot1执行蓝牙适配器命令(>RST)成功
+12:01:10.042 [Debug] - Connect command:>PROFILE_SET=0&0
+12:01:10.042 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+
+12:01:10.074 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+DISABLE A2DP
+
+12:01:10.090 Slot1执行蓝牙适配器命令(>PROFILE_SET=0&0)成功
+12:01:10.091 [Debug] - Connect command:>CONN=ACB1EEDF22B3
+12:01:10.105 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+12:01:11.121 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+12:01:11.698 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+auth_status_success
+
+12:01:11.714 Slot1执行蓝牙适配器命令(>CONN=ACB1EEDF22B3)成功
+12:01:12.730 [Debug] - Connect command:>SCO_DISC
+12:01:12.733 [Debug] - Connect recv：DEVICE=acb1eedf22b3 NAME=Kunlun-22B3-701003483000139
+hfp_connect_success
+State:[Connected]
+Set Remote Speaker Vol successfully!
+Set Remote Mic Vol successfully!
+Mgs Role=[Master]
+AGHFP_CURRENT_CALLS_IND
+Set Remote Mic Vol successfully!
+PAIREDHFP
+
+12:01:12.745 Slot1执行蓝牙适配器命令(>SCO_DISC)成功
+12:01:12.747 [Debug] - Connect command:>SCO_CONN
+12:01:12.776 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+
+12:01:12.791 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+PAIREDHFP
+
+12:01:12.807 Slot1执行蓝牙适配器命令(>SCO_CONN)成功
+12:01:12.808 Slot1连接蓝牙成功
+12:01:12.809 [Debug] - Slot2未启用
+12:01:12.810 [Debug] - Slot3开始连接蓝牙...
+12:01:12.811 DUT3蓝牙ID: ACB1EEDF21D3
+12:01:12.812 [Debug] - Connect command:>RST
+12:01:12.813 [Debug] - Connect recv：OK
+SYS_START
+IDLE
+OK
+SYS_START
+IDLE
+
+12:01:12.837 Slot3执行蓝牙适配器命令(>RST)成功
+12:01:13.851 [Debug] - Connect command:>PROFILE_SET=0&0
+12:01:13.853 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+
+12:01:13.881 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+DISABLE A2DP
+
+12:01:13.897 Slot3执行蓝牙适配器命令(>PROFILE_SET=0&0)成功
+12:01:13.899 [Debug] - Connect command:>CONN=ACB1EEDF21D3
+12:01:13.914 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+12:01:14.928 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+12:01:15.765 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+auth_status_success
+
+12:01:15.780 Slot3执行蓝牙适配器命令(>CONN=ACB1EEDF21D3)成功
+12:01:16.797 [Debug] - Connect command:>SCO_DISC
+12:01:16.798 [Debug] - Connect recv：DEVICE=acb1eedf21d3 NAME=Kunlun-21D3-701003483000356
+hfp_connect_success
+State:[Connected]
+Set Remote Speaker Vol successfully!
+Set Remote Mic Vol successfully!
+Mgs Role=[Master]
+AGHFP_CURRENT_CALLS_IND
+Set Remote Mic Vol successfully!
+PAIREDHFP
+
+12:01:16.812 Slot3执行蓝牙适配器命令(>SCO_DISC)成功
+12:01:16.814 [Debug] - Connect command:>SCO_CONN
+12:01:16.844 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+
+12:01:16.860 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+PAIREDHFP
+
+12:01:16.875 Slot3执行蓝牙适配器命令(>SCO_CONN)成功
+12:01:16.875 Slot3连接蓝牙成功
+12:01:16.876 [Debug] - Slot4开始连接蓝牙...
+12:01:16.877 DUT4蓝牙ID: ACB1EEDF216B
+12:01:16.878 [Debug] - Connect command:>RST
+12:01:16.879 [Debug] - Connect recv：OK
+SYS_START
+IDLE
+OK
+SYS_START
+IDLE
+
+12:01:16.890 Slot4执行蓝牙适配器命令(>RST)成功
+12:01:17.903 [Debug] - Connect command:>PROFILE_SET=0&0
+12:01:17.905 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+
+12:01:17.934 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+DISABLE A2DP
+
+12:01:17.950 Slot4执行蓝牙适配器命令(>PROFILE_SET=0&0)成功
+12:01:17.952 [Debug] - Connect command:>CONN=ACB1EEDF216B
+12:01:17.965 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+12:01:18.777 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+auth_status_success
+
+12:01:18.793 Slot4执行蓝牙适配器命令(>CONN=ACB1EEDF216B)成功
+12:01:19.807 [Debug] - Connect command:>SCO_DISC
+12:01:19.809 [Debug] - Connect recv：DEVICE=acb1eedf216b NAME=Kunlun-216B-701003483000325
+hfp_connect_success
+State:[Connected]
+Set Remote Speaker Vol successfully!
+Set Remote Mic Vol successfully!
+Mgs Role=[Master]
+AGHFP_CURRENT_CALLS_IND
+Set Remote Mic Vol successfully!
+PAIREDHFP
+
+12:01:19.822 Slot4执行蓝牙适配器命令(>SCO_DISC)成功
+12:01:19.824 [Debug] - Connect command:>SCO_CONN
+12:01:19.853 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+
+12:01:19.869 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+PAIREDHFP
+
+12:01:19.885 Slot4执行蓝牙适配器命令(>SCO_CONN)成功
+12:01:19.886 Slot4连接蓝牙成功
+12:01:19.887 [Debug] - 所有蓝牙连接完成
+12:01:19.890 Spk模式测试开始...
+12:01:19.891 Spk Mode
+12:01:19.892 [Debug] - Slot1采集驱动：ASIO
+12:01:19.892 [Debug] - Slot1启动播放...
+12:01:19.912 [Debug] - Slot1启动播放成功
+12:01:19.912 [Debug] - Slot1启动录音...
+12:01:21.682 [Debug] - Slot1启动录音成功
+12:01:24.335 [Debug] - Slot1, ASIO采集完成
+12:01:24.335 [Debug] - Slot2未启用
+12:01:24.336 [Debug] - Slot3采集驱动：ASIO
+12:01:24.336 [Debug] - Slot3启动播放...
+12:01:24.352 [Debug] - Slot3启动播放成功
+12:01:24.353 [Debug] - Slot3启动录音...
+12:01:26.038 [Debug] - Slot3启动录音成功
+12:01:28.688 [Debug] - Slot3, ASIO采集完成
+12:01:28.689 [Debug] - Slot4采集驱动：ASIO
+12:01:28.689 [Debug] - Slot4启动播放...
+12:01:28.706 [Debug] - Slot4启动播放成功
+12:01:28.706 [Debug] - Slot4启动录音...
+12:01:30.392 [Debug] - Slot4启动录音成功
+12:01:33.043 [Debug] - Slot4, ASIO采集完成
+12:01:34.058 Spk模式测试完成
+12:01:34.061 Spk模式测试开始...
+12:01:34.062 Spk Mode
+12:01:34.064 [Debug] - Slot1采集驱动：ASIO
+12:01:34.064 [Debug] - Slot1启动播放...
+12:01:34.074 [Debug] - Slot1启动播放成功
+12:01:34.074 [Debug] - Slot1启动录音...
+12:01:35.840 [Debug] - Slot1启动录音成功
+12:01:38.487 [Debug] - Slot1, ASIO采集完成
+12:01:38.488 [Debug] - Slot2未启用
+12:01:38.489 [Debug] - Slot3采集驱动：ASIO
+12:01:38.489 [Debug] - Slot3启动播放...
+12:01:38.495 [Debug] - Slot3启动播放成功
+12:01:38.495 [Debug] - Slot3启动录音...
+12:01:40.180 [Debug] - Slot3启动录音成功
+12:01:42.843 [Debug] - Slot3, ASIO采集完成
+12:01:42.844 [Debug] - Slot4采集驱动：ASIO
+12:01:42.845 [Debug] - Slot4启动播放...
+12:01:42.853 [Debug] - Slot4启动播放成功
+12:01:42.853 [Debug] - Slot4启动录音...
+12:01:44.538 [Debug] - Slot4启动录音成功
+12:01:47.202 [Debug] - Slot4, ASIO采集完成
+12:01:48.218 Spk模式测试完成
+12:01:48.219 开始计算数据...
+12:01:48.220 [Debug] - 计算数据初始化...
+12:01:48.221 [Debug] - 算法初始化完成
+12:01:48.221 [Debug] - 获取分析数据完成
+12:01:48.227 [Debug][BlueEreTest.cpp:3111] - 1# SPK - FR
+12:01:48.227 [Debug] - FR窗口初始化完成
+12:01:48.227 [Debug][BlueEreTest.cpp:3141] - D:\TestRecord\spk_wdmRecord_DUT1.wav
+12:01:48.227 [Debug] - 读取音频文件数据完成
+12:01:48.227 [Debug] - 设置算法参数完成
+12:04:14.285 Start...
+12:04:14.285 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+12:04:14.286 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+12:04:14.308 [Debug] - Calc stimulus data and frequency points finish
+12:04:14.388 [Debug] - LSApp InitInstance start
+12:04:16.848 打开Slot1端口(COM6, Baud=921600)成功
+12:04:17.065 打开Slot2端口(COM4, Baud=921600)成功
+12:04:17.284 打开Slot3端口(COM3, Baud=921600)成功
+12:04:17.501 打开Slot4端口(COM7, Baud=921600)成功
+12:04:17.502 [Debug] - LSApp InitInstance finish
+12:04:19.433 [Debug] - LSAppView Create Start
+12:04:59.365 Start...
+12:04:59.365 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+12:04:59.366 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+12:04:59.389 [Debug] - Calc stimulus data and frequency points finish
+12:04:59.473 [Debug] - LSApp InitInstance start
+12:05:52.195 打开Slot1端口(COM6, Baud=921600)成功
+12:05:52.415 打开Slot2端口(COM4, Baud=921600)成功
+12:05:52.634 打开Slot3端口(COM3, Baud=921600)成功
+12:05:52.852 打开Slot4端口(COM7, Baud=921600)成功
+12:05:52.854 [Debug] - LSApp InitInstance finish
+12:05:53.859 [Debug] - LSAppView Create Start
+12:06:28.654 测试开始...
+12:06:28.655 [Debug] - 开始断开所有蓝牙...
+12:06:28.656 [Debug] - Slot1 Disconnect command:>DISC
+
+12:06:28.656 [Debug] - Slot2未启用
+12:06:28.656 [Debug] - Slot3 Disconnect command:>DISC
+
+12:06:28.656 [Debug] - Slot4 Disconnect command:>DISC
+
+12:06:28.657 [Debug] - 所有蓝牙断开完成
+12:06:28.657 [Debug] - 开始连接所有蓝牙...
+12:06:28.657 [Debug] - Slot1开始连接蓝牙...
+12:06:28.657 DUT1蓝牙ID: ACB1EEDF22B3
+12:06:28.657 [Debug] - Connect command:>RST
+12:06:28.658 [Debug] - Connect recv：OK
+SYS_START
+IDLE
+OK
+
+12:06:28.679 Slot1执行蓝牙适配器命令(>RST)成功
+12:06:29.694 [Debug] - Connect command:>PROFILE_SET=0&0
+12:06:29.695 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+
+12:06:29.725 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+DISABLE A2DP
+
+12:06:29.740 Slot1执行蓝牙适配器命令(>PROFILE_SET=0&0)成功
+12:06:29.741 [Debug] - Connect command:>CONN=ACB1EEDF22B3
+12:06:29.756 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+12:06:30.677 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+auth_status_success
+
+12:06:30.692 Slot1执行蓝牙适配器命令(>CONN=ACB1EEDF22B3)成功
+12:06:31.696 [Debug] - Connect command:>SCO_DISC
+12:06:31.697 [Debug] - Connect recv：DEVICE=acb1eedf22b3 NAME=Kunlun-22B3-701003483000139
+hfp_connect_success
+State:[Connected]
+Set Remote Speaker Vol successfully!
+Set Remote Mic Vol successfully!
+Mgs Role=[Master]
+AGHFP_CURRENT_CALLS_IND
+Set Remote Mic Vol successfully!
+PAIREDHFP
+
+12:06:31.709 Slot1执行蓝牙适配器命令(>SCO_DISC)成功
+12:06:31.711 [Debug] - Connect command:>SCO_CONN
+12:06:31.741 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+
+12:06:31.756 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+PAIREDHFP
+
+12:06:31.771 Slot1执行蓝牙适配器命令(>SCO_CONN)成功
+12:06:31.772 Slot1连接蓝牙成功
+12:06:31.773 [Debug] - Slot2未启用
+12:06:31.774 [Debug] - Slot3开始连接蓝牙...
+12:06:31.774 DUT3蓝牙ID: ACB1EEDF21D3
+12:06:31.775 [Debug] - Connect command:>RST
+12:06:31.777 [Debug] - Connect recv：OK
+SYS_START
+IDLE
+OK
+SYS_START
+IDLE
+
+12:06:31.801 Slot3执行蓝牙适配器命令(>RST)成功
+12:06:32.804 [Debug] - Connect command:>PROFILE_SET=0&0
+12:06:32.806 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+
+12:06:32.836 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+DISABLE A2DP
+
+12:06:32.851 Slot3执行蓝牙适配器命令(>PROFILE_SET=0&0)成功
+12:06:32.852 [Debug] - Connect command:>CONN=ACB1EEDF21D3
+12:06:32.866 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+12:06:33.741 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+auth_status_success
+
+12:06:33.757 Slot3执行蓝牙适配器命令(>CONN=ACB1EEDF21D3)成功
+12:06:34.770 [Debug] - Connect command:>SCO_DISC
+12:06:34.772 [Debug] - Connect recv：DEVICE=acb1eedf21d3 NAME=Kunlun-21D3-701003483000356
+hfp_connect_success
+State:[Connected]
+Set Remote Speaker Vol successfully!
+Set Remote Mic Vol successfully!
+Mgs Role=[Master]
+AGHFP_CURRENT_CALLS_IND
+Set Remote Mic Vol successfully!
+PAIREDHFP
+
+12:06:34.785 Slot3执行蓝牙适配器命令(>SCO_DISC)成功
+12:06:34.787 [Debug] - Connect command:>SCO_CONN
+12:06:34.817 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+
+12:06:34.832 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+PAIREDHFP
+
+12:06:34.847 Slot3执行蓝牙适配器命令(>SCO_CONN)成功
+12:06:34.848 Slot3连接蓝牙成功
+12:06:34.849 [Debug] - Slot4开始连接蓝牙...
+12:06:34.850 DUT4蓝牙ID: ACB1EEDF216B
+12:06:34.851 [Debug] - Connect command:>RST
+12:06:34.852 [Debug] - Connect recv：OK
+SYS_START
+IDLE
+OK
+SYS_START
+IDLE
+
+12:06:34.878 Slot4执行蓝牙适配器命令(>RST)成功
+12:06:35.894 [Debug] - Connect command:>PROFILE_SET=0&0
+12:06:35.896 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+
+12:06:35.926 [Debug] - Connect recv：OK
+
+SYS_START
+IDLE
+DISABLE A2DP
+
+12:06:35.941 Slot4执行蓝牙适配器命令(>PROFILE_SET=0&0)成功
+12:06:35.942 [Debug] - Connect command:>CONN=ACB1EEDF216B
+12:06:35.956 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+12:06:36.976 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+
+12:06:37.786 [Debug] - Connect recv：Waiting connect
+HFP_CONNECTING
+auth_status_success
+
+12:06:37.801 Slot4执行蓝牙适配器命令(>CONN=ACB1EEDF216B)成功
+12:06:38.815 [Debug] - Connect command:>SCO_DISC
+12:06:38.816 [Debug] - Connect recv：DEVICE=acb1eedf216b NAME=Kunlun-216B-701003483000325
+hfp_connect_success
+State:[Connected]
+Set Remote Speaker Vol successfully!
+Set Remote Mic Vol successfully!
+Mgs Role=[Master]
+AGHFP_CURRENT_CALLS_IND
+Set Remote Mic Vol successfully!
+PAIREDHFP
+
+12:06:38.830 Slot4执行蓝牙适配器命令(>SCO_DISC)成功
+12:06:38.832 [Debug] - Connect command:>SCO_CONN
+12:06:38.846 [Debug] - Connect recv：h
+12:06:38.862 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+
+12:06:38.878 [Debug] - Connect recv：hfp_connect_success
+SCO DISCONNECTED
+PAIREDHFP
+
+12:06:38.893 Slot4执行蓝牙适配器命令(>SCO_CONN)成功
+12:06:38.894 Slot4连接蓝牙成功
+12:06:38.895 [Debug] - 所有蓝牙连接完成
+12:06:38.897 Spk模式测试开始...
+12:06:38.898 Spk Mode
+12:06:38.900 [Debug] - Slot1采集驱动：ASIO
+12:06:38.900 [Debug] - Slot1启动播放...
+12:06:49.142 [Debug] - Slot1启动播放成功
+12:06:49.142 [Debug] - Slot1启动录音...
+12:06:50.911 [Debug] - Slot1启动录音成功
+12:06:53.568 [Debug] - Slot1, ASIO采集完成
+12:06:53.569 [Debug] - Slot2未启用
+12:06:53.569 [Debug] - Slot3采集驱动：ASIO
+12:06:53.570 [Debug] - Slot3启动播放...
+12:06:53.589 [Debug] - Slot3启动播放成功
+12:06:53.589 [Debug] - Slot3启动录音...
+12:06:55.281 [Debug] - Slot3启动录音成功
+12:06:57.944 [Debug] - Slot3, ASIO采集完成
+12:06:57.944 [Debug] - Slot4采集驱动：ASIO
+12:06:57.945 [Debug] - Slot4启动播放...
+12:06:57.965 [Debug] - Slot4启动播放成功
+12:06:57.965 [Debug] - Slot4启动录音...
+12:06:59.654 [Debug] - Slot4启动录音成功
+12:07:02.315 [Debug] - Slot4, ASIO采集完成
+12:07:03.317 Spk模式测试完成
+12:07:11.111 Spk模式测试开始...
+12:07:11.112 Spk Mode
+12:07:11.114 [Debug] - Slot1采集驱动：ASIO
+12:07:11.114 [Debug] - Slot1启动播放...
+12:07:11.127 [Debug] - Slot1启动播放成功
+12:07:11.128 [Debug] - Slot1启动录音...
+12:07:12.907 [Debug] - Slot1启动录音成功
+12:07:15.581 [Debug] - Slot1, ASIO采集完成
+12:07:15.581 [Debug] - Slot2未启用
+12:07:15.582 [Debug] - Slot3采集驱动：ASIO
+12:07:15.582 [Debug] - Slot3启动播放...
+12:07:15.591 [Debug] - Slot3启动播放成功
+12:07:15.592 [Debug] - Slot3启动录音...
+12:07:17.280 [Debug] - Slot3启动录音成功
+12:07:19.940 [Debug] - Slot3, ASIO采集完成
+12:07:19.942 [Debug] - Slot4采集驱动：ASIO
+12:07:19.942 [Debug] - Slot4启动播放...
+12:07:19.952 [Debug] - Slot4启动播放成功
+12:07:19.953 [Debug] - Slot4启动录音...
+12:07:21.643 [Debug] - Slot4启动录音成功
+12:07:24.307 [Debug] - Slot4, ASIO采集完成
+12:07:25.323 Spk模式测试完成
+12:07:25.324 开始计算数据...
+12:07:25.325 [Debug] - 计算数据初始化...
+12:07:25.326 [Debug] - 算法初始化完成
+12:07:25.327 [Debug] - 获取分析数据完成
+12:07:25.332 [Debug][BlueEreTest.cpp:3111] - 1# SPK - FR
+12:07:25.333 [Debug] - FR窗口初始化完成
+12:07:25.333 [Debug][BlueEreTest.cpp:3141] - D:\TestRecord\spk_wdmRecord_DUT1.wav
+12:07:25.333 [Debug] - 读取音频文件数据完成
+12:07:25.334 [Debug] - 设置算法参数完成
+12:07:27.810 [Debug] - 数据计算完成，开始判断结果...
+12:07:27.816 [Debug] - FR结果判断完成
+12:07:27.816 [Debug][BlueEreTest.cpp:3449] - FR保存CSV数据完成，开始计算THD...
+12:07:27.819 [Debug] - THD窗口初始化完成
+12:07:27.825 [Debug] - THD Limit设置完成
+12:07:27.825 [Debug] - THD结果判断完成
+12:07:27.825 [Debug][BlueEreTest.cpp:3649] - THD保存CSV数据完成
+12:07:27.829 [Debug] - THD窗口初始化完成
+12:07:27.834 [Debug] - THD Limit设置完成
+12:07:27.835 [Debug] - THD结果判断完成
+12:07:27.835 [Debug][BlueEreTest.cpp:3826] - THD保存CSV数据完成
+12:07:27.835 计算，Slot2未启用测试
+12:07:27.842 [Debug] - 计算数据初始化...
+12:07:27.843 [Debug] - 算法初始化完成
+12:07:27.843 [Debug] - 获取分析数据完成
+12:07:27.846 [Debug][BlueEreTest.cpp:3111] - 3# SPK - FR
+12:07:27.846 [Debug] - FR窗口初始化完成
+12:07:27.847 [Debug][BlueEreTest.cpp:3141] - D:\TestRecord\spk_wdmRecord_DUT3.wav
+12:07:27.847 [Debug] - 读取音频文件数据完成
+12:07:27.847 [Debug] - 设置算法参数完成
+12:07:29.027 [Debug] - 数据计算完成，开始判断结果...
+12:07:29.031 [Debug] - FR结果判断完成
+12:07:29.031 [Debug][BlueEreTest.cpp:3449] - FR保存CSV数据完成，开始计算THD...
+12:07:29.036 [Debug] - THD窗口初始化完成
+12:07:29.040 [Debug] - THD Limit设置完成
+12:07:29.040 [Debug] - THD结果判断完成
+12:07:29.040 [Debug][BlueEreTest.cpp:3649] - THD保存CSV数据完成
+12:07:29.043 [Debug] - THD窗口初始化完成
+12:07:29.046 [Debug] - THD Limit设置完成
+12:07:29.047 [Debug] - THD结果判断完成
+12:07:29.047 [Debug][BlueEreTest.cpp:3826] - THD保存CSV数据完成
+12:07:29.047 [Debug] - 计算数据初始化...
+12:07:29.047 [Debug] - 算法初始化完成
+12:07:29.047 [Debug] - 获取分析数据完成
+12:07:29.050 [Debug][BlueEreTest.cpp:3111] - 4# SPK - FR
+12:07:29.050 [Debug] - FR窗口初始化完成
+12:07:29.051 [Debug][BlueEreTest.cpp:3141] - D:\TestRecord\spk_wdmRecord_DUT4.wav
+12:07:29.051 [Debug] - 读取音频文件数据完成
+12:07:29.051 [Debug] - 设置算法参数完成
+12:07:30.075 [Debug] - 数据计算完成，开始判断结果...
+12:07:30.080 [Debug] - FR结果判断完成
+12:07:30.080 [Debug][BlueEreTest.cpp:3449] - FR保存CSV数据完成，开始计算THD...
+12:07:30.084 [Debug] - THD窗口初始化完成
+12:07:30.088 [Debug] - THD Limit设置完成
+12:07:30.089 [Debug] - THD结果判断完成
+12:07:30.089 [Debug][BlueEreTest.cpp:3649] - THD保存CSV数据完成
+12:07:30.092 [Debug] - THD窗口初始化完成
+12:07:30.095 [Debug] - THD Limit设置完成
+12:07:30.096 [Debug] - THD结果判断完成
+12:07:30.096 [Debug][BlueEreTest.cpp:3826] - THD保存CSV数据完成
+12:07:30.096 Mic模式测试开始...
+12:07:30.115 [Debug] - 采集缓存初始化！
+12:07:30.122 [Debug] - 采集缓存初始化！
+12:07:30.129 [Debug] - 采集缓存初始化！
+12:07:30.130 [Debug] - Mic模式启动录音完成
+12:07:30.131 [Debug] - Mic模式启动播放完成
+12:07:32.799 [Debug] - Mic模式采集完成
+12:07:32.799 Mic模式测试完成
+12:07:32.800 开始计算数据...
+12:07:32.800 [Debug] - 计算数据初始化...
+12:07:32.800 [Debug] - 算法初始化完成
+12:07:32.800 [Debug] - 获取分析数据完成
+12:07:32.804 [Debug][BlueEreTest.cpp:3111] - 1# MIC - FR
+12:07:32.805 [Debug] - FR窗口初始化完成
+12:07:32.805 [Debug][BlueEreTest.cpp:3141] - D:\TestRecord\mic_wdmRecord_DUT1.wav
+12:07:37.775 [Debug] - 读取音频文件数据完成
+12:07:37.775 [Debug] - 设置算法参数完成
+12:07:39.057 [Debug] - 数据计算完成，开始判断结果...
+12:07:39.059 [Debug] - FR结果判断完成
+12:07:39.060 [Debug][BlueEreTest.cpp:3449] - FR保存CSV数据完成，开始计算THD...
+12:07:39.063 [Debug] - THD窗口初始化完成
+12:07:39.067 [Debug] - THD Limit设置完成
+12:07:39.068 [Debug] - THD结果判断完成
+12:07:39.068 [Debug][BlueEreTest.cpp:3649] - THD保存CSV数据完成
+12:07:39.072 计算，Slot2未启用测试
+12:07:39.080 [Debug] - 计算数据初始化...
+12:07:39.080 [Debug] - 算法初始化完成
+12:07:39.080 [Debug] - 获取分析数据完成
+12:07:39.083 [Debug][BlueEreTest.cpp:3111] - 3# MIC - FR
+12:07:39.084 [Debug] - FR窗口初始化完成
+12:07:39.084 [Debug][BlueEreTest.cpp:3141] - D:\TestRecord\mic_wdmRecord_DUT3.wav
+12:07:39.597 [Debug] - 读取音频文件数据完成
+12:07:39.597 [Debug] - 设置算法参数完成
+12:07:40.229 [Debug] - 数据计算完成，开始判断结果...
+12:07:40.231 [Debug] - FR结果判断完成
+12:07:40.231 [Debug][BlueEreTest.cpp:3449] - FR保存CSV数据完成，开始计算THD...
+12:07:40.236 [Debug] - THD窗口初始化完成
+12:07:40.240 [Debug] - THD Limit设置完成
+12:07:40.240 [Debug] - THD结果判断完成
+12:07:40.241 [Debug][BlueEreTest.cpp:3649] - THD保存CSV数据完成
+12:07:40.244 [Debug] - 计算数据初始化...
+12:07:40.244 [Debug] - 算法初始化完成
+12:07:40.244 [Debug] - 获取分析数据完成
+12:07:40.246 [Debug][BlueEreTest.cpp:3111] - 4# MIC - FR
+12:07:40.247 [Debug] - FR窗口初始化完成
+12:07:40.247 [Debug][BlueEreTest.cpp:3141] - D:\TestRecord\mic_wdmRecord_DUT4.wav
+12:07:40.630 [Debug] - 读取音频文件数据完成
+12:07:40.630 [Debug] - 设置算法参数完成
+12:07:41.274 [Debug] - 数据计算完成，开始判断结果...
+12:07:41.277 [Debug] - FR结果判断完成
+12:07:41.277 [Debug][BlueEreTest.cpp:3449] - FR保存CSV数据完成，开始计算THD...
+12:07:41.281 [Debug] - THD窗口初始化完成
+12:07:41.285 [Debug] - THD Limit设置完成
+12:07:41.286 [Debug] - THD结果判断完成
+12:07:41.286 [Debug][BlueEreTest.cpp:3649] - THD保存CSV数据完成
+12:07:41.289 [Debug][BlueEreTest.cpp:3929] - 
+12:07:41.289 测试完成
+
+12:07:44.858 计算，Slot2未启用测试
+12:07:45.552 SN:???????9
+12:07:45.553 SN:???????6
+12:07:45.555 SN:??????社5
+12:10:02.646 Start...
+12:10:02.646 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+12:10:02.647 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+12:10:02.670 [Debug] - Calc stimulus data and frequency points finish
+12:10:02.755 [Debug] - LSApp InitInstance start
+12:11:04.490 Start...
+12:11:04.491 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+12:11:04.491 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+12:11:04.514 [Debug] - Calc stimulus data and frequency points finish
+12:11:04.600 [Debug] - LSApp InitInstance start
+12:11:07.011 打开Slot1端口(COM6, Baud=921600)成功
+12:11:07.228 打开Slot2端口(COM4, Baud=921600)成功
+12:11:07.445 打开Slot3端口(COM3, Baud=921600)成功
+12:11:07.664 打开Slot4端口(COM7, Baud=921600)成功
+12:11:07.665 [Debug] - LSApp InitInstance finish
+12:11:08.195 [Debug] - LSAppView Create Start
+12:11:37.047 Start...
+12:11:37.048 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+12:11:37.048 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+12:11:37.073 [Debug] - Calc stimulus data and frequency points finish
+12:11:37.158 [Debug] - LSApp InitInstance start
+12:11:39.588 打开Slot1端口(COM6, Baud=921600)成功
+12:11:39.808 打开Slot2端口(COM4, Baud=921600)成功
+12:11:40.024 打开Slot3端口(COM3, Baud=921600)成功
+12:11:40.241 打开Slot4端口(COM7, Baud=921600)成功
+12:11:40.243 [Debug] - LSApp InitInstance finish
+12:11:40.610 [Debug] - LSAppView Create Start
+12:13:19.063 Start...
+12:13:19.064 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+12:13:19.064 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+12:13:19.088 [Debug] - Calc stimulus data and frequency points finish
+12:13:19.166 [Debug] - LSApp InitInstance start
+12:13:21.607 打开Slot1端口(COM6, Baud=921600)成功
+12:13:21.826 打开Slot2端口(COM4, Baud=921600)成功
+12:13:22.043 打开Slot3端口(COM3, Baud=921600)成功
+12:13:22.260 打开Slot4端口(COM7, Baud=921600)成功
+12:13:22.261 [Debug] - LSApp InitInstance finish
+12:13:22.729 [Debug] - LSAppView Create Start
+12:14:27.598 Start...
+12:14:27.599 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+12:14:27.599 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+12:14:27.623 [Debug] - Calc stimulus data and frequency points finish
+12:14:27.706 [Debug] - LSApp InitInstance start
+12:14:30.114 打开Slot1端口(COM6, Baud=921600)成功
+12:14:30.333 打开Slot2端口(COM4, Baud=921600)成功
+12:14:30.548 打开Slot3端口(COM3, Baud=921600)成功
+12:14:30.765 打开Slot4端口(COM7, Baud=921600)成功
+12:14:30.767 [Debug] - LSApp InitInstance finish
+12:14:31.202 [Debug] - LSAppView Create Start
+12:15:31.338 Start...
+12:15:31.339 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+12:15:31.339 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+12:15:31.362 [Debug] - Calc stimulus data and frequency points finish
+12:15:31.443 [Debug] - LSApp InitInstance start
+12:15:33.865 打开Slot1端口(COM6, Baud=921600)成功
+12:15:34.082 打开Slot2端口(COM4, Baud=921600)成功
+12:15:34.297 打开Slot3端口(COM3, Baud=921600)成功
+12:15:34.515 打开Slot4端口(COM7, Baud=921600)成功
+12:15:34.517 [Debug] - LSApp InitInstance finish
+12:15:35.018 [Debug] - LSAppView Create Start
+12:16:22.339 Start...
+12:16:22.340 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+12:16:22.340 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+12:16:22.364 [Debug] - Calc stimulus data and frequency points finish
+12:16:22.452 [Debug] - LSApp InitInstance start
+12:16:24.881 打开Slot1端口(COM6, Baud=921600)成功
+12:16:25.096 打开Slot2端口(COM4, Baud=921600)成功
+12:16:25.314 打开Slot3端口(COM3, Baud=921600)成功
+12:16:25.531 打开Slot4端口(COM7, Baud=921600)成功
+12:16:25.532 [Debug] - LSApp InitInstance finish
+12:16:25.882 [Debug] - LSAppView Create Start
+12:16:58.790 Start...
+12:16:58.791 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+12:16:58.791 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+12:16:58.814 [Debug] - Calc stimulus data and frequency points finish
+12:16:58.892 [Debug] - LSApp InitInstance start
+12:17:01.287 打开Slot1端口(COM6, Baud=921600)成功
+12:17:01.506 打开Slot2端口(COM4, Baud=921600)成功
+12:17:01.722 打开Slot3端口(COM3, Baud=921600)成功
+12:17:01.940 打开Slot4端口(COM7, Baud=921600)成功
+12:17:01.941 [Debug] - LSApp InitInstance finish
+12:17:02.514 [Debug] - LSAppView Create Start
+12:17:54.659 Start...
+12:17:54.660 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+12:17:54.660 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+12:17:54.683 [Debug] - Calc stimulus data and frequency points finish
+12:17:54.758 [Debug] - LSApp InitInstance start
+12:17:57.202 打开Slot1端口(COM6, Baud=921600)成功
+12:17:57.421 打开Slot2端口(COM4, Baud=921600)成功
+12:17:57.639 打开Slot3端口(COM3, Baud=921600)成功
+12:17:57.855 打开Slot4端口(COM7, Baud=921600)成功
+12:17:57.856 [Debug] - LSApp InitInstance finish
+12:17:58.754 [Debug] - LSAppView Create Start
+12:18:39.081 Start...
+12:18:39.082 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+12:18:39.082 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+12:18:39.106 [Debug] - Calc stimulus data and frequency points finish
+12:18:39.183 [Debug] - LSApp InitInstance start
+12:18:41.618 打开Slot1端口(COM6, Baud=921600)成功
+12:18:41.834 打开Slot2端口(COM4, Baud=921600)成功
+12:18:42.051 打开Slot3端口(COM3, Baud=921600)成功
+12:18:42.272 打开Slot4端口(COM7, Baud=921600)成功
+12:18:42.274 [Debug] - LSApp InitInstance finish
+12:18:42.954 [Debug] - LSAppView Create Start
+12:20:10.228 Start...
+12:20:10.229 Config file: D:\soft\LSApp-1222-6\x64\Debug\Config.ini
+12:20:10.229 Script file: D:\soft\LSApp-1222-6\x64\Debug\Script\PhoneWatch_231222.ini
+12:20:10.252 [Debug] - Calc stimulus data and frequency points finish
+12:20:10.329 [Debug] - LSApp InitInstance start
+15:51:18.794 Start...
+15:51:18.795 Config file: D:\soft\LSApp-1222-7\x64\Debug\Config.ini
+15:51:18.795 Script file: D:\soft\LSApp-1222-7\x64\Debug\Script\PhoneWatch_231222.ini
+15:51:18.818 [Debug] - Calc stimulus data and frequency points finish
+15:51:18.910 [Debug] - LSApp InitInstance start
+15:51:21.409 打开Slot1端口(COM6, Baud=921600)成功
+15:51:21.628 打开Slot2端口(COM4, Baud=921600)成功
+15:51:21.845 打开Slot3端口(COM3, Baud=921600)成功
+15:51:22.060 打开Slot4端口(COM7, Baud=921600)成功
+15:51:22.062 [Debug] - LSApp InitInstance finish
+15:51:56.661 Start...
+15:51:56.662 Config file: D:\soft\LSApp-1222-7\x64\Debug\Config.ini
+15:51:56.662 Script file: D:\soft\LSApp-1222-7\x64\Debug\Script\PhoneWatch_231222.ini
+15:51:56.686 [Debug] - Calc stimulus data and frequency points finish
+15:51:56.763 [Debug] - LSApp InitInstance start
+15:51:59.187 打开Slot1端口(COM6, Baud=921600)成功
+15:51:59.408 打开Slot2端口(COM4, Baud=921600)成功
+15:51:59.624 打开Slot3端口(COM3, Baud=921600)成功
+15:51:59.841 打开Slot4端口(COM7, Baud=921600)成功
+15:51:59.842 [Debug] - LSApp InitInstance finish
+15:52:00.223 [Debug] - LSAppView Create Start
+15:52:24.909 Start...
+15:52:24.910 Config file: D:\soft\LSApp-1222-7\x64\Debug\Config.ini
+15:52:24.910 Script file: D:\soft\LSApp-1222-7\x64\Debug\Script\PhoneWatch_231222.ini
+15:52:24.934 [Debug] - Calc stimulus data and frequency points finish
+15:52:25.023 [Debug] - LSApp InitInstance start
+15:52:27.409 打开Slot1端口(COM6, Baud=921600)成功
+15:52:27.628 打开Slot2端口(COM4, Baud=921600)成功
+15:52:27.845 打开Slot3端口(COM3, Baud=921600)成功
+15:52:28.061 打开Slot4端口(COM7, Baud=921600)成功
+15:52:28.063 [Debug] - LSApp InitInstance finish
+15:52:28.503 [Debug] - LSAppView Create Start

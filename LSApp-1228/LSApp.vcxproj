@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7485250-895E-4E0E-819A-B7257E68D99C}</ProjectGuid>
+    <RootNamespace>LSApp</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include;D:\Projects\LSApp\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Projects\LSApp\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include;.\include;D:\Program Files\MATLAB\MATLAB Runtime\v912\extern\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Program Files\MATLAB\MATLAB Runtime\v912\extern\lib\win64\microsoft;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\Projects\LSApp-01\include;D:\Program Files\MATLAB\MATLAB Runtime\v912\extern\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Program Files\MATLAB\MATLAB Runtime\v912\extern\lib\win64\microsoft;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>F:\projectDevelop\c++\TestINDAQMx\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libfftw3-3.lib;libfftw3f-3.lib;libfftw3l-3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:\projectDevelop\c++\TestINDAQMx\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include;$(ProgramFiles)\National Instruments\Shared\ExternalCompilerSupport\C\include;..\DAQ\USB4020_4021_4022_4023\Examples\VS2015 C++\libdaq;.\include;..\asiosdk_2.3.3_2019-06-14\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4244;4267;4101;4018;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ASIOSample.lib;libfftw3-3.lib;libfftw3f-3.lib;libfftw3l-3.lib;libeng.lib;libmat.lib;libmex.lib;libmx.lib;mclmcr.lib;mclmcrrt.lib;Fr.lib;winmm.lib;daqlib.lib;fftzcj.lib;FrHarm.lib;wav.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>./lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;WIN32;NDEBUG;_CRT_SECURE_NO_WARNINGS;_AFXDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\include;D:\soft\DAQ\Common\libdaq\include;D:\soft\DAQ\USB4020_4021_4022_4023\Examples\VS2015 C++\libdaq;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\Projects\LSApp\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libfftw3-3.lib;libfftw3f-3.lib;libfftw3l-3.lib;libeng.lib;libmat.lib;libmex.lib;libmx.lib;mclmcr.lib;mclmcrrt.lib;Fr.lib;daqlib.lib;fftzcj.lib;winmm.lib;FrHarm.lib;NIDAQmx.lib;wav.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="a4aInterface.h" />
+    <ClInclude Include="AlogriSettins.h" />
+    <ClInclude Include="asio.h" />
+    <ClInclude Include="asiosmpl.h" />
+    <ClInclude Include="AudioAlgorithm.h" />
+    <ClInclude Include="audiodeals.h" />
+    <ClInclude Include="BcakGround.h" />
+    <ClInclude Include="BlueComm.h" />
+    <ClInclude Include="BlueEreTest.h" />
+    <ClInclude Include="BlueTestD.h" />
+    <ClInclude Include="CaculateSet.h" />
+    <ClInclude Include="CalibInput.h" />
+    <ClInclude Include="Calibration.h" />
+    <ClInclude Include="CalibrOutput.h" />
+    <ClInclude Include="CardDlg.h" />
+    <ClInclude Include="CardSeting.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="ClassView.h" />
+    <ClInclude Include="combase.h" />
+    <ClInclude Include="CyclesTestSet.h" />
+    <ClInclude Include="DAQmx_Base.h" />
+    <ClInclude Include="DataShow.h" />
+    <ClInclude Include="DeviceManage.h" />
+    <ClInclude Include="DeviceSet.h" />
+    <ClInclude Include="DrawWaveformBitmap.h" />
+    <ClInclude Include="fftzcj.h" />
+    <ClInclude Include="FileView.h" />
+    <ClInclude Include="Fr.h" />
+    <ClInclude Include="FrHarm.h" />
+    <ClInclude Include="FrSettings.h" />
+    <ClInclude Include="FrTest.h" />
+    <ClInclude Include="GetInput.h" />
+    <ClInclude Include="Geyin.h" />
+    <ClInclude Include="globle.h" />
+    <ClInclude Include="Gradle.h" />
+    <ClInclude Include="HttpClient.h" />
+    <ClInclude Include="iaa4aprv.h" />
+    <ClInclude Include="inkpicture1.h" />
+    <ClInclude Include="InputDialg.h" />
+    <ClInclude Include="JiLiSet.h" />
+    <ClInclude Include="JiLiSetNewVersion.h" />
+    <ClInclude Include="LineBorderSetingItem.h" />
+    <ClInclude Include="Lmd.h" />
+    <ClInclude Include="LogIn.h" />
+    <ClInclude Include="LSApp.h" />
+    <ClInclude Include="LSAppDoc.h" />
+    <ClInclude Include="LSAppView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MyButton.h" />
+    <ClInclude Include="MyComboBox.h" />
+    <ClInclude Include="MYcontrol2.h" />
+    <ClInclude Include="MyDlg.h" />
+    <ClInclude Include="MyGroupBox.h" />
+    <ClInclude Include="MyListBox.h" />
+    <ClInclude Include="OutputWnd.h" />
+    <ClInclude Include="Phase.h" />
+    <ClInclude Include="PlayRecordSettings.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="RbSettings.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResShow.h" />
+    <ClInclude Include="RubZ.h" />
+    <ClInclude Include="RuiSenCard.h" />
+    <ClInclude Include="Scanlot.h" />
+    <ClInclude Include="Sensitivity.h" />
+    <ClInclude Include="SerialPort.h" />
+    <ClInclude Include="SplashThread.h" />
+    <ClInclude Include="SPT.h" />
+    <ClInclude Include="StartPage.h" />
+    <ClInclude Include="StartPg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestASIUO.h" />
+    <ClInclude Include="TestBorderLineSettings.h" />
+    <ClInclude Include="TestData.h" />
+    <ClInclude Include="TestProcess.h" />
+    <ClInclude Include="TestResManagement.h" />
+    <ClInclude Include="TestRME.h" />
+    <ClInclude Include="Thd.h" />
+    <ClInclude Include="ThdN.h" />
+    <ClInclude Include="ThdSettings.h" />
+    <ClInclude Include="USB4431.h" />
+    <ClInclude Include="ViewTree.h" />
+    <ClInclude Include="wav.h" />
+    <ClInclude Include="WaveShow.h" />
+    <ClInclude Include="wavHandler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="a4aInterface.cpp" />
+    <ClCompile Include="AlogriSettins.cpp" />
+    <ClCompile Include="AudioAlgorithm.cpp" />
+    <ClCompile Include="audiodeals.cpp" />
+    <ClCompile Include="BcakGround.cpp" />
+    <ClCompile Include="BlueComm.cpp" />
+    <ClCompile Include="BlueEreTest.cpp" />
+    <ClCompile Include="BlueTestD.cpp" />
+    <ClCompile Include="CaculateSet.cpp" />
+    <ClCompile Include="CalibInput.cpp" />
+    <ClCompile Include="Calibration.cpp" />
+    <ClCompile Include="CalibrOutput.cpp" />
+    <ClCompile Include="CardDlg.cpp" />
+    <ClCompile Include="CardSeting.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="ClassView.cpp" />
+    <ClCompile Include="CLSID.cpp" />
+    <ClCompile Include="CyclesTestSet.cpp" />
+    <ClCompile Include="DataShow.cpp" />
+    <ClCompile Include="DeviceManage.cpp" />
+    <ClCompile Include="DeviceSet.cpp" />
+    <ClCompile Include="DrawWaveformBitmap.cpp" />
+    <ClCompile Include="FileView.cpp" />
+    <ClCompile Include="FrSettings.cpp" />
+    <ClCompile Include="FrTest.cpp" />
+    <ClCompile Include="GetInput.cpp" />
+    <ClCompile Include="Geyin.cpp" />
+    <ClCompile Include="Gradle.cpp" />
+    <ClCompile Include="HttpClient.cpp" />
+    <ClCompile Include="inkpicture1.cpp" />
+    <ClCompile Include="InputDialg.cpp" />
+    <ClCompile Include="JiLiSet.cpp" />
+    <ClCompile Include="JiLiSetNewVersion.cpp" />
+    <ClCompile Include="LineBorderSetingItem.cpp" />
+    <ClCompile Include="Lmd.cpp" />
+    <ClCompile Include="LogIn.cpp" />
+    <ClCompile Include="LSApp.cpp" />
+    <ClCompile Include="LSAppDoc.cpp" />
+    <ClCompile Include="LSAppView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MyButton.cpp" />
+    <ClCompile Include="MyComboBox.cpp" />
+    <ClCompile Include="MYcontrol2.cpp" />
+    <ClCompile Include="MyDlg.cpp" />
+    <ClCompile Include="MyGroupBox.cpp" />
+    <ClCompile Include="MyListBox.cpp" />
+    <ClCompile Include="OutputWnd.cpp" />
+    <ClCompile Include="Phase.cpp" />
+    <ClCompile Include="PlayRecordSettings.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="RbSettings.cpp" />
+    <ClCompile Include="ResShow.cpp" />
+    <ClCompile Include="RubZ.cpp" />
+    <ClCompile Include="RuiSenCard.cpp" />
+    <ClCompile Include="Scanlot.cpp" />
+    <ClCompile Include="Sensitivity.cpp" />
+    <ClCompile Include="SerialPort.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SplashThread.cpp" />
+    <ClCompile Include="SPT.cpp" />
+    <ClCompile Include="StartPage.cpp" />
+    <ClCompile Include="StartPg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TestASIUO.cpp" />
+    <ClCompile Include="TestBorderLineSettings.cpp" />
+    <ClCompile Include="TestData.cpp" />
+    <ClCompile Include="TestProcess.cpp" />
+    <ClCompile Include="TestResManagement.cpp" />
+    <ClCompile Include="TestRME.cpp" />
+    <ClCompile Include="Thd.cpp" />
+    <ClCompile Include="ThdN.cpp" />
+    <ClCompile Include="ThdSettings.cpp" />
+    <ClCompile Include="ViewTree.cpp" />
+    <ClCompile Include="WaveShow.cpp" />
+    <ClCompile Include="wavHandler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LSApp.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\LSApp.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\LSApp-02-1129\res\start.bmp" />
+    <Image Include="..\LSApp-02-1129\res\stop.bmp" />
+    <Image Include="res\bg.bmp" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\classview.bmp" />
+    <Image Include="res\classview_hc.bmp" />
+    <Image Include="res\class_view.ico" />
+    <Image Include="res\class_view_hc.ico" />
+    <Image Include="res\explorer.bmp" />
+    <Image Include="res\explorer_hc.bmp" />
+    <Image Include="res\fileview.bmp" />
+    <Image Include="res\fileview_hc.bmp" />
+    <Image Include="res\file_view.ico" />
+    <Image Include="res\file_view_hc.ico" />
+    <Image Include="res\lk.bmp" />
+    <Image Include="res\lk.ico" />
+    <Image Include="res\LSApp.ico" />
+    <Image Include="res\LSAppDoc.ico" />
+    <Image Include="res\menuimages.bmp" />
+    <Image Include="res\menuimages_hc.bmp" />
+    <Image Include="res\output_wnd.ico" />
+    <Image Include="res\output_wnd_hc.ico" />
+    <Image Include="res\properties.bmp" />
+    <Image Include="res\properties_hc.bmp" />
+    <Image Include="res\properties_wnd.ico" />
+    <Image Include="res\properties_wnd_hc.ico" />
+    <Image Include="res\sort.bmp" />
+    <Image Include="res\sort_hc.bmp" />
+    <Image Include="res\start.bmp" />
+    <Image Include="res\stop.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties _x007B_04A1E553-FE36-4FDE-865E-344194E69424_x007D_="CInkpicture1" RESOURCE_FILE="LSApp.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

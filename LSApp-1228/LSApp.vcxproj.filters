@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\深圳联康">
+      <UniqueIdentifier>{51f8d080-7e80-4284-8fbe-1afb8c91b3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\深圳联康">
+      <UniqueIdentifier>{8406c5ce-7834-44e9-af85-7dc1655d1719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\matlab">
+      <UniqueIdentifier>{c6dbc1d6-c1ff-4f4e-b9d0-5603cf13be13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\matlab">
+      <UniqueIdentifier>{5474ea09-f71a-43c8-a1e2-e5d5061c4cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ASIO">
+      <UniqueIdentifier>{af9249de-8fbc-45a0-9405-1726f6ee14e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ASIO">
+      <UniqueIdentifier>{f17a4327-4804-42a2-b65a-5d752b879fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ASIO\ASIO4ALL">
+      <UniqueIdentifier>{bc771403-87ad-4b21-8649-b4661b3cb0ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ASIO\ASIO4ALL">
+      <UniqueIdentifier>{94bacdf9-d539-44ee-8c50-02524989353c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\声卡测试">
+      <UniqueIdentifier>{a425496e-bed9-49a4-903d-52464e9771b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\声卡测试\RME">
+      <UniqueIdentifier>{959f7181-16ac-4734-b1d8-e31eadeb9b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\声卡测试">
+      <UniqueIdentifier>{b63192cd-8db3-4b02-81c0-8458add1dd79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\声卡测试\RME">
+      <UniqueIdentifier>{2ec99125-c5bf-4a38-8fd0-a727f4314545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\蓝牙测试">
+      <UniqueIdentifier>{931532c1-1813-4c2b-8c79-0a16548c0336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\蓝牙测试">
+      <UniqueIdentifier>{6f45970c-3771-4708-88b6-69af86757fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\NIDAQ">
+      <UniqueIdentifier>{218233cb-5361-4229-a547-2560ff5fe005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tools">
+      <UniqueIdentifier>{16493625-fdd7-490e-bc45-cc14c856a6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tools">
+      <UniqueIdentifier>{241de0ae-a893-49e0-96bc-fd35e9cd94e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LSControl">
+      <UniqueIdentifier>{16c335fc-7951-4e0a-a7a4-ae84b44cfb85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LSControl">
+      <UniqueIdentifier>{62fe7941-23eb-4f2a-ad18-cbabfffab504}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LSApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LSAppDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LSAppView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="globle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CardSeting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CardDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lmd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawWaveformBitmap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JiLiSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RuiSenCard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wavHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Geyin.h">
+      <Filter>头文件\深圳联康</Filter>
+    </ClInclude>
+    <ClInclude Include="Fr.h">
+      <Filter>头文件\matlab</Filter>
+    </ClInclude>
+    <ClInclude Include="asio.h">
+      <Filter>头文件\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="asiosmpl.h">
+      <Filter>头文件\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="TestASIUO.h">
+      <Filter>头文件\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="a4aInterface.h">
+      <Filter>头文件\ASIO\ASIO4ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="iaa4aprv.h">
+      <Filter>头文件\ASIO\ASIO4ALL</Filter>
+    </ClInclude>
+    <ClInclude Include="TestRME.h">
+      <Filter>头文件\声卡测试\RME</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueTestD.h">
+      <Filter>头文件\蓝牙测试</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueEreTest.h">
+      <Filter>头文件\蓝牙测试</Filter>
+    </ClInclude>
+    <ClInclude Include="Thd.h">
+      <Filter>头文件\蓝牙测试</Filter>
+    </ClInclude>
+    <ClInclude Include="FrTest.h">
+      <Filter>头文件\蓝牙测试</Filter>
+    </ClInclude>
+    <ClInclude Include="ThdN.h">
+      <Filter>头文件\蓝牙测试</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensitivity.h">
+      <Filter>头文件\蓝牙测试</Filter>
+    </ClInclude>
+    <ClInclude Include="RubZ.h">
+      <Filter>头文件\蓝牙测试</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase.h">
+      <Filter>头文件\蓝牙测试</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueComm.h">
+      <Filter>头文件\蓝牙测试</Filter>
+    </ClInclude>
+    <ClInclude Include="fftzcj.h">
+      <Filter>头文件\蓝牙测试</Filter>
+    </ClInclude>
+    <ClInclude Include="JiLiSetNewVersion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StartPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SPT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MYcontrol2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CalibInput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CalibrOutput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="combase.h">
+      <Filter>头文件\NIDAQ</Filter>
+    </ClInclude>
+    <ClInclude Include="DAQmx_Base.h">
+      <Filter>头文件\NIDAQ</Filter>
+    </ClInclude>
+    <ClInclude Include="USB4431.h">
+      <Filter>头文件\NIDAQ</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioAlgorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataShow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBorderLineSettings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LineBorderSetingItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AlogriSettins.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FrSettings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThdSettings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FrHarm.h">
+      <Filter>头文件\matlab</Filter>
+    </ClInclude>
+    <ClInclude Include="audiodeals.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayRecordSettings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RbSettings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CaculateSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CyclesTestSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>头文件\LSControl</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGroupBox.h">
+      <Filter>头文件\LSControl</Filter>
+    </ClInclude>
+    <ClInclude Include="MyComboBox.h">
+      <Filter>头文件\LSControl</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDialg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResShow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BcakGround.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inkpicture1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestResManagement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveShow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GetInput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wav.h">
+      <Filter>头文件\matlab</Filter>
+    </ClInclude>
+    <ClInclude Include="Scanlot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gradle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListBox.h">
+      <Filter>头文件\LSControl</Filter>
+    </ClInclude>
+    <ClInclude Include="LogIn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StartPg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LSApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LSAppDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LSAppView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CardSeting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CardDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Lmd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawWaveformBitmap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JiLiSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RuiSenCard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wavHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Geyin.cpp">
+      <Filter>源文件\深圳联康</Filter>
+    </ClCompile>
+    <ClCompile Include="TestASIUO.cpp">
+      <Filter>源文件\ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="a4aInterface.cpp">
+      <Filter>源文件\ASIO\ASIO4ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="CLSID.cpp">
+      <Filter>源文件\ASIO\ASIO4ALL</Filter>
+    </ClCompile>
+    <ClCompile Include="TestRME.cpp">
+      <Filter>源文件\声卡测试\RME</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueTestD.cpp">
+      <Filter>源文件\蓝牙测试</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueEreTest.cpp">
+      <Filter>源文件\蓝牙测试</Filter>
+    </ClCompile>
+    <ClCompile Include="Thd.cpp">
+      <Filter>源文件\蓝牙测试</Filter>
+    </ClCompile>
+    <ClCompile Include="FrTest.cpp">
+      <Filter>源文件\蓝牙测试</Filter>
+    </ClCompile>
+    <ClCompile Include="ThdN.cpp">
+      <Filter>源文件\蓝牙测试</Filter>
+    </ClCompile>
+    <ClCompile Include="Phase.cpp">
+      <Filter>源文件\蓝牙测试</Filter>
+    </ClCompile>
+    <ClCompile Include="RubZ.cpp">
+      <Filter>源文件\蓝牙测试</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensitivity.cpp">
+      <Filter>源文件\蓝牙测试</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueComm.cpp">
+      <Filter>源文件\蓝牙测试</Filter>
+    </ClCompile>
+    <ClCompile Include="JiLiSetNewVersion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StartPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SPT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MYcontrol2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CalibInput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CalibrOutput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioAlgorithm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataShow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBorderLineSettings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LineBorderSetingItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AlogriSettins.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FrSettings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThdSettings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="audiodeals.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayRecordSettings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RbSettings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CaculateSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CyclesTestSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>源文件\LSControl</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGroupBox.cpp">
+      <Filter>源文件\LSControl</Filter>
+    </ClCompile>
+    <ClCompile Include="MyComboBox.cpp">
+      <Filter>源文件\LSControl</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDialg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ResShow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BcakGround.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inkpicture1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestResManagement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveShow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GetInput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Scanlot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gradle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListBox.cpp">
+      <Filter>源文件\LSControl</Filter>
+    </ClCompile>
+    <ClCompile Include="LogIn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StartPg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LSApp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\LSApp.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\LSAppDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\LSApp.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\file_view.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\lk.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bg.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\lk.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\LSApp-02-1129\res\stop.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\LSApp-02-1129\res\start.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\stop.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\start.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,114 @@
+﻿生成启动时间为 2023/12/16 19:41:38。
+     1>项目“D:\soft\LSApp-1216-1\LSApp.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(355,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number.
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include" /I"C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\include" /I"..\DAQ\USB4020_4021_4022_4023\Examples\VS2015 C++\libdaq" /I.\include /I"..\asiosdk_2.3.3_2019-06-14\common" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\LSApp.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /wd4244 /wd4267 /wd4101 /wd4018 /errorReport:prompt BlueEreTest.cpp
+         BlueEreTest.cpp
+     1>BlueEreTest.cpp(2992): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 BlueEreTest.cpp(2909) : 忽略“i”的定义
+                 BlueEreTest.cpp(2610) : 使用“i”的定义
+     1>BlueEreTest.cpp(3022): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 BlueEreTest.cpp(2909) : 忽略“i”的定义
+                 BlueEreTest.cpp(2610) : 使用“i”的定义
+     1>BlueEreTest.cpp(3025): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 BlueEreTest.cpp(2909) : 忽略“i”的定义
+                 BlueEreTest.cpp(2610) : 使用“i”的定义
+     1>BlueEreTest.cpp(3178): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 BlueEreTest.cpp(3113) : 忽略“i”的定义
+                 BlueEreTest.cpp(2610) : 使用“i”的定义
+     1>BlueEreTest.cpp(3206): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 BlueEreTest.cpp(2909) : 忽略“i”的定义
+                 BlueEreTest.cpp(2610) : 使用“i”的定义
+     1>BlueEreTest.cpp(3209): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 BlueEreTest.cpp(2909) : 忽略“i”的定义
+                 BlueEreTest.cpp(2610) : 使用“i”的定义
+     1>BlueEreTest.cpp(3343): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 BlueEreTest.cpp(3278) : 忽略“i”的定义
+                 BlueEreTest.cpp(2610) : 使用“i”的定义
+     1>BlueEreTest.cpp(3368): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 BlueEreTest.cpp(2909) : 忽略“i”的定义
+                 BlueEreTest.cpp(2610) : 使用“i”的定义
+     1>BlueEreTest.cpp(3425): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 BlueEreTest.cpp(2909) : 忽略“i”的定义
+                 BlueEreTest.cpp(2610) : 使用“i”的定义
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\soft\LSApp-1216-1\x64\Debug\LSApp.exe" /INCREMENTAL /NOLOGO /LIBPATH:./lib ASIOSample.lib "libfftw3-3.lib" "libfftw3f-3.lib" "libfftw3l-3.lib" libeng.lib libmat.lib libmex.lib libmx.lib mclmcr.lib mclmcrrt.lib Fr.lib winmm.lib daqlib.lib fftzcj.lib FrHarm.lib wav.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\soft\LSApp-1216-1\x64\Debug\LSApp.pdb" /SUBSYSTEM:WINDOWS,"5.02" /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\soft\LSApp-1216-1\x64\Debug\LSApp.lib" /MACHINE:X64 x64\Debug\LSApp.res
+         x64\Debug\a4aInterface.obj
+         x64\Debug\AlogriSettins.obj
+         x64\Debug\AudioAlgorithm.obj
+         x64\Debug\audiodeals.obj
+         x64\Debug\BcakGround.obj
+         x64\Debug\BlueComm.obj
+         x64\Debug\BlueEreTest.obj
+         x64\Debug\BlueTestD.obj
+         x64\Debug\CaculateSet.obj
+         x64\Debug\CalibInput.obj
+         x64\Debug\Calibration.obj
+         x64\Debug\CalibrOutput.obj
+         x64\Debug\CardDlg.obj
+         x64\Debug\CardSeting.obj
+         x64\Debug\ChildFrm.obj
+         x64\Debug\ClassView.obj
+         x64\Debug\CLSID.obj
+         x64\Debug\CyclesTestSet.obj
+         x64\Debug\DataShow.obj
+         x64\Debug\DeviceManage.obj
+         x64\Debug\DeviceSet.obj
+         x64\Debug\DrawWaveformBitmap.obj
+         x64\Debug\FileView.obj
+         x64\Debug\FrSettings.obj
+         x64\Debug\FrTest.obj
+         x64\Debug\GetInput.obj
+         x64\Debug\Geyin.obj
+         x64\Debug\Gradle.obj
+         x64\Debug\HttpClient.obj
+         x64\Debug\inkpicture1.obj
+         x64\Debug\InputDialg.obj
+         x64\Debug\JiLiSet.obj
+         x64\Debug\JiLiSetNewVersion.obj
+         x64\Debug\LineBorderSetingItem.obj
+         x64\Debug\Lmd.obj
+         x64\Debug\LogIn.obj
+         x64\Debug\LSApp.obj
+         x64\Debug\LSAppDoc.obj
+         x64\Debug\LSAppView.obj
+         x64\Debug\MainFrm.obj
+         x64\Debug\MyButton.obj
+         x64\Debug\MyComboBox.obj
+         x64\Debug\MYcontrol2.obj
+         x64\Debug\MyDlg.obj
+         x64\Debug\MyGroupBox.obj
+         x64\Debug\MyListBox.obj
+         x64\Debug\OutputWnd.obj
+         x64\Debug\Phase.obj
+         x64\Debug\PlayRecordSettings.obj
+         x64\Debug\PropertiesWnd.obj
+         x64\Debug\RbSettings.obj
+         x64\Debug\ResShow.obj
+         x64\Debug\RubZ.obj
+         x64\Debug\RuiSenCard.obj
+         x64\Debug\Scanlot.obj
+         x64\Debug\Sensitivity.obj
+         x64\Debug\SerialPort.obj
+         x64\Debug\SplashThread.obj
+         x64\Debug\SPT.obj
+         x64\Debug\StartPage.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\TestASIUO.obj
+         x64\Debug\TestBorderLineSettings.obj
+         x64\Debug\TestData.obj
+         x64\Debug\TestProcess.obj
+         x64\Debug\TestResManagement.obj
+         x64\Debug\TestRME.obj
+         x64\Debug\Thd.obj
+         x64\Debug\ThdN.obj
+         x64\Debug\ThdSettings.obj
+         x64\Debug\ViewTree.obj
+         x64\Debug\WaveShow.obj
+         x64\Debug\wavHandler.obj
+         LSApp.vcxproj -> D:\soft\LSApp-1216-1\x64\Debug\LSApp.exe
+     1>已完成生成项目“D:\soft\LSApp-1216-1\LSApp.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.29

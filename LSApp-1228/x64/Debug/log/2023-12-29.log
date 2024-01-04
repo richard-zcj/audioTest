@@ -1,0 +1,115 @@
+11:30:35.895 Start...
+11:30:35.896 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+11:30:35.896 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+11:30:35.930 [Debug] - Calc stimulus data and frequency points finish
+11:30:37.569 [Debug] - LSApp InitInstance start
+11:30:39.574 [Debug] - LSAppView Create Start
+11:30:39.792 [Error] - 打开Slot1端口(COM6, Baud=921600)异常: The port not exists.
+11:30:39.792 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+11:30:39.793 [Error] - 打开Slot3端口(COM3, Baud=921600)异常: The port not exists.
+11:30:39.794 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+11:30:39.794 [Debug] - LSApp InitInstance finish
+11:43:35.017 Start...
+11:43:35.017 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+11:43:35.017 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+11:43:35.043 [Debug] - Calc stimulus data and frequency points finish
+11:43:39.763 [Debug] - LSApp InitInstance start
+11:43:41.619 [Debug] - LSAppView Create Start
+11:43:41.847 [Error] - 打开Slot1端口(COM6, Baud=921600)异常: The port not exists.
+11:43:41.847 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+11:43:41.848 [Error] - 打开Slot3端口(COM3, Baud=921600)异常: The port not exists.
+11:43:41.850 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+11:43:41.850 [Debug] - LSApp InitInstance finish
+11:44:25.842 测试开始...
+11:44:25.844 [Debug] - 开始断开所有蓝牙...
+11:44:25.844 [Error] - Slot1蓝牙适配器端口未打开！
+11:44:25.844 [Debug] - Slot2未启用
+11:44:25.844 [Debug] - Slot3未启用
+11:44:25.844 [Debug] - Slot4未启用
+11:44:25.844 [Debug] - 所有蓝牙断开完成
+11:44:25.845 [Debug] - 开始连接所有蓝牙...
+11:44:25.845 [Debug] - Slot1开始连接蓝牙...
+11:44:25.845 DUT1蓝牙ID: 
+11:44:25.845 [Error] - Slot1蓝牙适配器端口未打开！
+11:44:25.845 [Debug] - Slot2未启用
+11:44:25.845 [Debug] - Slot3未启用
+11:44:25.845 [Debug] - Slot4未启用
+11:44:25.845 [Debug] - 所有蓝牙连接完成
+11:44:33.681 Exit.
+
+13:54:00.085 Start...
+13:54:00.086 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+13:54:00.086 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+13:54:00.110 [Debug] - Calc stimulus data and frequency points finish
+13:54:02.610 [Debug] - LSApp InitInstance start
+13:54:04.255 [Debug] - LSAppView Create Start
+13:54:04.405 [Error] - 打开Slot1端口(COM6, Baud=921600)异常: The port not exists.
+13:54:04.406 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+13:54:04.406 [Error] - 打开Slot3端口(COM3, Baud=921600)异常: The port not exists.
+13:54:04.407 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+13:54:04.407 [Debug] - LSApp InitInstance finish
+13:55:54.084 Exit.
+
+14:02:31.640 Start...
+14:02:31.641 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+14:02:31.641 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+14:02:31.665 [Debug] - Calc stimulus data and frequency points finish
+14:02:33.427 [Debug] - LSApp InitInstance start
+14:02:35.018 [Debug] - LSAppView Create Start
+14:02:35.168 [Error] - 打开Slot1端口(COM6, Baud=921600)异常: The port not exists.
+14:02:35.169 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+14:02:35.169 [Error] - 打开Slot3端口(COM3, Baud=921600)异常: The port not exists.
+14:02:35.170 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+14:02:35.170 [Debug] - LSApp InitInstance finish
+14:03:49.758 Exit.
+
+14:05:20.815 Start...
+14:05:20.816 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+14:05:20.816 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+14:05:20.845 [Debug] - Calc stimulus data and frequency points finish
+14:05:22.828 [Debug] - LSApp InitInstance start
+14:05:24.436 [Debug] - LSAppView Create Start
+14:05:24.588 [Error] - 打开Slot1端口(COM6, Baud=921600)异常: The port not exists.
+14:05:24.589 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+14:05:24.589 [Error] - 打开Slot3端口(COM3, Baud=921600)异常: The port not exists.
+14:05:24.589 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+14:05:24.590 [Debug] - LSApp InitInstance finish
+14:05:44.024 Exit.
+
+14:11:05.887 Start...
+14:11:05.887 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+14:11:05.887 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+14:11:05.912 [Debug] - Calc stimulus data and frequency points finish
+14:11:07.773 [Debug] - LSApp InitInstance start
+14:11:09.369 [Debug] - LSAppView Create Start
+14:11:09.519 [Error] - 打开Slot1端口(COM6, Baud=921600)异常: The port not exists.
+14:11:09.520 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+14:11:09.520 [Error] - 打开Slot3端口(COM3, Baud=921600)异常: The port not exists.
+14:11:09.521 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+14:11:09.521 [Debug] - LSApp InitInstance finish
+14:11:36.707 Exit.
+
+14:14:32.572 Start...
+14:14:32.573 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+14:14:32.573 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+14:14:32.599 [Debug] - Calc stimulus data and frequency points finish
+14:14:34.274 [Debug] - LSApp InitInstance start
+14:14:35.870 [Debug] - LSAppView Create Start
+14:14:36.021 [Error] - 打开Slot1端口(COM6, Baud=921600)异常: The port not exists.
+14:14:36.022 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+14:14:36.022 [Error] - 打开Slot3端口(COM3, Baud=921600)异常: The port not exists.
+14:14:36.023 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+14:14:36.023 [Debug] - LSApp InitInstance finish
+14:14:55.512 Exit.
+
+14:15:58.185 Start...
+14:15:58.185 Config file: E:\Code\zcj\LSApp-1228\x64\Debug\Config.ini
+14:15:58.185 Script file: E:\Code\zcj\LSApp-1228\x64\Debug\Script\PhoneWatch_231228.ini
+14:15:58.208 [Debug] - Calc stimulus data and frequency points finish
+14:15:59.755 [Debug] - LSApp InitInstance start
+14:16:01.327 [Debug] - LSAppView Create Start
+14:16:01.476 [Error] - 打开Slot1端口(COM6, Baud=921600)异常: The port not exists.
+14:16:01.477 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+14:16:01.478 [Error] - 打开Slot3端口(COM3, Baud=921600)异常: The port not exists.
+14:16:01.478 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+14:16:01.478 [Debug] - LSApp InitInstance finish

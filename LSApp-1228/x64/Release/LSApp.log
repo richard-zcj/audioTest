@@ -1,0 +1,461 @@
+﻿生成启动时间为 2023/10/9 16:39:39。
+     1>项目“D:\Projects\LSApp-01\LSApp.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\include" /ID:\soft\DAQ\Common\libdaq\include /I"D:\soft\DAQ\USB4020_4021_4022_4023\Examples\VS2015 C++\libdaq" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _WINDOWS /D WIN32 /D NDEBUG /D _CRT_SECURE_NO_WARNINGS /D _AFXDLL /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\LSApp.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\include" /ID:\soft\DAQ\Common\libdaq\include /I"D:\soft\DAQ\USB4020_4021_4022_4023\Examples\VS2015 C++\libdaq" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _WINDOWS /D WIN32 /D NDEBUG /D _CRT_SECURE_NO_WARNINGS /D _AFXDLL /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\LSApp.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt a4aInterface.cpp AlogriSettins.cpp AudioAlgorithm.cpp audiodeals.cpp BlueComm.cpp BlueEreTest.cpp BlueTestD.cpp CaculateSet.cpp CalibInput.cpp Calibration.cpp CalibrOutput.cpp CardDlg.cpp CardSeting.cpp ChildFrm.cpp ClassView.cpp CLSID.cpp CyclesTestSet.cpp DataShow.cpp DeviceManage.cpp DeviceSet.cpp DrawWaveformBitmap.cpp FileView.cpp FrSettings.cpp FrTest.cpp Geyin.cpp InputDialg.cpp JiLiSet.cpp JiLiSetNewVersion.cpp LineBorderSetingItem.cpp Lmd.cpp LSApp.cpp LSAppDoc.cpp LSAppView.cpp MainFrm.cpp MyButton.cpp MyComboBox.cpp MYcontrol2.cpp MyDlg.cpp MyGroupBox.cpp OutputWnd.cpp Phase.cpp PlayRecordSettings.cpp PropertiesWnd.cpp RbSettings.cpp RubZ.cpp RuiSenCard.cpp Sensitivity.cpp SplashThread.cpp SPT.cpp StartPage.cpp TestASIUO.cpp TestBorderLineSettings.cpp TestRME.cpp Thd.cpp ThdN.cpp ThdSettings.cpp USB4431.cpp ViewTree.cpp wavHandler.cpp
+         a4aInterface.cpp
+         AlogriSettins.cpp
+         AudioAlgorithm.cpp
+     1>AudioAlgorithm.cpp(70): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>AudioAlgorithm.cpp(72): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>AudioAlgorithm.cpp(78): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>AudioAlgorithm.cpp(115): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>AudioAlgorithm.cpp(115): warning C4244: “参数”: 从“double”转换到“uint32”，可能丢失数据
+     1>AudioAlgorithm.cpp(214): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         audiodeals.cpp
+         BlueComm.cpp
+     1>BlueComm.cpp(90): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>BlueComm.cpp(258): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>BlueComm.cpp(269): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>BlueComm.cpp(284): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>BlueComm.cpp(297): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>BlueComm.cpp(356): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>BlueComm.cpp(407): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>BlueComm.cpp(422): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>BlueComm.cpp(469): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>BlueComm.cpp(482): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>BlueComm.cpp(502): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>BlueComm.cpp(516): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>BlueComm.cpp(537): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>BlueComm.cpp(551): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>BlueComm.cpp(578): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+         BlueEreTest.cpp
+     1>BlueEreTest.cpp(984): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1020): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1229): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1230): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1233): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1234): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1235): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1338): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1339): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1351): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1352): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1353): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1460): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1461): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1470): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1471): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1472): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1566): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1567): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1580): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1581): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1582): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1661): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1662): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1675): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1676): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1677): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1899): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(1989): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BlueEreTest.cpp(2003): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         BlueTestD.cpp
+     1>BlueTestD.cpp(679): warning C4101: “ap”: 未引用的局部变量
+     1>BlueTestD.cpp(1042): warning C4101: “ap”: 未引用的局部变量
+     1>BlueTestD.cpp(1098): warning C4267: “=”: 从“size_t”转换到“LONG”，可能丢失数据
+     1>BlueTestD.cpp(1099): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>BlueTestD.cpp(1101): warning C4267: “=”: 从“size_t”转换到“LONG”，可能丢失数据
+     1>BlueTestD.cpp(1102): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>BlueTestD.cpp(1119): warning C4267: “=”: 从“size_t”转换到“LONG”，可能丢失数据
+     1>BlueTestD.cpp(1120): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>BlueTestD.cpp(1122): warning C4267: “=”: 从“size_t”转换到“LONG”，可能丢失数据
+     1>BlueTestD.cpp(1123): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>BlueTestD.cpp(1171): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         CaculateSet.cpp
+         CalibInput.cpp
+     1>CalibInput.cpp(128): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>CalibInput.cpp(273): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>CalibInput.cpp(282): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>CalibInput.cpp(601): warning C4244: “初始化”: 从“DWORD_PTR”转换到“int”，可能丢失数据
+     1>CalibInput.cpp(781): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>CalibInput.cpp(784): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>CalibInput.cpp(789): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>CalibInput.cpp(791): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>CalibInput.cpp(810): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>CalibInput.cpp(934): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>CalibInput.cpp(462): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+                 CalibInput.cpp(268): 参见对正在编译的函数 模板 实例化“double CCalibInput::getAp<int>(T1 *,int,int,double)”的引用
+                 with
+                 [
+                     T1=int
+                 ]
+         Calibration.cpp
+         CalibrOutput.cpp
+     1>CalibrOutput.cpp(124): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>CalibrOutput.cpp(196): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>CalibrOutput.cpp(292): warning C4244: “初始化”: 从“DWORD_PTR”转换到“int”，可能丢失数据
+     1>CalibrOutput.cpp(492): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>CalibrOutput.cpp(509): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         CardDlg.cpp
+         CardSeting.cpp
+         ChildFrm.cpp
+         ClassView.cpp
+         CLSID.cpp
+         CyclesTestSet.cpp
+         DataShow.cpp
+     1>DataShow.cpp(382): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(393): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(394): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(449): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(457): warning C4244: “=”: 从“size_t”转换到“double”，可能丢失数据
+     1>DataShow.cpp(463): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataShow.cpp(472): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(480): warning C4244: “=”: 从“size_t”转换到“double”，可能丢失数据
+     1>DataShow.cpp(486): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataShow.cpp(491): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(511): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(519): warning C4244: “=”: 从“size_t”转换到“double”，可能丢失数据
+     1>DataShow.cpp(534): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(542): warning C4244: “=”: 从“size_t”转换到“double”，可能丢失数据
+     1>DataShow.cpp(568): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(582): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataShow.cpp(591): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(605): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataShow.cpp(647): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataShow.cpp(663): warning C4244: “参数”: 从“double”转换到“unsigned __int64”，可能丢失数据
+     1>DataShow.cpp(667): warning C4244: “参数”: 从“double”转换到“unsigned __int64”，可能丢失数据
+     1>DataShow.cpp(674): warning C4244: “参数”: 从“double”转换到“unsigned __int64”，可能丢失数据
+     1>DataShow.cpp(681): warning C4244: “参数”: 从“double”转换到“unsigned __int64”，可能丢失数据
+     1>DataShow.cpp(689): warning C4244: “参数”: 从“double”转换到“unsigned __int64”，可能丢失数据
+     1>DataShow.cpp(712): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataShow.cpp(781): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(782): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(793): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataShow.cpp(794): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(803): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataShow.cpp(849): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(850): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(862): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(870): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(881): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(889): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(930): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(931): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(940): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(941): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(998): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1013): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1158): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1163): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1172): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1177): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1213): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1214): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1215): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1216): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1221): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1222): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1260): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1315): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1319): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DataShow.cpp(1327): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         DeviceManage.cpp
+     1>DeviceManage.cpp(150): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DeviceManage.cpp(261): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DeviceManage.cpp(579): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>DeviceManage.cpp(587): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>DeviceManage.cpp(870): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DeviceManage.cpp(923): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>DeviceManage.cpp(1001): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>DeviceManage.cpp(1009): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>DeviceManage.cpp(1349): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>DeviceManage.cpp(1384): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DeviceManage.cpp(1404): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         DeviceSet.cpp
+     1>DeviceSet.cpp(60): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DeviceSet.cpp(61): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DeviceSet.cpp(84): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DeviceSet.cpp(85): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         正在编译...
+         DrawWaveformBitmap.cpp
+     1>DrawWaveformBitmap.cpp(55): warning C4267: “return”: 从“size_t”转换到“long”，可能丢失数据
+     1>DrawWaveformBitmap.cpp(891): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         FileView.cpp
+         FrSettings.cpp
+         FrTest.cpp
+     1>FrTest.cpp(75): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>FrTest.cpp(75): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>FrTest.cpp(76): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>FrTest.cpp(76): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         Geyin.cpp
+     1>Geyin.cpp(207): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(208): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(210): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(211): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(213): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(214): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(216): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(217): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(219): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(220): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(239): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>Geyin.cpp(242): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(242): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>Geyin.cpp(243): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(243): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>Geyin.cpp(332): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Geyin.cpp(333): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Geyin.cpp(373): warning C4244: “参数”: 从“double”转换到“uint32”，可能丢失数据
+     1>Geyin.cpp(401): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Geyin.cpp(409): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(596): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(595): warning C4101: “temp”: 未引用的局部变量
+     1>Geyin.cpp(638): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(637): warning C4101: “temp”: 未引用的局部变量
+     1>Geyin.cpp(696): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(778): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(834): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Geyin.cpp(1068): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         InputDialg.cpp
+         JiLiSet.cpp
+     1>JiLiSet.cpp(26): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSet.cpp(155): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSet.cpp(248): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSet.cpp(277): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSet.cpp(423): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSet.cpp(424): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSet.cpp(515): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSet.cpp(516): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSet.cpp(525): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSet.cpp(526): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         JiLiSetNewVersion.cpp
+     1>JiLiSetNewVersion.cpp(24): warning C4305: “初始化”: 从“double”到“float”截断
+     1>JiLiSetNewVersion.cpp(297): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(299): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(306): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(335): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(336): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(416): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(423): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(452): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(453): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(498): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(582): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(590): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(604): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(610): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(616): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(623): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(650): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(746): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>JiLiSetNewVersion.cpp(814): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         LineBorderSetingItem.cpp
+         Lmd.cpp
+         LSApp.cpp
+         LSAppDoc.cpp
+         LSAppView.cpp
+         MainFrm.cpp
+         MyButton.cpp
+     1>MyButton.cpp(139): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         MyComboBox.cpp
+         MYcontrol2.cpp
+     1>MYcontrol2.cpp(212): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MYcontrol2.cpp(263): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>MYcontrol2.cpp(290): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MYcontrol2.cpp(303): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>MYcontrol2.cpp(311): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>MYcontrol2.cpp(323): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>MYcontrol2.cpp(331): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>MYcontrol2.cpp(397): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MYcontrol2.cpp(497): warning C4244: “初始化”: 从“double”转换到“size_t”，可能丢失数据
+     1>MYcontrol2.cpp(546): warning C4244: “初始化”: 从“double”转换到“size_t”，可能丢失数据
+     1>MYcontrol2.cpp(588): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>MYcontrol2.cpp(595): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>MYcontrol2.cpp(601): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>MYcontrol2.cpp(607): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>MYcontrol2.cpp(613): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>MYcontrol2.cpp(619): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>MYcontrol2.cpp(625): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>MYcontrol2.cpp(632): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         MyDlg.cpp
+         MyGroupBox.cpp
+         OutputWnd.cpp
+         正在编译...
+         Phase.cpp
+     1>Phase.cpp(73): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Phase.cpp(73): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>Phase.cpp(74): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Phase.cpp(74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         PlayRecordSettings.cpp
+     1>PlayRecordSettings.cpp(204): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>PlayRecordSettings.cpp(232): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>PlayRecordSettings.cpp(258): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>PlayRecordSettings.cpp(271): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         PropertiesWnd.cpp
+         RbSettings.cpp
+     1>RbSettings.cpp(83): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         RubZ.cpp
+     1>RubZ.cpp(73): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>RubZ.cpp(73): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>RubZ.cpp(74): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>RubZ.cpp(74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         RuiSenCard.cpp
+         Sensitivity.cpp
+     1>Sensitivity.cpp(73): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Sensitivity.cpp(73): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>Sensitivity.cpp(74): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Sensitivity.cpp(74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         SplashThread.cpp
+         SPT.cpp
+         StartPage.cpp
+         TestASIUO.cpp
+     1>TestASIUO.cpp(502): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>TestASIUO.cpp(610): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestASIUO.cpp(628): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestASIUO.cpp(687): warning C4244: “参数”: 从“double”转换到“DWORD”，可能丢失数据
+     1>TestASIUO.cpp(845): warning C4101: “dd”: 未引用的局部变量
+     1>TestASIUO.cpp(927): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>TestASIUO.cpp(982): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>TestASIUO.cpp(1101): warning C4101: “wh”: 未引用的局部变量
+     1>TestASIUO.cpp(1165): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>TestASIUO.cpp(1167): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>TestASIUO.cpp(1170): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>TestASIUO.cpp(1177): warning C4244: “=”: 从“double”转换到“DWORD”，可能丢失数据
+     1>TestASIUO.cpp(1319): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>TestASIUO.cpp(1646): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
+     1>TestASIUO.cpp(1660): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
+     1>TestASIUO.cpp(1623): warning C4101: “info”: 未引用的局部变量
+     1>TestASIUO.cpp(1755): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
+     1>TestASIUO.cpp(1762): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
+     1>TestASIUO.cpp(1886): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
+     1>TestASIUO.cpp(1892): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
+     1>TestASIUO.cpp(1899): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
+     1>TestASIUO.cpp(1879): warning C4101: “info”: 未引用的局部变量
+     1>TestASIUO.cpp(2097): warning C4800: “HRESULT”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>TestASIUO.cpp(2115): warning C4800: “HRESULT”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>TestASIUO.cpp(2183): warning C4800: “HRESULT”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>TestASIUO.cpp(2201): warning C4800: “HRESULT”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>TestASIUO.cpp(2059): warning C4101: “tempstr”: 未引用的局部变量
+     1>TestASIUO.cpp(2342): warning C4244: “初始化”: 从“double”转换到“size_t”，可能丢失数据
+     1>TestASIUO.cpp(2345): warning C4244: “=”: 从“double”转换到“size_t”，可能丢失数据
+         TestBorderLineSettings.cpp
+     1>TestBorderLineSettings.cpp(343): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(348): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(364): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(369): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(389): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(394): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(404): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(409): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(459): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(460): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(469): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(475): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(476): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(477): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(478): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(503): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(518): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(558): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(559): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(567): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(571): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(572): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(573): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestBorderLineSettings.cpp(574): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         TestRME.cpp
+     1>TestRME.cpp(154): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestRME.cpp(154): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestRME.cpp(155): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TestRME.cpp(155): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         Thd.cpp
+     1>Thd.cpp(76): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Thd.cpp(76): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>Thd.cpp(77): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Thd.cpp(77): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         ThdN.cpp
+     1>ThdN.cpp(73): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>ThdN.cpp(73): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>ThdN.cpp(74): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>ThdN.cpp(74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         ThdSettings.cpp
+     1>ThdSettings.cpp(235): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         USB4431.cpp
+     1>USB4431.cpp(289): warning C4018: “>=”: 有符号/无符号不匹配
+         ViewTree.cpp
+         wavHandler.cpp
+     1>wavHandler.cpp(174): warning C4101: “iByts”: 未引用的局部变量
+     1>wavHandler.cpp(174): warning C4101: “iLength”: 未引用的局部变量
+       ResourceCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\rc.exe /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0804" /Ix64\Release\ /nologo /fo"x64\Release\LSApp.res" LSApp.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\LSApp-01\x64\Release\LSApp.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Projects\LSApp\lib "libfftw3-3.lib" "libfftw3f-3.lib" "libfftw3l-3.lib" libeng.lib libmat.lib libmex.lib libmx.lib mclmcr.lib mclmcrrt.lib Fr.lib daqlib.lib fftzcj.lib winmm.lib FrHarm.lib NIDAQmx.lib wav.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\Projects\LSApp-01\x64\Release\LSApp.pdb" /SUBSYSTEM:WINDOWS,"5.02" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"WinMian" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\LSApp-01\x64\Release\LSApp.lib" /MACHINE:X64 x64\Release\LSApp.res
+         x64\Release\a4aInterface.obj
+         x64\Release\AlogriSettins.obj
+         x64\Release\AudioAlgorithm.obj
+         x64\Release\audiodeals.obj
+         x64\Release\BlueComm.obj
+         x64\Release\BlueEreTest.obj
+         x64\Release\BlueTestD.obj
+         x64\Release\CaculateSet.obj
+         x64\Release\CalibInput.obj
+         x64\Release\Calibration.obj
+         x64\Release\CalibrOutput.obj
+         x64\Release\CardDlg.obj
+         x64\Release\CardSeting.obj
+         x64\Release\ChildFrm.obj
+         x64\Release\ClassView.obj
+         x64\Release\CLSID.obj
+         x64\Release\CyclesTestSet.obj
+         x64\Release\DataShow.obj
+         x64\Release\DeviceManage.obj
+         x64\Release\DeviceSet.obj
+         x64\Release\DrawWaveformBitmap.obj
+         x64\Release\FileView.obj
+         x64\Release\FrSettings.obj
+         x64\Release\FrTest.obj
+         x64\Release\Geyin.obj
+         x64\Release\InputDialg.obj
+         x64\Release\JiLiSet.obj
+         x64\Release\JiLiSetNewVersion.obj
+         x64\Release\LineBorderSetingItem.obj
+         x64\Release\Lmd.obj
+         x64\Release\LSApp.obj
+         x64\Release\LSAppDoc.obj
+         x64\Release\LSAppView.obj
+         x64\Release\MainFrm.obj
+         x64\Release\MyButton.obj
+         x64\Release\MyComboBox.obj
+         x64\Release\MYcontrol2.obj
+         x64\Release\MyDlg.obj
+         x64\Release\MyGroupBox.obj
+         x64\Release\OutputWnd.obj
+         x64\Release\Phase.obj
+         x64\Release\PlayRecordSettings.obj
+         x64\Release\PropertiesWnd.obj
+         x64\Release\RbSettings.obj
+         x64\Release\RubZ.obj
+         x64\Release\RuiSenCard.obj
+         x64\Release\Sensitivity.obj
+         x64\Release\SplashThread.obj
+         x64\Release\SPT.obj
+         x64\Release\StartPage.obj
+         x64\Release\stdafx.obj
+         x64\Release\TestASIUO.obj
+         x64\Release\TestBorderLineSettings.obj
+         x64\Release\TestRME.obj
+         x64\Release\Thd.obj
+         x64\Release\ThdN.obj
+         x64\Release\ThdSettings.obj
+         x64\Release\USB4431.obj
+         x64\Release\ViewTree.obj
+         x64\Release\wavHandler.obj
+     1>LINK : error LNK2001: 无法解析的外部符号 WinMian
+     1>D:\Projects\LSApp-01\x64\Release\LSApp.exe : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“D:\Projects\LSApp-01\LSApp.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:11.62

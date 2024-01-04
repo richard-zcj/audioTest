@@ -1,0 +1,540 @@
+[Version]
+CatalogFile=ysusb_w10.cat
+Signature="$Windows NT$"
+Class=MEDIA
+Provider=%Yamaha%
+ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
+DriverVer = 07/07/2022,2.1.0.0
+
+[SourceDisksNames]
+1="Yamaha Steinberg USB Driver Disk",,,
+
+[SourceDisksFiles.amd64]
+ysusb_w10_64.sys = 1
+
+[Manufacturer]
+%MfgName%=Yamaha,NTAMD64.7
+
+[Yamaha.NTAMD64.7]
+%USB\VID_0499&PID_1500.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1500
+%USB\VID_0499&PID_1501.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1501
+%USB\VID_0499&PID_1502.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1502
+%USB\VID_0499&PID_1503.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1503&MI_00
+%USB\VID_0499&PID_1504.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1504
+%USB\VID_0499&PID_1505.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1505
+%USB\VID_0499&PID_1506.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1506
+%USB\VID_0499&PID_1507.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1507
+%USB\VID_0499&PID_1508.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1508&MI_00
+%USB\VID_0499&PID_1509.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1509
+%USB\VID_0499&PID_150a.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_150a
+%USB\VID_0499&PID_150b.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_150b
+%USB\VID_0499&PID_150c.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_150c
+%USB\VID_0499&PID_150d.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_150d
+%USB\VID_0499&PID_150e.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_150e
+%USB\VID_0499&PID_150f.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_150f&MI_00
+%USB\VID_0499&PID_1510.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1510&MI_00
+%USB\VID_0499&PID_1511.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1511
+%USB\VID_0499&PID_1512.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1512
+%USB\VID_0499&PID_1513.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1513
+%USB\VID_0499&PID_1703.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1703&MI_00
+%USB\VID_0499&PID_1704.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1704
+%USB\VID_0499&PID_1705.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1705
+%USB\VID_0499&PID_1706.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1706
+%USB\VID_0499&PID_1707.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1707
+%USB\VID_0499&PID_1708.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1708
+%USB\VID_0499&PID_1709.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1709
+%USB\VID_0499&PID_170A.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_170A
+%USB\VID_0499&PID_170B.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_170B
+%USB\VID_0499&PID_170C.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_170C&MI_00
+%USB\VID_0499&PID_170D.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_170D
+%USB\VID_0499&PID_170E.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_170E&MI_00
+%USB\VID_0499&PID_170F.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_170F
+%USB\VID_0499&PID_1710.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1710
+%USB\VID_0499&PID_1711.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1711&MI_00
+%USB\VID_0499&PID_1712.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1712
+%USB\VID_0499&PID_1713.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1713
+%USB\VID_0499&PID_1714.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1714
+%USB\VID_0499&PID_1715.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1715
+%USB\VID_0499&PID_1716.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1716
+%USB\VID_0499&PID_1717.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1717
+%USB\VID_0499&PID_1718.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1718
+%USB\VID_0499&PID_1719.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1719
+%USB\VID_0499&PID_171A.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_171A
+%USB\VID_0499&PID_171B.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_171B
+%USB\VID_0499&PID_171C.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_171C
+%USB\VID_0499&PID_171D.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_171D
+%USB\VID_0499&PID_171E.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_171E
+%USB\VID_0499&PID_171F.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_171F
+%USB\VID_0499&PID_1720.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1720
+%USB\VID_0499&PID_1721.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1721
+%USB\VID_0499&PID_1722.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1722
+%USB\VID_0499&PID_1723.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1723
+%USB\VID_0499&PID_1724.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1724
+%USB\VID_0499&PID_1725.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1725
+%USB\VID_0499&PID_1726.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1726
+%USB\VID_0499&PID_1727.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1727
+%USB\VID_0499&PID_1728.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1728
+%USB\VID_0499&PID_1729.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1729
+%USB\VID_0499&PID_172A.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_172A
+%USB\VID_0499&PID_172B.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_172B
+%USB\VID_0499&PID_172C.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_172C
+%USB\VID_0499&PID_172D.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_172D
+%USB\VID_0499&PID_172E.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_172E
+%USB\VID_0499&PID_172F.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_172F
+%USB\VID_0499&PID_1730.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1730
+%USB\VID_0499&PID_1731.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1731
+%USB\VID_0499&PID_1732.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1732
+%USB\VID_0499&PID_1733.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1733
+%USB\VID_0499&PID_1734.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1734
+%USB\VID_0499&PID_1735.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1735
+%USB\VID_0499&PID_1736.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1736
+%USB\VID_0499&PID_1737.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1737
+%USB\VID_0499&PID_1738.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1738
+%USB\VID_0499&PID_1739.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1739
+%USB\VID_0499&PID_173A.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_173A
+%USB\VID_0499&PID_173B.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_173B
+%USB\VID_0499&PID_173C.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_173C
+%USB\VID_0499&PID_173D.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_173D
+%USB\VID_0499&PID_173E.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_173E
+%USB\VID_0499&PID_173F.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_173F
+%USB\VID_0499&PID_1740.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1740
+%USB\VID_0499&PID_1741.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1741
+%USB\VID_0499&PID_1742.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1742
+%USB\VID_0499&PID_1743.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1743
+%USB\VID_0499&PID_1744.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1744
+%USB\VID_0499&PID_1745.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1745
+%USB\VID_0499&PID_1746.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1746
+%USB\VID_0499&PID_1747.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1747
+%USB\VID_0499&PID_1748.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1748
+%USB\VID_0499&PID_1749.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1749
+%USB\VID_0499&PID_174A.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_174A
+%USB\VID_0499&PID_174B.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_174B
+%USB\VID_0499&PID_174C.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_174C
+%USB\VID_0499&PID_174D.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_174D
+%USB\VID_0499&PID_174E.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_174E
+%USB\VID_0499&PID_174F.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_174F
+%USB\VID_0499&PID_1750.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1750
+%USB\VID_0499&PID_1751.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1751
+%USB\VID_0499&PID_1752.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1752
+%USB\VID_0499&PID_1753.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1753
+%USB\VID_0499&PID_1754.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1754
+%USB\VID_0499&PID_1755.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1755
+%USB\VID_0499&PID_1756.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1756
+%USB\VID_0499&PID_1757.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_1757
+%USB\VID_0499&PID_175B.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_175B&MI_00
+%USB\VID_0499&PID_175D.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_175D
+%USB\VID_0499&PID_3111.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_3111&MI_00
+%USB\VID_0499&PID_317E.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_317E&MI_00
+%USB\VID_0499&PID_317F.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_317F&MI_00
+%USB\VID_0499&PID_3180.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_3180&MI_00
+%USB\VID_0499&PID_5500.DeviceDesc%=Ysusb.Dev, USB\VID_0499&PID_5500
+%USB\VID_08BB&PID_2900.DeviceDesc%=Ysusb.Dev, USB\VID_08BB&PID_2900&MI_00
+%USB\VID_08BB&PID_2904.DeviceDesc%=Ysusb.Dev, USB\VID_08BB&PID_2904&MI_00
+%USB\VID_08BB&PID_29B0.DeviceDesc%=Ysusb.Dev, USB\VID_08BB&PID_29B0&MI_00
+%USB\VID_08BB&PID_29B6.DeviceDesc%=Ysusb.Dev, USB\VID_08BB&PID_29B6&MI_00
+%USB\VID_08BB&PID_29C6.DeviceDesc%=Ysusb.Dev, USB\VID_08BB&PID_29C6&MI_00
+
+%USB\VID_0499&PID_170C.Composite.DeviceDesc%=YsusbComposite.Dev, USB\VID_0499&PID_170C
+%USB\VID_0499&PID_1711.Composite.DeviceDesc%=YsusbComposite.Dev, USB\VID_0499&PID_1711
+%USB\VID_0499&PID_175B.Composite.DeviceDesc%=YsusbComposite.Dev, USB\VID_0499&PID_175B
+
+[DestinationDirs]
+Ysusb.NTAMD64.CopyList=10,system32\drivers
+
+[Ysusb.Dev.NTAMD64]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration, WDMAUDIO.Registration
+CopyFiles=Ysusb.NTAMD64.CopyList
+AddReg=Ysusb.NTAMD64.AddReg
+
+[Ysusb.Dev.NTAMD64.HW]
+AddReg=Ysusb.NTAMD64.HW.AddReg
+
+[Ysusb.Dev.NTAMD64.Services]
+AddService=ysusb_w10_64,0x00000002,Ysusb.NTAMD64.AddService
+
+[Ysusb.Dev.NTAMD64.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,Ysusb.I.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,Ysusb.I.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,Ysusb.I.Wave
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDI0%,Ysusb.I.MIDI0
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDI0%,Ysusb.I.MIDI0
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDI0%,Ysusb.I.MIDI0
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDI1%,Ysusb.I.MIDI1
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDI1%,Ysusb.I.MIDI1
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDI1%,Ysusb.I.MIDI1
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDI2%,Ysusb.I.MIDI2
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDI2%,Ysusb.I.MIDI2
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDI2%,Ysusb.I.MIDI2
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDI3%,Ysusb.I.MIDI3
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDI3%,Ysusb.I.MIDI3
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDI3%,Ysusb.I.MIDI3
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDI4%,Ysusb.I.MIDI4
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDI4%,Ysusb.I.MIDI4
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDI4%,Ysusb.I.MIDI4
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDI5%,Ysusb.I.MIDI5
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDI5%,Ysusb.I.MIDI5
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDI5%,Ysusb.I.MIDI5
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDI6%,Ysusb.I.MIDI6
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDI6%,Ysusb.I.MIDI6
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDI6%,Ysusb.I.MIDI6
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDI7%,Ysusb.I.MIDI7
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDI7%,Ysusb.I.MIDI7
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDI7%,Ysusb.I.MIDI7
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDI8%,Ysusb.I.MIDI8
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDI8%,Ysusb.I.MIDI8
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDI8%,Ysusb.I.MIDI8
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDI9%,Ysusb.I.MIDI9
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDI9%,Ysusb.I.MIDI9
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDI9%,Ysusb.I.MIDI9
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDIa%,Ysusb.I.MIDIa
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDIa%,Ysusb.I.MIDIa
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDIa%,Ysusb.I.MIDIa
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDIb%,Ysusb.I.MIDIb
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDIb%,Ysusb.I.MIDIb
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDIb%,Ysusb.I.MIDIb
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDIc%,Ysusb.I.MIDIc
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDIc%,Ysusb.I.MIDIc
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDIc%,Ysusb.I.MIDIc
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDId%,Ysusb.I.MIDId
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDId%,Ysusb.I.MIDId
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDId%,Ysusb.I.MIDId
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDIe%,Ysusb.I.MIDIe
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDIe%,Ysusb.I.MIDIe
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDIe%,Ysusb.I.MIDIe
+AddInterface=%KSCATEGORY_AUDIO%   ,%KSNAME_MIDIf%,Ysusb.I.MIDIf
+AddInterface=%KSCATEGORY_RENDER%  ,%KSNAME_MIDIf%,Ysusb.I.MIDIf
+AddInterface=%KSCATEGORY_CAPTURE%, %KSNAME_MIDIf%,Ysusb.I.MIDIf
+
+[Ysusb.NTAMD64.CopyList]
+ysusb_w10_64.sys
+
+[Ysusb.NTAMD64.AddReg]
+HKR,,AssociatedFilters,,"wdmaud,swmidi,redbook"
+HKR,,Driver,,ysusb_w10_64.sys
+HKR,,NTMPDriver,,"ysusb_w10_64.sys,sbemul.sys"
+
+HKR,Drivers,SubClasses,,"wave,midi,mixer"
+
+HKR,Drivers\wave\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\midi\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\mixer\wdmaud.drv,Driver,,wdmaud.drv
+
+HKR,Drivers\wave\wdmaud.drv,Description,,%Ysusb.DeviceDesc%
+HKR,Drivers\midi\wdmaud.drv,Description,,%Ysusb_MIDI%
+HKR,Drivers\mixer\wdmaud.drv,Description,,%Ysusb.DeviceDesc%
+
+;HKLM,%MediaCategories%\%Ysusb.NameGuid%,Name,,%Ysusb.Name%
+
+HKR,Settings,InMute,0x00010001,0
+HKR,Settings,OutMute,0x00010001,0
+HKR,Settings,InVolume,0x00010001,0
+HKR,Settings,OutVolume,0x00010001,0
+
+[Ysusb.NTAMD64.AddService]
+DisplayName=%Ysusb.SvcDesc%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%10%\system32\drivers\ysusb_w10_64.sys
+
+[Ysusb.NTAMD64.HW.AddReg]
+HKR,,FriendlyName,,%Ysusb.Name%
+
+[Ysusb.NTAMD64.HW.DelReg]
+HKR,,FriendlyName
+
+[Ysusb.I.Wave]
+AddReg=Ysusb.I.Wave.AddReg
+[Ysusb.I.Wave.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.Wave.szPname%
+
+[Ysusb.I.MIDI0]
+AddReg=Ysusb.I.MIDI0.AddReg
+[Ysusb.I.MIDI0.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDI0.szPname%
+
+[Ysusb.I.MIDI1]
+AddReg=Ysusb.I.MIDI1.AddReg
+[Ysusb.I.MIDI1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDI1.szPname%
+
+[Ysusb.I.MIDI2]
+AddReg=Ysusb.I.MIDI2.AddReg
+[Ysusb.I.MIDI2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDI2.szPname%
+
+[Ysusb.I.MIDI3]
+AddReg=Ysusb.I.MIDI3.AddReg
+[Ysusb.I.MIDI3.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDI3.szPname%
+
+[Ysusb.I.MIDI4]
+AddReg=Ysusb.I.MIDI4.AddReg
+[Ysusb.I.MIDI4.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDI4.szPname%
+
+[Ysusb.I.MIDI5]
+AddReg=Ysusb.I.MIDI5.AddReg
+[Ysusb.I.MIDI5.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDI5.szPname%
+
+[Ysusb.I.MIDI6]
+AddReg=Ysusb.I.MIDI6.AddReg
+[Ysusb.I.MIDI6.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDI6.szPname%
+
+[Ysusb.I.MIDI7]
+AddReg=Ysusb.I.MIDI7.AddReg
+[Ysusb.I.MIDI7.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDI7.szPname%
+
+[Ysusb.I.MIDI8]
+AddReg=Ysusb.I.MIDI8.AddReg
+[Ysusb.I.MIDI8.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDI8.szPname%
+
+[Ysusb.I.MIDI9]
+AddReg=Ysusb.I.MIDI9.AddReg
+[Ysusb.I.MIDI9.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDI9.szPname%
+
+[Ysusb.I.MIDIa]
+AddReg=Ysusb.I.MIDIa.AddReg
+[Ysusb.I.MIDIa.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDIa.szPname%
+
+[Ysusb.I.MIDIb]
+AddReg=Ysusb.I.MIDIb.AddReg
+[Ysusb.I.MIDIb.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDIb.szPname%
+
+[Ysusb.I.MIDIc]
+AddReg=Ysusb.I.MIDIc.AddReg
+[Ysusb.I.MIDIc.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDIc.szPname%
+
+[Ysusb.I.MIDId]
+AddReg=Ysusb.I.MIDId.AddReg
+[Ysusb.I.MIDId.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDId.szPname%
+
+[Ysusb.I.MIDIe]
+AddReg=Ysusb.I.MIDIe.AddReg
+[Ysusb.I.MIDIe.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDIe.szPname%
+
+[Ysusb.I.MIDIf]
+AddReg=Ysusb.I.MIDIf.AddReg
+[Ysusb.I.MIDIf.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Ysusb.MIDIf.szPname%
+
+[YsusbComposite.Dev.NT]
+Include=usb.inf
+Needs=Composite.Dev.NT
+
+[YsusbComposite.Dev.NT.HW]
+AddReg=YsusbComposite.NT.HW.AddReg
+
+[YsusbComposite.Dev.NT.Services]
+Include=usb.inf
+Needs=Composite.Dev.NT.Services
+
+[YsusbComposite.NT.HW.AddReg]
+HKR,,OriginalConfigurationValue,0x00010001,1
+HKR,,AltConfigurationValue,0x00010001,0
+
+[Strings]
+Yamaha="Yamaha Corporation."
+MfgName="Yamaha Corporation."
+Ysusb.DeviceDesc="Yamaha Steinberg USB Audio"
+
+USB\VID_0499&PID_1500.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1501.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1502.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1503.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1504.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1505.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1506.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1507.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1508.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1509.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_150a.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_150b.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_150c.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_150d.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_150e.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_150f.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1510.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1511.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1512.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1513.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1703.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1704.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1705.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1706.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1707.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1708.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1709.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_170A.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_170B.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_170C.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_170D.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_170E.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_170F.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1710.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1711.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1712.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1713.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1714.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1715.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1716.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1717.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1718.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1719.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_171A.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_171B.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_171C.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_171D.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_171E.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_171F.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1720.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1721.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1722.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1723.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1724.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1725.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1726.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1727.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1728.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1729.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_172A.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_172B.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_172C.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_172D.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_172E.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_172F.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1730.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1731.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1732.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1733.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1734.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1735.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1736.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1737.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1738.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1739.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_173A.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_173B.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_173C.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_173D.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_173E.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_173F.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1740.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1741.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1742.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1743.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1744.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1745.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1746.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1747.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1748.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1749.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_174A.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_174B.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_174C.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_174D.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_174E.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_174F.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1750.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1751.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1752.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1753.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1754.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1755.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1756.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_1757.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_175B.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_175D.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_3111.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_317E.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_317F.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_3180.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_0499&PID_5500.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_08BB&PID_2900.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_08BB&PID_2904.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_08BB&PID_29B0.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_08BB&PID_29B6.DeviceDesc="Yamaha Steinberg USB Audio"
+USB\VID_08BB&PID_29C6.DeviceDesc="Yamaha Steinberg USB Audio"
+
+USB\VID_0499&PID_170C.Composite.DeviceDesc="Yamaha Steinberg USB Composite Device"
+USB\VID_0499&PID_1711.Composite.DeviceDesc="Yamaha Steinberg USB Composite Device"
+USB\VID_0499&PID_175B.Composite.DeviceDesc="Yamaha Steinberg USB Composite Device"
+
+Ysusb.Wave.szPname="Yamaha Steinberg USB Audio"
+Ysusb_MIDI="Yamaha Steinberg USB MIDI"
+
+Proxy.CLSID="{17CCA71B-ECD7-11D0-B908-00A0C9223196}"
+KSCATEGORY_AUDIO="{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSCATEGORY_RENDER="{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_CAPTURE="{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+
+KSNAME_Wave="Wave"
+
+Ysusb.SvcDesc="Yamaha Steinberg USB Audio"
+
+MediaCategories="SYSTEM\CurrentControlSet\Control\MediaCategories"
+
+;Ysusb.NameGuid="{795F396C-254B-4724-B1CD-2F3ADB3781CF}"
+Ysusb.Name="Yamaha Steinberg USB Audio"
+
+KSNAME_MIDI0="MIDI0"
+KSNAME_MIDI1="MIDI1"
+KSNAME_MIDI2="MIDI2"
+KSNAME_MIDI3="MIDI3"
+KSNAME_MIDI4="MIDI4"
+KSNAME_MIDI5="MIDI5"
+KSNAME_MIDI6="MIDI6"
+KSNAME_MIDI7="MIDI7"
+KSNAME_MIDI8="MIDI8"
+KSNAME_MIDI9="MIDI9"
+KSNAME_MIDIa="MIDIa"
+KSNAME_MIDIb="MIDIb"
+KSNAME_MIDIc="MIDIc"
+KSNAME_MIDId="MIDId"
+KSNAME_MIDIe="MIDIe"
+KSNAME_MIDIf="MIDIf"
+
+Ysusb.MIDI0.szPname="Yamaha Steinberg USB-MIDI-1"
+Ysusb.MIDI1.szPname="Yamaha Steinberg USB-MIDI-2"
+Ysusb.MIDI2.szPname="Yamaha Steinberg USB-MIDI-3"
+Ysusb.MIDI3.szPname="Yamaha Steinberg USB-MIDI-4"
+Ysusb.MIDI4.szPname="Yamaha Steinberg USB-MIDI-5"
+Ysusb.MIDI5.szPname="Yamaha Steinberg USB-MIDI-6"
+Ysusb.MIDI6.szPname="Yamaha Steinberg USB-MIDI-7"
+Ysusb.MIDI7.szPname="Yamaha Steinberg USB-MIDI-8"
+Ysusb.MIDI8.szPname="Yamaha Steinberg USB-MIDI-9"
+Ysusb.MIDI9.szPname="Yamaha Steinberg USB-MIDI-10"
+Ysusb.MIDIa.szPname="Yamaha Steinberg USB-MIDI-11"
+Ysusb.MIDIb.szPname="Yamaha Steinberg USB-MIDI-12"
+Ysusb.MIDIc.szPname="Yamaha Steinberg USB-MIDI-13"
+Ysusb.MIDId.szPname="Yamaha Steinberg USB-MIDI-14"
+Ysusb.MIDIe.szPname="Yamaha Steinberg USB-MIDI-15"
+Ysusb.MIDIf.szPname="Yamaha Steinberg USB-MIDI-16"

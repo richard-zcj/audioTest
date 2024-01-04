@@ -1,0 +1,1189 @@
+10:24:23.535 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+10:24:23.535 [Debug] - MES Login Start...
+10:24:23.536 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+10:24:28.549 [Error] - Post失败：响应数据为空
+10:24:28.550 [Debug] - MES Login End.
+10:24:30.966 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+10:24:30.967 [Debug] - MES Login Start...
+10:24:30.967 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+10:24:35.969 [Error] - Post失败：响应数据为空
+10:24:35.976 [Debug] - MES Login End.
+10:24:37.902 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+10:24:37.902 [Debug] - MES Login Start...
+10:24:37.903 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+10:24:42.908 [Error] - Post失败：响应数据为空
+10:24:42.910 [Debug] - MES Login End.
+10:25:31.567 [Debug] - MES Check Route Start...
+10:25:31.568 [Error] - MES路由检查接口异常：token为空
+10:25:31.568 [Debug] - MES Check Route End.
+10:25:33.841 [Debug] - MES Check Route Start...
+10:25:33.842 [Error] - MES路由检查接口异常：token为空
+10:25:33.842 [Debug] - MES Check Route End.
+10:25:34.596 [Debug] - MES Check Route Start...
+10:25:34.597 [Error] - MES路由检查接口异常：token为空
+10:25:34.597 [Debug] - MES Check Route End.
+10:25:35.081 [Debug] - MES Check Route Start...
+10:25:35.081 [Error] - MES路由检查接口异常：token为空
+10:25:35.081 [Debug] - MES Check Route End.
+10:25:57.573 [Debug] - MES Check Route Start...
+10:25:57.573 [Error] - MES路由检查接口异常：token为空
+10:25:57.573 [Debug] - MES Check Route End.
+10:25:59.182 [Debug] - MES Check Route Start...
+10:25:59.183 [Error] - MES路由检查接口异常：token为空
+10:25:59.183 [Debug] - MES Check Route End.
+10:25:59.614 [Debug] - MES Check Route Start...
+10:25:59.614 [Error] - MES路由检查接口异常：token为空
+10:25:59.614 [Debug] - MES Check Route End.
+10:26:00.029 [Debug] - MES Check Route Start...
+10:26:00.029 [Error] - MES路由检查接口异常：token为空
+10:26:00.029 [Debug] - MES Check Route End.
+10:26:12.231 [Debug] - MES Upload Data Start...
+10:26:12.232 [Error] - MES上传数据接口异常：token为空
+10:26:12.232 [Debug] - MES Update Data End.
+10:30:11.591 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+10:30:11.591 [Debug] - MES Login Start...
+10:30:11.591 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+10:30:11.610 Post成功
+10:30:11.610 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"159ed2b6-d46b-4cc7-9aa5-0cccd0d3ae7a","loginMark":"ATE_256_YPCS_L01_01"}}}
+10:30:11.611 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"159ed2b6-d46b-4cc7-9aa5-0cccd0d3ae7a","loginMark":"ATE_256_YPCS_L01_01"}}})...
+10:30:11.611 [Debug] - code: 200, info: 响应成功
+10:30:11.612 [Debug] - data->userinfo->RealName: 伍先仪, token: 159ed2b6-d46b-4cc7-9aa5-0cccd0d3ae7a, loginMark: ATE_256_YPCS_L01_01
+10:30:11.612 解析登录响应数据成功
+10:30:11.612 MES登录接口执行成功
+10:30:11.612 [Debug] - MES Login End.
+10:30:56.205 [Debug] - MES Check Route Start...
+10:30:56.206 [Debug] - MES Check Route Url: http://192.168.128.15:30000/api/checkroute?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":""}&loginmark=ATE_256_YPCS_L01_01&token=159ed2b6-d46b-4cc7-9aa5-0cccd0d3ae7a
+10:30:56.269 Post成功
+10:30:56.270 [Debug] - MES路由检查接口响应数据: {"code":500,"info":":序列号不存在!->User-Defined Exception","data":null}
+10:30:56.271 [Debug] - 开始解析路由检查响应数据({"code":500,"info":":序列号不存在!->User-Defined Exception","data":null})...
+10:30:56.272 [Debug] - code: 500, info: :序列号不存在!->User-Defined Exception
+10:30:56.273 [Error] - 路由检查响应错误：:序列号不存在!->User-Defined Exception(状态码：500)
+10:30:56.274 [Debug] - MES Check Route End.
+10:31:04.624 [Debug] - MES Check Route Start...
+10:31:04.624 [Debug] - MES Check Route Url: http://192.168.128.15:30000/api/checkroute?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":""}&loginmark=ATE_256_YPCS_L01_01&token=159ed2b6-d46b-4cc7-9aa5-0cccd0d3ae7a
+10:31:04.638 Post成功
+10:31:04.639 [Debug] - MES路由检查接口响应数据: {"code":500,"info":":序列号不存在!->User-Defined Exception","data":null}
+10:31:04.639 [Debug] - 开始解析路由检查响应数据({"code":500,"info":":序列号不存在!->User-Defined Exception","data":null})...
+10:31:04.639 [Debug] - code: 500, info: :序列号不存在!->User-Defined Exception
+10:31:04.640 [Error] - 路由检查响应错误：:序列号不存在!->User-Defined Exception(状态码：500)
+10:31:04.640 [Debug] - MES Check Route End.
+10:31:05.400 [Debug] - MES Check Route Start...
+10:31:05.401 [Debug] - MES Check Route Url: http://192.168.128.15:30000/api/checkroute?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000123"}&loginmark=ATE_256_YPCS_L01_01&token=159ed2b6-d46b-4cc7-9aa5-0cccd0d3ae7a
+10:31:05.421 Post成功
+10:31:05.422 [Debug] - MES路由检查接口响应数据: {"code":500,"info":"产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined Exception","data":null}
+10:31:05.422 [Debug] - 开始解析路由检查响应数据({"code":500,"info":"产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined Exception","data":null})...
+10:31:05.422 [Debug] - code: 500, info: 产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined Exception
+10:31:05.423 [Error] - 路由检查响应错误：产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined Exception(状态码：500)
+10:31:05.423 [Debug] - MES Check Route End.
+10:31:05.912 [Debug] - MES Check Route Start...
+10:31:05.912 [Debug] - MES Check Route Url: http://192.168.128.15:30000/api/checkroute?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":""}&loginmark=ATE_256_YPCS_L01_01&token=159ed2b6-d46b-4cc7-9aa5-0cccd0d3ae7a
+10:31:05.923 Post成功
+10:31:05.923 [Debug] - MES路由检查接口响应数据: {"code":500,"info":":序列号不存在!->User-Defined Exception","data":null}
+10:31:05.924 [Debug] - 开始解析路由检查响应数据({"code":500,"info":":序列号不存在!->User-Defined Exception","data":null})...
+10:31:05.924 [Debug] - code: 500, info: :序列号不存在!->User-Defined Exception
+10:31:05.924 [Error] - 路由检查响应错误：:序列号不存在!->User-Defined Exception(状态码：500)
+10:31:05.924 [Debug] - MES Check Route End.
+10:31:28.974 [Debug] - MES Check Route Start...
+10:31:28.974 [Debug] - MES Check Route Url: http://192.168.128.15:30000/api/checkroute?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":""}&loginmark=ATE_256_YPCS_L01_01&token=159ed2b6-d46b-4cc7-9aa5-0cccd0d3ae7a
+10:31:28.998 Post成功
+10:31:28.999 [Debug] - MES路由检查接口响应数据: {"code":500,"info":":序列号不存在!->User-Defined Exception","data":null}
+10:31:28.999 [Debug] - 开始解析路由检查响应数据({"code":500,"info":":序列号不存在!->User-Defined Exception","data":null})...
+10:31:28.999 [Debug] - code: 500, info: :序列号不存在!->User-Defined Exception
+10:31:28.999 [Error] - 路由检查响应错误：:序列号不存在!->User-Defined Exception(状态码：500)
+10:31:29.000 [Debug] - MES Check Route End.
+10:31:32.293 [Debug] - MES Check Route Start...
+10:31:32.293 [Debug] - MES Check Route Url: http://192.168.128.15:30000/api/checkroute?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":""}&loginmark=ATE_256_YPCS_L01_01&token=159ed2b6-d46b-4cc7-9aa5-0cccd0d3ae7a
+10:31:32.307 Post成功
+10:31:32.308 [Debug] - MES路由检查接口响应数据: {"code":500,"info":":序列号不存在!->User-Defined Exception","data":null}
+10:31:32.308 [Debug] - 开始解析路由检查响应数据({"code":500,"info":":序列号不存在!->User-Defined Exception","data":null})...
+10:31:32.308 [Debug] - code: 500, info: :序列号不存在!->User-Defined Exception
+10:31:32.308 [Error] - 路由检查响应错误：:序列号不存在!->User-Defined Exception(状态码：500)
+10:31:32.309 [Debug] - MES Check Route End.
+10:31:32.924 [Debug] - MES Check Route Start...
+10:31:32.924 [Debug] - MES Check Route Url: http://192.168.128.15:30000/api/checkroute?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000123"}&loginmark=ATE_256_YPCS_L01_01&token=159ed2b6-d46b-4cc7-9aa5-0cccd0d3ae7a
+10:31:32.944 Post成功
+10:31:32.944 [Debug] - MES路由检查接口响应数据: {"code":500,"info":"产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined Exception","data":null}
+10:31:32.944 [Debug] - 开始解析路由检查响应数据({"code":500,"info":"产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined Exception","data":null})...
+10:31:32.945 [Debug] - code: 500, info: 产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined Exception
+10:31:32.945 [Error] - 路由检查响应错误：产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined Exception(状态码：500)
+10:31:32.945 [Debug] - MES Check Route End.
+10:31:33.903 [Debug] - MES Check Route Start...
+10:31:33.903 [Debug] - MES Check Route Url: http://192.168.128.15:30000/api/checkroute?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":""}&loginmark=ATE_256_YPCS_L01_01&token=159ed2b6-d46b-4cc7-9aa5-0cccd0d3ae7a
+10:31:33.934 Post成功
+10:31:33.936 [Debug] - MES路由检查接口响应数据: {"code":500,"info":":序列号不存在!->User-Defined Exception","data":null}
+10:31:33.936 [Debug] - 开始解析路由检查响应数据({"code":500,"info":":序列号不存在!->User-Defined Exception","data":null})...
+10:31:33.937 [Debug] - code: 500, info: :序列号不存在!->User-Defined Exception
+10:31:33.937 [Error] - 路由检查响应错误：:序列号不存在!->User-Defined Exception(状态码：500)
+10:31:33.937 [Debug] - MES Check Route End.
+10:31:36.609 [Debug] - MES Upload Data Start...
+10:31:36.609 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+10:31:36.610 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000123","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=159ed2b6-d46b-4cc7-9aa5-0cccd0d3ae7a
+10:31:36.647 Post成功
+10:31:36.647 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+10:31:36.647 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+10:31:36.647 [Debug] - code: 400, info: 701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+10:31:36.648 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:31:36.648 [Debug] - MES Update Data End.
+10:34:27.351 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+10:34:27.351 [Debug] - MES Login Start...
+10:34:27.352 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+10:34:27.397 Post成功
+10:34:27.397 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"c6bfd453-d765-471a-998f-700503f05d4c","loginMark":"ATE_256_YPCS_L01_01"}}}
+10:34:27.398 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"c6bfd453-d765-471a-998f-700503f05d4c","loginMark":"ATE_256_YPCS_L01_01"}}})...
+10:34:27.398 [Debug] - code: 200, info: 响应成功
+10:34:27.399 [Debug] - data->userinfo->RealName: 伍先仪, token: c6bfd453-d765-471a-998f-700503f05d4c, loginMark: ATE_256_YPCS_L01_01
+10:34:27.400 解析登录响应数据成功
+10:34:27.400 MES登录接口执行成功
+10:34:27.401 [Debug] - MES Login End.
+10:36:00.406 [Debug] - MES Upload Data Start...
+10:36:00.407 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+10:36:00.407 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000123","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=c6bfd453-d765-471a-998f-700503f05d4c
+10:36:00.455 Post成功
+10:36:00.456 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+10:36:00.457 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+10:36:00.457 [Debug] - code: 400, info: 701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+10:36:00.457 [Error] - 上传响应错误：701003483000123过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+10:36:00.458 [Debug] - MES Update Data End.
+11:24:12.439 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+11:24:12.440 [Debug] - MES Login Start...
+11:24:12.440 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+11:24:17.452 [Error] - Post失败：响应数据为空
+11:24:17.453 [Debug] - MES Login End.
+11:29:16.775 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+11:29:16.776 [Debug] - MES Login Start...
+11:29:16.776 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+11:29:16.821 Post成功
+11:29:16.822 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"36c576c2-2292-4eb4-bb92-a49bf18baf7a","loginMark":"ATE_256_YPCS_L01_01"}}}
+11:29:16.823 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"36c576c2-2292-4eb4-bb92-a49bf18baf7a","loginMark":"ATE_256_YPCS_L01_01"}}})...
+11:29:16.823 [Debug] - code: 200, info: 响应成功
+11:29:16.824 [Debug] - data->userinfo->RealName: 伍先仪, token: 36c576c2-2292-4eb4-bb92-a49bf18baf7a, loginMark: ATE_256_YPCS_L01_01
+11:29:16.825 解析登录响应数据成功
+11:29:16.825 MES登录接口执行成功
+11:29:16.825 [Debug] - MES Login End.
+11:32:14.679 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+11:32:14.680 [Debug] - MES Login Start...
+11:32:14.680 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+11:32:14.722 Post成功
+11:32:14.722 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"f22f43a5-eaea-44a7-b8b7-37ad97e7fac3","loginMark":"ATE_256_YPCS_L01_01"}}}
+11:32:14.723 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"f22f43a5-eaea-44a7-b8b7-37ad97e7fac3","loginMark":"ATE_256_YPCS_L01_01"}}})...
+11:32:14.723 [Debug] - code: 200, info: 响应成功
+11:32:14.723 [Debug] - data->userinfo->RealName: 伍先仪, token: f22f43a5-eaea-44a7-b8b7-37ad97e7fac3, loginMark: ATE_256_YPCS_L01_01
+11:32:14.723 解析登录响应数据成功
+11:32:14.723 MES登录接口执行成功
+11:32:14.723 [Debug] - MES Login End.
+11:34:33.914 [Debug] - MES Upload Data Start...
+11:34:33.915 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+11:34:33.915 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f22f43a5-eaea-44a7-b8b7-37ad97e7fac3
+11:34:33.997 Post成功
+11:34:33.999 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+11:34:34.000 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+11:34:34.001 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+11:34:34.001 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:34:34.002 [Debug] - MES Update Data End.
+11:37:28.344 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+11:37:28.345 [Debug] - MES Login Start...
+11:37:28.345 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+11:37:28.391 Post成功
+11:37:28.392 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"8f21fd4e-5533-42fa-a897-e9e4b4904c92","loginMark":"ATE_256_YPCS_L01_01"}}}
+11:37:28.393 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"8f21fd4e-5533-42fa-a897-e9e4b4904c92","loginMark":"ATE_256_YPCS_L01_01"}}})...
+11:37:28.394 [Debug] - code: 200, info: 响应成功
+11:37:28.395 [Debug] - data->userinfo->RealName: 伍先仪, token: 8f21fd4e-5533-42fa-a897-e9e4b4904c92, loginMark: ATE_256_YPCS_L01_01
+11:37:28.396 解析登录响应数据成功
+11:37:28.396 MES登录接口执行成功
+11:37:28.397 [Debug] - MES Login End.
+11:39:14.669 [Debug] - MES Upload Data Start...
+11:39:14.670 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+11:39:14.670 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=8f21fd4e-5533-42fa-a897-e9e4b4904c92
+11:39:14.696 Post成功
+11:39:14.696 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+11:39:14.697 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+11:39:14.697 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+11:39:14.697 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:39:14.697 [Debug] - MES Update Data End.
+11:39:16.680 [Debug] - MES Upload Data Start...
+11:39:16.680 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+11:39:16.680 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=8f21fd4e-5533-42fa-a897-e9e4b4904c92
+11:39:16.713 Post成功
+11:39:16.714 [Debug] - MES上传数据接口响应数据: {"code":200,"info":"OK","data":{}}
+11:39:16.714 [Debug] - 开始解析上传响应数据({"code":200,"info":"OK","data":{}})...
+11:39:16.714 [Debug] - code: 200, info: OK
+11:39:16.715 解析上传响应数据成功
+11:39:16.715 MES上传数据接口执行成功
+11:39:16.715 [Debug] - MES Update Data End.
+11:39:16.718 [Debug] - MES Upload Data Start...
+11:39:16.718 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+11:39:16.718 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=8f21fd4e-5533-42fa-a897-e9e4b4904c92
+11:39:16.739 Post成功
+11:39:16.740 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+11:39:16.741 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+11:39:16.742 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+11:39:16.742 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:39:16.742 [Debug] - MES Update Data End.
+11:43:37.154 [Debug] - MES Upload Data Start...
+11:43:37.154 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+11:43:37.154 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=8f21fd4e-5533-42fa-a897-e9e4b4904c92
+11:43:37.205 Post成功
+11:43:37.205 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+11:43:37.206 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+11:43:37.206 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+11:43:37.207 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:43:37.207 [Debug] - MES Update Data End.
+11:43:38.742 [Debug] - MES Upload Data Start...
+11:43:38.742 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+11:43:38.742 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=8f21fd4e-5533-42fa-a897-e9e4b4904c92
+11:43:38.761 Post成功
+11:43:38.762 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+11:43:38.762 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+11:43:38.763 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+11:43:38.763 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:43:38.763 [Debug] - MES Update Data End.
+11:43:39.262 [Debug] - MES Upload Data Start...
+11:43:39.262 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+11:43:39.263 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=8f21fd4e-5533-42fa-a897-e9e4b4904c92
+11:43:39.283 Post成功
+11:43:39.283 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+11:43:39.284 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+11:43:39.284 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+11:43:39.284 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+11:43:39.284 [Debug] - MES Update Data End.
+12:10:42.112 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+12:10:42.112 [Debug] - MES Login Start...
+12:10:42.113 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+12:10:47.117 [Error] - Post失败：响应数据为空
+12:10:47.119 [Debug] - MES Login End.
+12:12:33.071 [Debug] - MES Upload Data Start...
+12:12:33.071 [Error] - MES上传数据接口异常：token为空
+12:12:33.072 [Debug] - MES Update Data End.
+12:12:36.039 [Debug] - MES Upload Data Start...
+12:12:36.040 [Error] - MES上传数据接口异常：token为空
+12:12:36.040 [Debug] - MES Update Data End.
+12:12:36.511 [Debug] - MES Upload Data Start...
+12:12:36.511 [Error] - MES上传数据接口异常：token为空
+12:12:36.511 [Debug] - MES Update Data End.
+12:20:25.108 [Debug] - MES Upload Data Start...
+12:20:25.108 [Error] - MES上传数据接口异常：token为空
+12:20:25.108 [Debug] - MES Update Data End.
+12:20:28.768 [Debug] - MES Upload Data Start...
+12:20:28.768 [Error] - MES上传数据接口异常：token为空
+12:20:28.768 [Debug] - MES Update Data End.
+12:20:29.205 [Debug] - MES Upload Data Start...
+12:20:29.205 [Error] - MES上传数据接口异常：token为空
+12:20:29.205 [Debug] - MES Update Data End.
+12:27:05.098 [Debug] - MES Upload Data Start...
+12:27:05.098 [Error] - MES上传数据接口异常：token为空
+12:27:05.098 [Debug] - MES Update Data End.
+12:32:11.520 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+12:32:11.521 [Debug] - MES Login Start...
+12:32:11.521 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+12:32:11.573 Post成功
+12:32:11.574 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"c78f6c59-4373-4dc6-bb1c-5d137828b38d","loginMark":"ATE_256_YPCS_L01_01"}}}
+12:32:11.575 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"c78f6c59-4373-4dc6-bb1c-5d137828b38d","loginMark":"ATE_256_YPCS_L01_01"}}})...
+12:32:11.576 [Debug] - code: 200, info: 响应成功
+12:32:11.577 [Debug] - data->userinfo->RealName: 伍先仪, token: c78f6c59-4373-4dc6-bb1c-5d137828b38d, loginMark: ATE_256_YPCS_L01_01
+12:32:11.577 解析登录响应数据成功
+12:32:11.577 MES登录接口执行成功
+12:32:11.577 [Debug] - MES Login End.
+12:35:37.120 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+12:35:37.120 [Debug] - MES Login Start...
+12:35:37.121 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+12:35:37.163 Post成功
+12:35:37.163 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"a47428ab-ed20-41da-b215-96898a51d0f1","loginMark":"ATE_256_YPCS_L01_01"}}}
+12:35:37.164 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"a47428ab-ed20-41da-b215-96898a51d0f1","loginMark":"ATE_256_YPCS_L01_01"}}})...
+12:35:37.164 [Debug] - code: 200, info: 响应成功
+12:35:37.164 [Debug] - data->userinfo->RealName: 伍先仪, token: a47428ab-ed20-41da-b215-96898a51d0f1, loginMark: ATE_256_YPCS_L01_01
+12:35:37.164 解析登录响应数据成功
+12:35:37.164 MES登录接口执行成功
+12:35:37.164 [Debug] - MES Login End.
+12:37:28.717 [Debug] - MES Upload Data Start...
+12:37:28.717 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+12:37:28.718 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=a47428ab-ed20-41da-b215-96898a51d0f1
+12:37:28.815 Post成功
+12:37:28.816 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+12:37:28.816 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+12:37:28.816 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+12:37:28.817 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:37:28.817 [Debug] - MES Update Data End.
+12:37:50.175 [Debug] - MES Upload Data Start...
+12:37:50.176 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+12:37:50.176 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=a47428ab-ed20-41da-b215-96898a51d0f1
+12:37:50.200 Post成功
+12:37:50.201 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+12:37:50.201 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+12:37:50.201 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+12:37:50.202 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:37:50.202 [Debug] - MES Update Data End.
+12:37:50.816 [Debug] - MES Upload Data Start...
+12:37:50.816 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+12:37:50.817 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=a47428ab-ed20-41da-b215-96898a51d0f1
+12:37:50.837 Post成功
+12:37:50.838 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+12:37:50.838 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+12:37:50.839 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+12:37:50.839 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:37:50.839 [Debug] - MES Update Data End.
+12:39:47.329 [Debug] - MES Upload Data Start...
+12:39:47.329 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+12:39:47.329 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=a47428ab-ed20-41da-b215-96898a51d0f1
+12:39:47.376 Post成功
+12:39:47.377 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+12:39:47.378 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+12:39:47.379 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+12:39:47.379 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:39:47.379 [Debug] - MES Update Data End.
+12:39:48.896 [Debug] - MES Upload Data Start...
+12:39:48.897 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+12:39:48.897 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=a47428ab-ed20-41da-b215-96898a51d0f1
+12:39:48.928 Post成功
+12:39:48.929 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+12:39:48.929 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+12:39:48.929 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+12:39:48.929 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:39:48.929 [Debug] - MES Update Data End.
+12:39:49.272 [Debug] - MES Upload Data Start...
+12:39:49.272 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+12:39:49.273 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=a47428ab-ed20-41da-b215-96898a51d0f1
+12:39:49.294 Post成功
+12:39:49.294 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+12:39:49.295 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+12:39:49.295 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+12:39:49.295 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:39:49.296 [Debug] - MES Update Data End.
+12:49:58.888 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+12:49:58.888 [Debug] - MES Login Start...
+12:49:58.888 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+12:49:58.935 Post成功
+12:49:58.936 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"13574fb6-912d-4202-bafa-de0f921a01e0","loginMark":"ATE_256_YPCS_L01_01"}}}
+12:49:58.936 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"13574fb6-912d-4202-bafa-de0f921a01e0","loginMark":"ATE_256_YPCS_L01_01"}}})...
+12:49:58.937 [Debug] - code: 200, info: 响应成功
+12:49:58.938 [Debug] - data->userinfo->RealName: 伍先仪, token: 13574fb6-912d-4202-bafa-de0f921a01e0, loginMark: ATE_256_YPCS_L01_01
+12:49:58.939 解析登录响应数据成功
+12:49:58.939 MES登录接口执行成功
+12:49:58.939 [Debug] - MES Login End.
+12:55:00.798 [Debug] - MES Upload Data Start...
+12:55:00.798 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+12:55:00.798 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+12:55:00.850 Post成功
+12:55:00.852 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+12:55:00.852 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+12:55:00.853 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+12:55:00.854 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:55:00.855 [Debug] - MES Update Data End.
+12:55:03.960 [Debug] - MES Upload Data Start...
+12:55:03.961 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+12:55:03.961 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+12:55:03.981 Post成功
+12:55:03.981 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+12:55:03.981 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+12:55:03.982 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+12:55:03.982 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:55:03.983 [Debug] - MES Update Data End.
+12:55:04.416 [Debug] - MES Upload Data Start...
+12:55:04.416 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+12:55:04.417 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+12:55:04.436 Post成功
+12:55:04.437 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+12:55:04.437 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+12:55:04.437 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+12:55:04.438 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:55:04.438 [Debug] - MES Update Data End.
+12:59:56.269 [Debug] - MES Upload Data Start...
+12:59:56.269 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+12:59:56.270 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+12:59:56.313 Post成功
+12:59:56.314 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+12:59:56.314 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+12:59:56.315 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+12:59:56.315 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:59:56.316 [Debug] - MES Update Data End.
+12:59:58.303 [Debug] - MES Upload Data Start...
+12:59:58.304 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+12:59:58.304 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+12:59:58.333 Post成功
+12:59:58.334 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+12:59:58.335 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+12:59:58.336 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+12:59:58.336 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:59:58.337 [Debug] - MES Update Data End.
+12:59:58.863 [Debug] - MES Upload Data Start...
+12:59:58.864 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+12:59:58.864 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+12:59:58.883 Post成功
+12:59:58.883 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+12:59:58.884 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+12:59:58.884 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+12:59:58.884 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+12:59:58.885 [Debug] - MES Update Data End.
+13:05:07.031 [Debug] - MES Upload Data Start...
+13:05:07.032 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+13:05:07.032 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+13:05:07.082 Post成功
+13:05:07.083 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+13:05:07.083 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+13:05:07.084 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+13:05:07.084 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:05:07.084 [Debug] - MES Update Data End.
+13:05:09.016 [Debug] - MES Upload Data Start...
+13:05:09.016 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+13:05:09.017 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+13:05:09.047 Post成功
+13:05:09.048 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+13:05:09.048 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+13:05:09.049 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+13:05:09.049 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:05:09.050 [Debug] - MES Update Data End.
+13:05:09.752 [Debug] - MES Upload Data Start...
+13:05:09.753 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+13:05:09.753 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+13:05:09.771 Post成功
+13:05:09.772 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+13:05:09.772 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+13:05:09.772 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+13:05:09.773 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+13:05:09.773 [Debug] - MES Update Data End.
+14:33:52.231 [Debug] - MES Upload Data Start...
+14:33:52.232 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+14:33:52.232 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+14:33:57.247 [Error] - Post失败：响应数据为空
+14:33:57.249 [Debug] - MES Update Data End.
+14:33:59.201 [Debug] - MES Upload Data Start...
+14:33:59.201 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+14:33:59.201 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+14:34:04.210 [Error] - Post失败：响应数据为空
+14:34:04.212 [Debug] - MES Update Data End.
+14:34:05.483 [Debug] - MES Upload Data Start...
+14:34:05.484 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+14:34:05.484 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+14:34:10.499 [Error] - Post失败：响应数据为空
+14:34:10.500 [Debug] - MES Update Data End.
+14:39:54.736 [Debug] - MES Upload Data Start...
+14:39:54.737 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+14:39:54.737 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+14:39:54.765 Post成功
+14:39:54.766 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+14:39:54.766 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+14:39:54.766 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+14:39:54.766 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+14:39:54.766 [Debug] - MES Update Data End.
+14:40:28.558 [Debug] - MES Upload Data Start...
+14:40:28.558 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+14:40:28.559 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+14:40:28.593 Post成功
+14:40:28.594 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+14:40:28.594 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+14:40:28.595 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+14:40:28.595 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+14:40:28.595 [Debug] - MES Update Data End.
+14:40:29.135 [Debug] - MES Upload Data Start...
+14:40:29.135 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+14:40:29.136 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=13574fb6-912d-4202-bafa-de0f921a01e0
+14:40:29.156 Post成功
+14:40:29.156 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+14:40:29.157 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+14:40:29.157 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+14:40:29.157 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+14:40:29.158 [Debug] - MES Update Data End.
+14:49:00.079 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+14:49:00.080 [Debug] - MES Login Start...
+14:49:00.080 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+14:49:00.202 Post成功
+14:49:00.203 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"d98fcae4-ef3c-45c6-b569-b751218836c9","loginMark":"ATE_256_YPCS_L01_01"}}}
+14:49:00.204 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"d98fcae4-ef3c-45c6-b569-b751218836c9","loginMark":"ATE_256_YPCS_L01_01"}}})...
+14:49:00.205 [Debug] - code: 200, info: 响应成功
+14:49:00.206 [Debug] - data->userinfo->RealName: 伍先仪, token: d98fcae4-ef3c-45c6-b569-b751218836c9, loginMark: ATE_256_YPCS_L01_01
+14:49:00.206 解析登录响应数据成功
+14:49:00.206 MES登录接口执行成功
+14:49:00.206 [Debug] - MES Login End.
+14:50:51.636 [Debug] - MES Upload Data Start...
+14:50:51.636 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+14:50:51.637 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=d98fcae4-ef3c-45c6-b569-b751218836c9
+14:50:51.701 Post成功
+14:50:51.702 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+14:50:51.703 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+14:50:51.703 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+14:50:51.704 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+14:50:51.704 [Debug] - MES Update Data End.
+14:50:55.552 [Debug] - MES Upload Data Start...
+14:50:55.552 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+14:50:55.552 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=d98fcae4-ef3c-45c6-b569-b751218836c9
+14:50:55.571 Post成功
+14:50:55.571 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+14:50:55.571 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+14:50:55.572 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+14:50:55.572 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+14:50:55.572 [Debug] - MES Update Data End.
+14:51:00.283 [Debug] - MES Upload Data Start...
+14:51:00.284 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+14:51:00.284 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=d98fcae4-ef3c-45c6-b569-b751218836c9
+14:51:00.303 Post成功
+14:51:00.303 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+14:51:00.304 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+14:51:00.304 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+14:51:00.304 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+14:51:00.304 [Debug] - MES Update Data End.
+14:56:54.991 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+14:56:54.992 [Debug] - MES Login Start...
+14:56:54.992 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+14:56:55.030 Post成功
+14:56:55.030 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"4d66cadb-bcbd-4c5f-8794-bab2032542f9","loginMark":"ATE_256_YPCS_L01_01"}}}
+14:56:55.031 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"4d66cadb-bcbd-4c5f-8794-bab2032542f9","loginMark":"ATE_256_YPCS_L01_01"}}})...
+14:56:55.032 [Debug] - code: 200, info: 响应成功
+14:56:55.033 [Debug] - data->userinfo->RealName: 伍先仪, token: 4d66cadb-bcbd-4c5f-8794-bab2032542f9, loginMark: ATE_256_YPCS_L01_01
+14:56:55.033 解析登录响应数据成功
+14:56:55.034 MES登录接口执行成功
+14:56:55.034 [Debug] - MES Login End.
+14:58:39.911 [Debug] - MES Upload Data Start...
+14:58:39.911 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+14:58:39.911 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=4d66cadb-bcbd-4c5f-8794-bab2032542f9
+14:58:39.937 Post成功
+14:58:39.938 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+14:58:39.939 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+14:58:39.939 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+14:58:39.939 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+14:58:39.940 [Debug] - MES Update Data End.
+14:58:41.462 [Debug] - MES Upload Data Start...
+14:58:41.462 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+14:58:41.462 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=4d66cadb-bcbd-4c5f-8794-bab2032542f9
+14:58:41.482 Post成功
+14:58:41.483 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+14:58:41.483 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+14:58:41.484 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+14:58:41.484 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+14:58:41.484 [Debug] - MES Update Data End.
+14:58:41.847 [Debug] - MES Upload Data Start...
+14:58:41.847 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+14:58:41.847 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=4d66cadb-bcbd-4c5f-8794-bab2032542f9
+14:58:41.874 Post成功
+14:58:41.874 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+14:58:41.874 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+14:58:41.875 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+14:58:41.875 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+14:58:41.875 [Debug] - MES Update Data End.
+15:09:12.420 [Debug] - MES Upload Data Start...
+15:09:12.420 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+15:09:12.420 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=4d66cadb-bcbd-4c5f-8794-bab2032542f9
+15:09:12.470 Post成功
+15:09:12.471 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+15:09:12.472 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+15:09:12.473 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+15:09:12.474 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:09:12.474 [Debug] - MES Update Data End.
+15:09:14.024 [Debug] - MES Upload Data Start...
+15:09:14.025 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+15:09:14.025 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=4d66cadb-bcbd-4c5f-8794-bab2032542f9
+15:09:14.044 Post成功
+15:09:14.044 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+15:09:14.045 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+15:09:14.045 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+15:09:14.045 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:09:14.046 [Debug] - MES Update Data End.
+15:09:14.622 [Debug] - MES Upload Data Start...
+15:09:14.622 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+15:09:14.622 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=4d66cadb-bcbd-4c5f-8794-bab2032542f9
+15:09:14.641 Post成功
+15:09:14.642 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+15:09:14.642 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+15:09:14.642 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+15:09:14.643 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:09:14.643 [Debug] - MES Update Data End.
+15:19:29.510 [Debug] - MES Upload Data Start...
+15:19:29.510 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+15:19:29.510 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=4d66cadb-bcbd-4c5f-8794-bab2032542f9
+15:19:29.562 Post成功
+15:19:29.563 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+15:19:29.563 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+15:19:29.564 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+15:19:29.564 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:19:29.564 [Debug] - MES Update Data End.
+15:19:31.992 [Debug] - MES Upload Data Start...
+15:19:31.992 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+15:19:31.992 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=4d66cadb-bcbd-4c5f-8794-bab2032542f9
+15:19:32.012 Post成功
+15:19:32.012 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+15:19:32.013 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+15:19:32.013 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+15:19:32.013 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:19:32.014 [Debug] - MES Update Data End.
+15:19:32.359 [Debug] - MES Upload Data Start...
+15:19:32.360 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+15:19:32.360 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=4d66cadb-bcbd-4c5f-8794-bab2032542f9
+15:19:32.379 Post成功
+15:19:32.379 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+15:19:32.379 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+15:19:32.380 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+15:19:32.380 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+15:19:32.380 [Debug] - MES Update Data End.
+15:22:38.888 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+15:22:38.888 [Debug] - MES Login Start...
+15:22:38.889 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+15:22:38.928 Post成功
+15:22:38.928 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"db063ad4-12f9-4833-a3e5-41a46658eecd","loginMark":"ATE_256_YPCS_L01_01"}}}
+15:22:38.930 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"db063ad4-12f9-4833-a3e5-41a46658eecd","loginMark":"ATE_256_YPCS_L01_01"}}})...
+15:22:38.930 [Debug] - code: 200, info: 响应成功
+15:22:38.930 [Debug] - data->userinfo->RealName: 伍先仪, token: db063ad4-12f9-4833-a3e5-41a46658eecd, loginMark: ATE_256_YPCS_L01_01
+15:22:38.931 解析登录响应数据成功
+15:22:38.931 MES登录接口执行成功
+15:22:38.931 [Debug] - MES Login End.
+15:48:23.997 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+15:48:24.001 [Debug] - MES Login Start...
+15:48:24.001 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+15:48:29.006 [Error] - Post失败：响应数据为空
+15:48:29.008 [Debug] - MES Login End.
+15:48:33.397 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+15:48:33.398 [Debug] - MES Login Start...
+15:48:33.399 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+15:48:38.406 [Error] - Post失败：响应数据为空
+15:48:38.407 [Debug] - MES Login End.
+15:50:38.149 [Debug] - MES Upload Data Start...
+15:50:38.149 [Error] - MES上传数据接口异常：token为空
+15:50:38.149 [Debug] - MES Update Data End.
+15:50:40.453 [Debug] - MES Upload Data Start...
+15:50:40.453 [Error] - MES上传数据接口异常：token为空
+15:50:40.453 [Debug] - MES Update Data End.
+15:50:41.347 [Debug] - MES Upload Data Start...
+15:50:41.347 [Error] - MES上传数据接口异常：token为空
+15:50:41.347 [Debug] - MES Update Data End.
+16:19:10.766 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+16:19:10.767 [Debug] - MES Login Start...
+16:19:10.767 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+16:19:15.780 [Error] - Post失败：响应数据为空
+16:19:15.782 [Debug] - MES Login End.
+17:01:36.569 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+17:01:36.570 [Debug] - MES Login Start...
+17:01:36.570 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+17:01:41.572 [Error] - Post失败：响应数据为空
+17:01:41.574 [Debug] - MES Login End.
+17:03:37.534 [Debug] - MES Upload Data Start...
+17:03:37.535 [Error] - MES上传数据接口异常：token为空
+17:03:37.535 [Debug] - MES Update Data End.
+17:03:39.761 [Debug] - MES Upload Data Start...
+17:03:39.761 [Error] - MES上传数据接口异常：token为空
+17:03:39.761 [Debug] - MES Update Data End.
+17:03:40.238 [Debug] - MES Upload Data Start...
+17:03:40.238 [Error] - MES上传数据接口异常：token为空
+17:03:40.239 [Debug] - MES Update Data End.
+17:10:05.002 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+17:10:05.002 [Debug] - MES Login Start...
+17:10:05.003 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+17:10:05.056 Post成功
+17:10:05.056 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"fe5c402d-8117-4268-b27b-ffe0af347519","loginMark":"ATE_256_YPCS_L01_01"}}}
+17:10:05.057 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"fe5c402d-8117-4268-b27b-ffe0af347519","loginMark":"ATE_256_YPCS_L01_01"}}})...
+17:10:05.058 [Debug] - code: 200, info: 响应成功
+17:10:05.059 [Debug] - data->userinfo->RealName: 伍先仪, token: fe5c402d-8117-4268-b27b-ffe0af347519, loginMark: ATE_256_YPCS_L01_01
+17:10:05.059 解析登录响应数据成功
+17:10:05.060 MES登录接口执行成功
+17:10:05.060 [Debug] - MES Login End.
+17:12:06.826 [Debug] - MES Upload Data Start...
+17:12:06.826 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+17:12:06.827 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=fe5c402d-8117-4268-b27b-ffe0af347519
+17:12:06.909 Post成功
+17:12:06.910 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+17:12:06.911 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+17:12:06.911 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+17:12:06.912 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:12:06.913 [Debug] - MES Update Data End.
+17:12:17.570 [Debug] - MES Upload Data Start...
+17:12:17.570 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+17:12:17.570 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=fe5c402d-8117-4268-b27b-ffe0af347519
+17:12:17.593 Post成功
+17:12:17.594 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+17:12:17.594 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+17:12:17.594 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+17:12:17.594 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:12:17.594 [Debug] - MES Update Data End.
+17:12:17.896 [Debug] - MES Upload Data Start...
+17:12:17.896 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+17:12:17.896 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=fe5c402d-8117-4268-b27b-ffe0af347519
+17:12:17.917 Post成功
+17:12:17.918 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+17:12:17.918 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+17:12:17.918 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+17:12:17.918 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:12:17.919 [Debug] - MES Update Data End.
+17:35:27.490 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+17:35:27.490 [Debug] - MES Login Start...
+17:35:27.490 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+17:35:32.496 [Error] - Post失败：响应数据为空
+17:35:32.498 [Debug] - MES Login End.
+17:40:51.178 [Debug] - MES Upload Data Start...
+17:40:51.179 [Error] - MES上传数据接口异常：token为空
+17:40:51.179 [Debug] - MES Update Data End.
+17:40:54.002 [Debug] - MES Upload Data Start...
+17:40:54.002 [Error] - MES上传数据接口异常：token为空
+17:40:54.002 [Debug] - MES Update Data End.
+17:40:54.426 [Debug] - MES Upload Data Start...
+17:40:54.426 [Error] - MES上传数据接口异常：token为空
+17:40:54.426 [Debug] - MES Update Data End.
+17:44:22.171 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+17:44:22.171 [Debug] - MES Login Start...
+17:44:22.171 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+17:44:22.217 Post成功
+17:44:22.218 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"809e7cda-2643-4b79-acd2-c1fee94b99fb","loginMark":"ATE_256_YPCS_L01_01"}}}
+17:44:22.219 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"809e7cda-2643-4b79-acd2-c1fee94b99fb","loginMark":"ATE_256_YPCS_L01_01"}}})...
+17:44:22.220 [Debug] - code: 200, info: 响应成功
+17:44:22.221 [Debug] - data->userinfo->RealName: 伍先仪, token: 809e7cda-2643-4b79-acd2-c1fee94b99fb, loginMark: ATE_256_YPCS_L01_01
+17:44:22.222 解析登录响应数据成功
+17:44:22.222 MES登录接口执行成功
+17:44:22.222 [Debug] - MES Login End.
+17:46:18.682 [Debug] - MES Upload Data Start...
+17:46:18.682 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+17:46:18.682 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=809e7cda-2643-4b79-acd2-c1fee94b99fb
+17:46:18.767 Post成功
+17:46:18.769 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+17:46:18.770 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+17:46:18.771 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+17:46:18.771 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:46:18.772 [Debug] - MES Update Data End.
+17:46:20.426 [Debug] - MES Upload Data Start...
+17:46:20.427 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+17:46:20.427 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=809e7cda-2643-4b79-acd2-c1fee94b99fb
+17:46:20.447 Post成功
+17:46:20.447 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+17:46:20.448 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+17:46:20.448 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+17:46:20.448 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:46:20.449 [Debug] - MES Update Data End.
+17:46:20.778 [Debug] - MES Upload Data Start...
+17:46:20.778 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+17:46:20.779 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=809e7cda-2643-4b79-acd2-c1fee94b99fb
+17:46:20.798 Post成功
+17:46:20.799 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+17:46:20.799 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+17:46:20.799 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+17:46:20.800 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+17:46:20.800 [Debug] - MES Update Data End.
+18:05:29.492 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+18:05:29.492 [Debug] - MES Login Start...
+18:05:29.493 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+18:05:29.538 Post成功
+18:05:29.539 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"ca83774b-70f2-4c8b-a56c-308b78f24257","loginMark":"ATE_256_YPCS_L01_01"}}}
+18:05:29.540 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"ca83774b-70f2-4c8b-a56c-308b78f24257","loginMark":"ATE_256_YPCS_L01_01"}}})...
+18:05:29.541 [Debug] - code: 200, info: 响应成功
+18:05:29.542 [Debug] - data->userinfo->RealName: 伍先仪, token: ca83774b-70f2-4c8b-a56c-308b78f24257, loginMark: ATE_256_YPCS_L01_01
+18:05:29.542 解析登录响应数据成功
+18:05:29.542 MES登录接口执行成功
+18:05:29.542 [Debug] - MES Login End.
+18:13:14.932 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+18:13:14.932 [Debug] - MES Login Start...
+18:13:14.933 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+18:13:14.980 Post成功
+18:13:14.980 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"d1a69055-a2b7-4282-aeea-d75b708e032c","loginMark":"ATE_256_YPCS_L01_01"}}}
+18:13:14.981 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"d1a69055-a2b7-4282-aeea-d75b708e032c","loginMark":"ATE_256_YPCS_L01_01"}}})...
+18:13:14.981 [Debug] - code: 200, info: 响应成功
+18:13:14.982 [Debug] - data->userinfo->RealName: 伍先仪, token: d1a69055-a2b7-4282-aeea-d75b708e032c, loginMark: ATE_256_YPCS_L01_01
+18:13:14.982 解析登录响应数据成功
+18:13:14.982 MES登录接口执行成功
+18:13:14.983 [Debug] - MES Login End.
+18:14:52.636 [Debug] - MES Upload Data Start...
+18:14:52.636 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+18:14:52.636 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=d1a69055-a2b7-4282-aeea-d75b708e032c
+18:14:52.689 Post成功
+18:14:52.690 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+18:14:52.691 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+18:14:52.692 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+18:14:52.692 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:14:52.692 [Debug] - MES Update Data End.
+18:14:53.587 [Debug] - MES Upload Data Start...
+18:14:53.587 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+18:14:53.587 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=d1a69055-a2b7-4282-aeea-d75b708e032c
+18:14:53.607 Post成功
+18:14:53.607 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+18:14:53.608 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+18:14:53.608 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+18:14:53.608 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:14:53.609 [Debug] - MES Update Data End.
+18:16:59.850 [Debug] - MES Upload Data Start...
+18:16:59.850 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+18:16:59.851 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=d1a69055-a2b7-4282-aeea-d75b708e032c
+18:16:59.892 Post成功
+18:16:59.893 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+18:16:59.893 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+18:16:59.893 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+18:16:59.894 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:16:59.894 [Debug] - MES Update Data End.
+18:17:01.163 [Debug] - MES Upload Data Start...
+18:17:01.163 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+18:17:01.164 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=d1a69055-a2b7-4282-aeea-d75b708e032c
+18:17:01.183 Post成功
+18:17:01.183 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+18:17:01.183 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+18:17:01.184 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+18:17:01.184 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:17:01.185 [Debug] - MES Update Data End.
+18:17:01.715 [Debug] - MES Upload Data Start...
+18:17:01.715 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+18:17:01.715 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=d1a69055-a2b7-4282-aeea-d75b708e032c
+18:17:01.734 Post成功
+18:17:01.734 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+18:17:01.735 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+18:17:01.736 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+18:17:01.736 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:17:01.737 [Debug] - MES Update Data End.
+18:21:00.116 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+18:21:00.117 [Debug] - MES Login Start...
+18:21:00.117 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+18:21:00.161 Post成功
+18:21:00.162 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"bbb23bcd-1f31-43d5-9070-cf59a039d7f1","loginMark":"ATE_256_YPCS_L01_01"}}}
+18:21:00.162 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"bbb23bcd-1f31-43d5-9070-cf59a039d7f1","loginMark":"ATE_256_YPCS_L01_01"}}})...
+18:21:00.163 [Debug] - code: 200, info: 响应成功
+18:21:00.163 [Debug] - data->userinfo->RealName: 伍先仪, token: bbb23bcd-1f31-43d5-9070-cf59a039d7f1, loginMark: ATE_256_YPCS_L01_01
+18:21:00.163 解析登录响应数据成功
+18:21:00.163 MES登录接口执行成功
+18:21:00.164 [Debug] - MES Login End.
+18:22:49.766 [Debug] - MES Upload Data Start...
+18:22:49.767 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+18:22:49.767 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=bbb23bcd-1f31-43d5-9070-cf59a039d7f1
+18:22:49.811 Post成功
+18:22:49.812 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+18:22:49.813 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+18:22:49.814 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+18:22:49.814 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:22:49.815 [Debug] - MES Update Data End.
+18:22:52.028 [Debug] - MES Upload Data Start...
+18:22:52.028 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+18:22:52.028 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=bbb23bcd-1f31-43d5-9070-cf59a039d7f1
+18:22:52.048 Post成功
+18:22:52.048 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+18:22:52.049 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+18:22:52.049 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+18:22:52.050 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:22:52.050 [Debug] - MES Update Data End.
+18:22:52.563 [Debug] - MES Upload Data Start...
+18:22:52.563 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+18:22:52.563 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=bbb23bcd-1f31-43d5-9070-cf59a039d7f1
+18:22:52.582 Post成功
+18:22:52.583 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+18:22:52.583 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+18:22:52.583 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+18:22:52.584 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:22:52.584 [Debug] - MES Update Data End.
+18:27:44.556 [Debug] - MES Upload Data Start...
+18:27:44.557 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+18:27:44.557 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=bbb23bcd-1f31-43d5-9070-cf59a039d7f1
+18:27:44.606 Post成功
+18:27:44.608 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+18:27:44.609 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+18:27:44.609 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+18:27:44.610 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:27:44.610 [Debug] - MES Update Data End.
+18:27:45.771 [Debug] - MES Upload Data Start...
+18:27:45.771 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+18:27:45.772 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=bbb23bcd-1f31-43d5-9070-cf59a039d7f1
+18:27:45.791 Post成功
+18:27:45.791 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+18:27:45.792 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+18:27:45.792 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+18:27:45.792 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:27:45.793 [Debug] - MES Update Data End.
+18:27:45.970 [Debug] - MES Upload Data Start...
+18:27:45.971 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+18:27:45.971 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=bbb23bcd-1f31-43d5-9070-cf59a039d7f1
+18:27:45.989 Post成功
+18:27:45.989 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+18:27:45.989 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+18:27:45.989 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+18:27:45.989 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:27:45.990 [Debug] - MES Update Data End.
+18:32:10.820 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+18:32:10.820 [Debug] - MES Login Start...
+18:32:10.821 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+18:32:10.859 Post成功
+18:32:10.860 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"f16ae7a8-52b2-4d78-85a9-ed7eaf7d4eaf","loginMark":"ATE_256_YPCS_L01_01"}}}
+18:32:10.861 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"f16ae7a8-52b2-4d78-85a9-ed7eaf7d4eaf","loginMark":"ATE_256_YPCS_L01_01"}}})...
+18:32:10.862 [Debug] - code: 200, info: 响应成功
+18:32:10.863 [Debug] - data->userinfo->RealName: 伍先仪, token: f16ae7a8-52b2-4d78-85a9-ed7eaf7d4eaf, loginMark: ATE_256_YPCS_L01_01
+18:32:10.864 解析登录响应数据成功
+18:32:10.864 MES登录接口执行成功
+18:32:10.864 [Debug] - MES Login End.
+18:34:03.203 [Debug] - MES Upload Data Start...
+18:34:03.203 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+18:34:03.203 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f16ae7a8-52b2-4d78-85a9-ed7eaf7d4eaf
+18:34:03.267 Post成功
+18:34:03.268 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+18:34:03.268 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+18:34:03.268 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+18:34:03.268 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:34:03.268 [Debug] - MES Update Data End.
+18:34:52.525 [Debug] - MES Upload Data Start...
+18:34:52.525 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+18:34:52.525 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f16ae7a8-52b2-4d78-85a9-ed7eaf7d4eaf
+18:34:52.544 Post成功
+18:34:52.545 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+18:34:52.545 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+18:34:52.545 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+18:34:52.546 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:34:52.546 [Debug] - MES Update Data End.
+18:34:52.908 [Debug] - MES Upload Data Start...
+18:34:52.908 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+18:34:52.909 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f16ae7a8-52b2-4d78-85a9-ed7eaf7d4eaf
+18:34:52.927 Post成功
+18:34:52.928 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+18:34:52.928 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+18:34:52.929 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+18:34:52.929 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+18:34:52.929 [Debug] - MES Update Data End.
+19:03:46.949 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+19:03:46.950 [Debug] - MES Login Start...
+19:03:46.950 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+19:03:51.961 [Error] - Post失败：响应数据为空
+19:03:51.962 [Debug] - MES Login End.
+19:03:53.613 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+19:03:53.614 [Debug] - MES Login Start...
+19:03:53.614 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+19:03:58.630 [Error] - Post失败：响应数据为空
+19:03:58.631 [Debug] - MES Login End.
+19:04:01.549 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+19:04:01.550 [Debug] - MES Login Start...
+19:04:01.550 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+19:04:06.562 [Error] - Post失败：响应数据为空
+19:04:06.564 [Debug] - MES Login End.
+19:07:55.517 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+19:07:55.518 [Debug] - MES Login Start...
+19:07:55.518 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+19:07:55.542 Post成功
+19:07:55.542 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"f14d283e-3c61-4705-9fe3-5d06124180bf","loginMark":"ATE_256_YPCS_L01_01"}}}
+19:07:55.543 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"f14d283e-3c61-4705-9fe3-5d06124180bf","loginMark":"ATE_256_YPCS_L01_01"}}})...
+19:07:55.543 [Debug] - code: 200, info: 响应成功
+19:07:55.543 [Debug] - data->userinfo->RealName: 伍先仪, token: f14d283e-3c61-4705-9fe3-5d06124180bf, loginMark: ATE_256_YPCS_L01_01
+19:07:55.544 解析登录响应数据成功
+19:07:55.544 MES登录接口执行成功
+19:07:55.544 [Debug] - MES Login End.
+19:13:21.176 [Debug] - MES Upload Data Start...
+19:13:21.177 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:13:21.177 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f14d283e-3c61-4705-9fe3-5d06124180bf
+19:13:21.268 Post成功
+19:13:21.269 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:13:21.269 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:13:21.270 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:13:21.270 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:13:21.271 [Debug] - MES Update Data End.
+19:13:22.903 [Debug] - MES Upload Data Start...
+19:13:22.903 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:13:22.903 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f14d283e-3c61-4705-9fe3-5d06124180bf
+19:13:22.923 Post成功
+19:13:22.923 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:13:22.924 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:13:22.924 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:13:22.924 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:13:22.925 [Debug] - MES Update Data End.
+19:13:23.279 [Debug] - MES Upload Data Start...
+19:13:23.279 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:13:23.279 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f14d283e-3c61-4705-9fe3-5d06124180bf
+19:13:23.299 Post成功
+19:13:23.299 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:13:23.300 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:13:23.300 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+19:13:23.300 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:13:23.300 [Debug] - MES Update Data End.
+19:17:32.468 [Debug] - MES Upload Data Start...
+19:17:32.468 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:17:32.468 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f14d283e-3c61-4705-9fe3-5d06124180bf
+19:17:32.512 Post成功
+19:17:32.513 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:17:32.514 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:17:32.514 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:17:32.514 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:17:32.515 [Debug] - MES Update Data End.
+19:17:35.045 [Debug] - MES Upload Data Start...
+19:17:35.046 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:17:35.046 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f14d283e-3c61-4705-9fe3-5d06124180bf
+19:17:35.066 Post成功
+19:17:35.066 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:17:35.067 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:17:35.067 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:17:35.067 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:17:35.068 [Debug] - MES Update Data End.
+19:17:35.509 [Debug] - MES Upload Data Start...
+19:17:35.510 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:17:35.510 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f14d283e-3c61-4705-9fe3-5d06124180bf
+19:17:35.529 Post成功
+19:17:35.529 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:17:35.530 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:17:35.530 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+19:17:35.530 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:17:35.531 [Debug] - MES Update Data End.
+19:21:00.230 [Debug] - MES Upload Data Start...
+19:21:00.230 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:21:00.231 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f14d283e-3c61-4705-9fe3-5d06124180bf
+19:21:00.280 Post成功
+19:21:00.281 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:21:00.281 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:21:00.282 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:21:00.282 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:21:00.283 [Debug] - MES Update Data End.
+19:21:01.246 [Debug] - MES Upload Data Start...
+19:21:01.246 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:21:01.246 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f14d283e-3c61-4705-9fe3-5d06124180bf
+19:21:01.265 Post成功
+19:21:01.266 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:21:01.266 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:21:01.267 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+19:21:01.267 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:21:01.268 [Debug] - MES Update Data End.
+19:24:11.518 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+19:24:11.519 [Debug] - MES Login Start...
+19:24:11.519 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+19:24:11.563 Post成功
+19:24:11.563 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"f5e3154f-25ce-4001-a504-05a412c7f562","loginMark":"ATE_256_YPCS_L01_01"}}}
+19:24:11.563 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"f5e3154f-25ce-4001-a504-05a412c7f562","loginMark":"ATE_256_YPCS_L01_01"}}})...
+19:24:11.564 [Debug] - code: 200, info: 响应成功
+19:24:11.564 [Debug] - data->userinfo->RealName: 伍先仪, token: f5e3154f-25ce-4001-a504-05a412c7f562, loginMark: ATE_256_YPCS_L01_01
+19:24:11.565 解析登录响应数据成功
+19:24:11.565 MES登录接口执行成功
+19:24:11.565 [Debug] - MES Login End.
+19:26:04.693 [Debug] - MES Upload Data Start...
+19:26:04.693 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:26:04.693 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f5e3154f-25ce-4001-a504-05a412c7f562
+19:26:04.742 Post成功
+19:26:04.744 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:26:04.744 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:26:04.744 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:26:04.745 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:26:04.745 [Debug] - MES Update Data End.
+19:26:07.542 [Debug] - MES Upload Data Start...
+19:26:07.543 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:26:07.543 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f5e3154f-25ce-4001-a504-05a412c7f562
+19:26:07.562 Post成功
+19:26:07.563 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:26:07.563 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:26:07.563 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:26:07.563 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:26:07.563 [Debug] - MES Update Data End.
+19:26:07.966 [Debug] - MES Upload Data Start...
+19:26:07.966 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:26:07.967 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f5e3154f-25ce-4001-a504-05a412c7f562
+19:26:07.985 Post成功
+19:26:07.985 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:26:07.985 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:26:07.985 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+19:26:07.987 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:26:07.987 [Debug] - MES Update Data End.
+19:29:03.990 [Debug] - MES Upload Data Start...
+19:29:03.990 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:29:03.991 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f5e3154f-25ce-4001-a504-05a412c7f562
+19:29:04.048 Post成功
+19:29:04.049 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:29:04.049 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:29:04.050 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:29:04.050 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:29:04.050 [Debug] - MES Update Data End.
+19:29:07.398 [Debug] - MES Upload Data Start...
+19:29:07.398 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:29:07.399 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f5e3154f-25ce-4001-a504-05a412c7f562
+19:29:07.421 Post成功
+19:29:07.421 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:29:07.421 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:29:07.422 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:29:07.422 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:29:07.422 [Debug] - MES Update Data End.
+19:29:07.798 [Debug] - MES Upload Data Start...
+19:29:07.798 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:29:07.799 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=f5e3154f-25ce-4001-a504-05a412c7f562
+19:29:07.817 Post成功
+19:29:07.818 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:29:07.818 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:29:07.818 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+19:29:07.819 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:29:07.819 [Debug] - MES Update Data End.
+19:32:12.879 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+19:32:12.879 [Debug] - MES Login Start...
+19:32:12.880 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+19:32:12.929 Post成功
+19:32:12.930 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"e45589a0-7d2c-4b0e-9174-16ed80de1aa0","loginMark":"ATE_256_YPCS_L01_01"}}}
+19:32:12.931 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"e45589a0-7d2c-4b0e-9174-16ed80de1aa0","loginMark":"ATE_256_YPCS_L01_01"}}})...
+19:32:12.932 [Debug] - code: 200, info: 响应成功
+19:32:12.932 [Debug] - data->userinfo->RealName: 伍先仪, token: e45589a0-7d2c-4b0e-9174-16ed80de1aa0, loginMark: ATE_256_YPCS_L01_01
+19:32:12.933 解析登录响应数据成功
+19:32:12.933 MES登录接口执行成功
+19:32:12.934 [Debug] - MES Login End.
+19:35:05.690 [Debug] - MES Upload Data Start...
+19:35:05.692 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:35:05.693 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=e45589a0-7d2c-4b0e-9174-16ed80de1aa0
+19:35:05.735 Post成功
+19:35:05.736 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:35:05.737 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:35:05.738 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:35:05.739 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:35:05.740 [Debug] - MES Update Data End.
+19:35:08.318 [Debug] - MES Upload Data Start...
+19:35:08.318 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:35:08.318 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=e45589a0-7d2c-4b0e-9174-16ed80de1aa0
+19:35:08.338 Post成功
+19:35:08.338 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:35:08.339 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:35:08.339 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:35:08.339 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:35:08.339 [Debug] - MES Update Data End.
+19:35:08.982 [Debug] - MES Upload Data Start...
+19:35:08.983 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:35:08.983 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=e45589a0-7d2c-4b0e-9174-16ed80de1aa0
+19:35:09.001 Post成功
+19:35:09.001 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:35:09.002 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:35:09.002 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+19:35:09.002 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:35:09.003 [Debug] - MES Update Data End.
+19:39:19.788 [Debug] - MES Upload Data Start...
+19:39:19.788 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:39:19.788 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=e45589a0-7d2c-4b0e-9174-16ed80de1aa0
+19:39:19.838 Post成功
+19:39:19.839 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:39:19.840 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:39:19.840 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:39:19.840 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:39:19.841 [Debug] - MES Update Data End.
+19:39:28.007 [Debug] - MES Upload Data Start...
+19:39:28.007 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:39:28.007 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=e45589a0-7d2c-4b0e-9174-16ed80de1aa0
+19:39:28.027 Post成功
+19:39:28.027 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:39:28.028 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:39:28.028 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:39:28.029 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:39:28.029 [Debug] - MES Update Data End.
+19:39:29.221 [Debug] - MES Upload Data Start...
+19:39:29.222 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:39:29.222 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=e45589a0-7d2c-4b0e-9174-16ed80de1aa0
+19:39:29.242 Post成功
+19:39:29.243 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:39:29.243 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:39:29.244 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+19:39:29.244 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:39:29.244 [Debug] - MES Update Data End.
+19:42:38.351 [Debug] - Server: 192.168.128.15:30000, loginMark: ATE_256_YPCS_L01_01, WorkGroup: AUD_CS, SoftVersion: 
+19:42:38.352 [Debug] - MES Login Start...
+19:42:38.352 [Debug] - MES Login Url: http://192.168.128.15:30000/api/login?data={"username":"0046550","password":"000000"}&loginmark=ATE_256_YPCS_L01_01
+19:42:38.392 Post成功
+19:42:38.393 [Debug] - MES登录接口响应数据: {"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"11d0941c-8114-4271-a8c4-bedd06802fc5","loginMark":"ATE_256_YPCS_L01_01"}}}
+19:42:38.394 [Debug] - 开始解析登录响应数据({"code":200,"info":"响应成功","data":{"userinfo":{"RealName":"伍先仪","token":"11d0941c-8114-4271-a8c4-bedd06802fc5","loginMark":"ATE_256_YPCS_L01_01"}}})...
+19:42:38.395 [Debug] - code: 200, info: 响应成功
+19:42:38.396 [Debug] - data->userinfo->RealName: 伍先仪, token: 11d0941c-8114-4271-a8c4-bedd06802fc5, loginMark: ATE_256_YPCS_L01_01
+19:42:38.396 解析登录响应数据成功
+19:42:38.396 MES登录接口执行成功
+19:42:38.397 [Debug] - MES Login End.
+19:44:37.031 [Debug] - MES Upload Data Start...
+19:44:37.031 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:44:37.031 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000356","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=11d0941c-8114-4271-a8c4-bedd06802fc5
+19:44:37.083 Post成功
+19:44:37.084 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:44:37.085 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:44:37.086 [Debug] - code: 400, info: 701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:44:37.086 [Error] - 上传响应错误：701003483000356过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:44:37.087 [Debug] - MES Update Data End.
+19:44:40.814 [Debug] - MES Upload Data Start...
+19:44:40.815 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:44:40.815 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000325","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=11d0941c-8114-4271-a8c4-bedd06802fc5
+19:44:40.834 Post成功
+19:44:40.835 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:44:40.835 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:44:40.836 [Debug] - code: 400, info: 701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS
+19:44:40.836 [Error] - 上传响应错误：701003483000325过站失败(GO-成品功能测试->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:44:40.836 [Debug] - MES Update Data End.
+19:44:41.414 [Debug] - MES Upload Data Start...
+19:44:41.415 [Debug] - Items: "item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"
+19:44:41.415 [Debug] - MES Upload Data Url: http://192.168.128.15:30000/api/testresultupload?data={"StationCode":"256_YPCS_L01_01","WorkGroup":"AUD_CS","SN":"701003483000139","TestResult":"PASS","ErrorCode":"","TestItem":"","SoftRev":"","ItemResult":{"item1":"SPK_FR","item2":"SPK_THD","item3":"SPK_RB","item4":"MIC_FR","item5":"MIC_THD","item6":"MIC_Sensitivity"}}&loginmark=ATE_256_YPCS_L01_01&token=11d0941c-8114-4271-a8c4-bedd06802fc5
+19:44:41.434 Post成功
+19:44:41.435 [Debug] - MES上传数据接口响应数据: {"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}}
+19:44:41.435 [Debug] - 开始解析上传响应数据({"code":400,"info":"701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS","data":{}})...
+19:44:41.435 [Debug] - code: 400, info: 701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS
+19:44:41.436 [Error] - 上传响应错误：701003483000139过站失败(产线当前生产料号不是22.303.0001.01903-256_ZZHD_02-207fa1a9-160c-4943-a89b-8fa4db0547ce->User-Defined ExceptionUser-Defined Exception),PASS(状态码：400)
+19:44:41.436 [Debug] - MES Update Data End.

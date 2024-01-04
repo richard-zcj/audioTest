@@ -1,0 +1,30 @@
+WARN  2023-07-03T13:20:08.622 E:\Product\DAQLIB\DAQLIB\libdaq_device.h @ 53 "device: status change to 1" 
+INFO  2023-07-03T13:20:08.622 ..\DAQLIB\libdaq_device.cpp @ 63 libdaq_usb_device Init! 
+INFO  2023-07-03T13:20:08.622 ..\DAQLIB\libdaq_global.cpp @ 259 "Opened USB device Count:1" 
+INFO  2023-07-03T13:20:08.784 ..\DAQLIB\libdaq_adc_thread.cpp @ 52 ADCReadWorker:Init 
+INFO  2023-07-03T13:20:08.784 ..\DAQLIB\libdaq_global.cpp @ 91 libusb init success! 
+WARN  2023-07-03T13:35:56.867 E:\Product\DAQLIB\DAQLIB\libdaq_device.h @ 53 "device: status change to 1" 
+INFO  2023-07-03T13:35:56.868 ..\DAQLIB\libdaq_device.cpp @ 63 libdaq_usb_device Init! 
+INFO  2023-07-03T13:35:56.868 ..\DAQLIB\libdaq_global.cpp @ 259 "Opened USB device Count:1" 
+INFO  2023-07-03T13:35:57.029 ..\DAQLIB\libdaq_adc_thread.cpp @ 52 ADCReadWorker:Init 
+INFO  2023-07-03T13:35:57.029 ..\DAQLIB\libdaq_global.cpp @ 91 libusb init success! 
+WARN  2023-07-03T13:58:19.670 E:\Product\DAQLIB\DAQLIB\libdaq_device.h @ 53 "device: status change to 1" 
+INFO  2023-07-03T13:58:19.670 ..\DAQLIB\libdaq_device.cpp @ 63 libdaq_usb_device Init! 
+INFO  2023-07-03T13:58:19.670 ..\DAQLIB\libdaq_global.cpp @ 259 "Opened USB device Count:1" 
+INFO  2023-07-03T13:58:19.831 ..\DAQLIB\libdaq_adc_thread.cpp @ 52 ADCReadWorker:Init 
+INFO  2023-07-03T13:58:19.831 ..\DAQLIB\libdaq_global.cpp @ 91 libusb init success! 
+INFO  2023-07-03T13:58:22.061 ..\DAQLIB\libdaq_adc.cpp @ 698 "adc: DAQ-USB4022 module: ADC, config trigger source success\n" 
+INFO  2023-07-03T13:58:22.062 ..\DAQLIB\libdaq_adc.cpp @ 719 "adc: DAQ-USB4022 module: ADC, config trigger source success\n" 
+INFO  2023-07-03T13:58:22.062 ..\DAQLIB\libdaq_adc.cpp @ 754 "DAQ-USB4022.ADC select trigger source: SW" 
+INFO  2023-07-03T13:58:22.066 ..\DAQLIB\libdaq_adc.cpp @ 811 "DAQ-USB4022.ADC sent soft trigger" 
+INFO  2023-07-03T13:58:22.184 ..\DAQLIB\libdaq_adc.cpp @ 868 "adc: DAQ-USB4022 module: ADC sent stop success\n" 
+WARN  2023-07-03T13:59:50.868 E:\Product\DAQLIB\DAQLIB\libdaq_device.h @ 53 "device: status change to 1" 
+INFO  2023-07-03T13:59:50.868 ..\DAQLIB\libdaq_device.cpp @ 63 libdaq_usb_device Init! 
+INFO  2023-07-03T13:59:50.868 ..\DAQLIB\libdaq_global.cpp @ 259 "Opened USB device Count:1" 
+INFO  2023-07-03T13:59:51.029 ..\DAQLIB\libdaq_adc_thread.cpp @ 52 ADCReadWorker:Init 
+INFO  2023-07-03T13:59:51.029 ..\DAQLIB\libdaq_global.cpp @ 91 libusb init success! 
+INFO  2023-07-03T13:59:56.591 ..\DAQLIB\libdaq_adc.cpp @ 698 "adc: DAQ-USB4022 module: ADC, config trigger source success\n" 
+INFO  2023-07-03T13:59:56.591 ..\DAQLIB\libdaq_adc.cpp @ 719 "adc: DAQ-USB4022 module: ADC, config trigger source success\n" 
+INFO  2023-07-03T13:59:56.591 ..\DAQLIB\libdaq_adc.cpp @ 754 "DAQ-USB4022.ADC select trigger source: SW" 
+INFO  2023-07-03T13:59:56.596 ..\DAQLIB\libdaq_adc.cpp @ 811 "DAQ-USB4022.ADC sent soft trigger" 
+INFO  2023-07-03T13:59:56.708 ..\DAQLIB\libdaq_adc.cpp @ 868 "adc: DAQ-USB4022 module: ADC sent stop success\n" 

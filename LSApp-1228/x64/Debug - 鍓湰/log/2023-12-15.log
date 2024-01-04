@@ -1,0 +1,251 @@
+14:41:11.511 Start...
+14:41:11.511 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+14:41:11.512 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+14:41:54.298 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+14:41:54.298 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+14:41:54.299 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+14:41:54.300 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+14:42:08.916 测试开始...
+14:42:54.775 [Error] - Slot1蓝牙适配器端口未打开！
+14:42:54.775 [Error] - Slot2蓝牙适配器端口未打开！
+14:42:54.777 [Error] - Slot3蓝牙适配器端口未打开！
+14:42:54.777 [Error] - Slot4蓝牙适配器端口未打开！
+14:42:54.777 DUT1蓝牙ID: ACB1EEDF216B
+14:42:54.778 [Error] - Slot1蓝牙适配器端口未打开！
+14:42:54.778 DUT2蓝牙ID: ACB1EEDF21D3
+14:42:54.778 [Error] - Slot2蓝牙适配器端口未打开！
+14:42:54.778 DUT3蓝牙ID: ACB1EEDF22B3
+14:42:54.778 [Error] - Slot3蓝牙适配器端口未打开！
+14:42:54.778 DUT4蓝牙ID: ACB1EEDF22BC
+14:42:54.779 [Error] - Slot4蓝牙适配器端口未打开！
+14:42:54.780 Spk模式测试开始...
+14:42:54.780 Spk Mode
+14:42:54.781 [Error] - Slot1蓝牙适配器未连接成功！
+14:42:54.781 [Error] - Slot2蓝牙适配器未连接成功！
+14:42:54.781 [Error] - Slot3蓝牙适配器未连接成功！
+14:42:54.781 [Error] - Slot4蓝牙适配器未连接成功！
+14:42:54.782 Spk模式测试完成
+14:42:54.782 开始计算数据...
+14:43:26.312 Start...
+14:43:26.313 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+14:43:26.313 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+14:44:09.288 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+14:44:09.289 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+14:44:09.289 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+14:44:09.290 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+14:45:48.025 Start...
+14:45:48.025 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+14:45:48.025 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+14:46:30.812 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+14:46:30.812 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+14:46:30.814 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+14:46:30.815 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+14:57:48.185 Start...
+14:57:48.185 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+14:57:48.186 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+14:58:31.215 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+14:58:31.215 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+14:58:31.217 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+14:58:31.218 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+15:08:13.258 Start...
+15:08:13.258 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+15:08:13.259 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+15:08:55.000 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+15:08:55.001 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+15:08:55.001 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+15:08:55.002 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+15:13:47.097 Start...
+15:13:47.098 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+15:13:47.098 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+15:14:40.328 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+15:14:40.329 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+15:14:40.329 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+15:14:40.330 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+15:16:24.435 Start...
+15:16:24.436 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+15:16:24.437 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+15:27:10.627 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+15:27:10.628 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+15:27:10.628 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+15:27:10.629 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+15:28:23.428 Start...
+15:28:23.428 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+15:28:23.428 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+15:29:09.555 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+15:29:09.556 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+15:29:09.557 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+15:29:09.559 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+15:30:32.959 Start...
+15:30:32.959 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+15:30:32.960 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+15:31:18.933 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+15:31:18.933 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+15:31:18.934 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+15:31:18.935 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+15:32:12.687 Start...
+15:32:12.688 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+15:32:12.688 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+15:33:08.213 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+15:33:08.214 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+15:33:08.215 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+15:33:08.215 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+15:35:31.017 Start...
+15:35:31.018 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+15:35:31.019 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+15:36:15.822 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+15:36:15.823 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+15:36:15.824 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+15:36:15.824 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+16:12:33.657 Start...
+16:12:33.658 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+16:12:33.658 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+16:13:33.990 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+16:13:33.991 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+16:13:33.992 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+16:13:33.994 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+17:05:11.152 Start...
+17:05:11.155 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+17:05:11.157 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+17:06:28.614 Start...
+17:06:28.615 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+17:06:28.615 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+17:07:31.075 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+17:07:31.076 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+17:07:31.077 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+17:07:31.078 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+17:14:14.749 Start...
+17:14:14.752 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+17:14:14.752 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+17:15:14.116 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+17:15:14.118 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+17:15:14.120 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+17:15:14.122 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+17:15:25.682 Start...
+17:15:25.683 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+17:15:25.683 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+17:18:38.734 Start...
+17:18:38.735 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+17:18:38.735 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+17:20:08.938 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+17:20:08.939 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+17:20:08.940 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+17:20:08.941 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+17:23:38.505 Start...
+17:23:38.505 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+17:23:38.506 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+17:29:04.112 Start...
+17:29:04.113 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+17:29:04.113 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+17:29:58.352 Exit.
+
+17:30:03.918 Start...
+17:30:03.919 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+17:30:03.919 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+17:30:50.014 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+17:30:50.015 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+17:30:50.016 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+17:30:50.017 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+17:30:54.625 Exit.
+
+17:30:57.522 Start...
+17:30:57.523 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+17:30:57.523 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+17:31:43.290 Exit.
+
+17:54:43.184 Start...
+17:54:43.188 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+17:54:43.188 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+17:56:30.771 Exit.
+
+18:00:24.631 Start...
+18:00:24.632 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+18:00:24.632 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+18:04:29.009 Start...
+18:04:29.010 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+18:04:29.010 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+19:14:01.387 Start...
+19:14:01.390 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+19:14:01.390 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+19:18:43.195 Start...
+19:18:43.196 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+19:18:43.196 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+19:19:40.123 Exit.
+
+19:20:02.487 Start...
+19:20:02.488 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+19:20:02.488 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+21:17:31.908 Start...
+21:17:31.911 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+21:17:31.911 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+21:19:12.844 Start...
+21:19:12.845 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+21:19:12.846 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+21:19:37.912 Start...
+21:19:37.913 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+21:19:37.913 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+21:21:23.603 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+21:21:23.605 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+21:21:23.606 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+21:21:23.607 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+21:24:09.618 Start...
+21:24:09.619 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+21:24:09.619 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+21:24:57.239 Start...
+21:24:57.240 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+21:24:57.240 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+21:25:53.889 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+21:25:53.890 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+21:25:53.890 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+21:25:53.892 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+21:30:48.914 Start...
+21:30:48.915 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+21:30:48.915 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+21:39:33.997 Start...
+21:39:33.998 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+21:39:33.998 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+21:47:08.330 Start...
+21:47:08.331 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+21:47:08.331 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+21:51:06.394 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+21:51:06.396 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+21:51:06.399 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+21:51:06.402 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+21:51:51.205 Start...
+21:51:51.207 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+21:51:51.207 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+21:53:35.546 [Error] - 打开Slot1端口(COM5, Baud=921600)异常: The port not exists.
+21:53:35.548 [Error] - 打开Slot2端口(COM4, Baud=921600)异常: The port not exists.
+21:53:35.549 [Error] - 打开Slot3端口(COM6, Baud=921600)异常: The port not exists.
+21:53:35.550 [Error] - 打开Slot4端口(COM7, Baud=921600)异常: The port not exists.
+22:06:28.228 Start...
+22:06:28.229 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+22:06:28.229 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+22:07:44.315 Exit.
+
+22:07:48.059 Start...
+22:07:48.060 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+22:07:48.060 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+22:08:47.283 Exit.
+
+22:08:51.754 Start...
+22:08:51.755 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+22:08:51.755 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+22:10:13.188 Exit.
+
+22:18:35.541 Start...
+22:18:35.542 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+22:18:35.542 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+22:19:38.071 Exit.
+
+22:45:05.481 Start...
+22:45:05.482 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+22:45:05.483 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+22:45:55.307 [Error] - 授权Key不存在！
+22:46:26.682 Exit.
+
+22:46:31.576 Start...
+22:46:31.577 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+22:46:31.577 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
+22:47:03.851 Start...
+22:47:03.852 Config file: D:\Projects\LSApp-1215\x64\Debug\Config.ini
+22:47:03.852 Script file: D:\Projects\LSApp-1215\x64\Debug\Script\PhoneWatch_231123.ini
